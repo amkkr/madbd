@@ -686,6 +686,10 @@
     (stroke (width 0) (type default))
     (uuid 3065a3c0-9377-4b0a-9ce9-1bc687c36bb3)
   )
+  (wire (pts (xy 101.6 44.45) (xy 101.6 54.61))
+    (stroke (width 0) (type default))
+    (uuid 332c6139-cba1-41ec-ac96-d6c03970a906)
+  )
   (wire (pts (xy 27.94 85.09) (xy 36.83 85.09))
     (stroke (width 0) (type default))
     (uuid 33f82ba4-571e-483e-aa26-97922bf0b75d)
@@ -1315,6 +1319,31 @@
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 101.6 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 04daf01b-deb1-47e1-ae69-b51beb519168)
+    (property "Reference" "#FLG02" (at 101.6 42.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 101.6 39.37 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 101.6 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 101.6 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1646f058-ca82-43f3-ab1c-0741d1a8e4b8))
+    (instances
+      (project "first_keyboard"
+        (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -3157,6 +3186,31 @@
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
           (reference "D38") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 101.6 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid be704de5-ae0f-4fff-9964-3fb98b2679ea)
+    (property "Reference" "#PWR010" (at 101.6 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 101.6 58.42 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 101.6 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 101.6 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b24a54d4-4c82-4fe9-9ce9-34036de4f95d))
+    (instances
+      (project "first_keyboard"
+        (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
+          (reference "#PWR010") (unit 1)
         )
       )
     )
