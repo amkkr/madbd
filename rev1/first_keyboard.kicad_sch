@@ -1263,13 +1263,13 @@
   (symbol (lib_id "Device:D") (at 262.89 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 002a4537-9f52-4998-837c-f0e0d7e5ac1e)
-    (property "Reference" "D8" (at 265.43 180.34 90)
+    (property "Reference" "D26" (at 265.43 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 265.43 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 262.89 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 262.89 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 262.89 181.61 0)
@@ -1286,7 +1286,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D8") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -1301,7 +1301,7 @@
     (property "Value" "D" (at 140.97 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 138.43 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 138.43 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 181.61 0)
@@ -1352,13 +1352,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 240.03 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04ff9f33-201b-4890-8f3e-f8d5dcffeeca)
-    (property "Reference" "SW7" (at 240.03 170.18 0)
+    (property "Reference" "SW24" (at 240.03 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 240.03 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 240.03 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 240.03 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 172.72 0)
@@ -1369,7 +1369,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW7") (unit 1)
+          (reference "SW24") (unit 1)
         )
       )
     )
@@ -1378,13 +1378,13 @@
   (symbol (lib_id "Device:D") (at 138.43 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 074282cb-9013-4d1a-bf6c-23f02b659266)
-    (property "Reference" "D25" (at 140.97 215.9 90)
+    (property "Reference" "D3" (at 140.97 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 140.97 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 138.43 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 138.43 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 217.17 0)
@@ -1401,7 +1401,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D25") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1410,13 +1410,13 @@
   (symbol (lib_id "Device:D") (at 280.67 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 097924bb-a7ae-4321-91c8-6baec9125d0e)
-    (property "Reference" "D33" (at 283.21 215.9 90)
+    (property "Reference" "D31" (at 283.21 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 283.21 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 280.67 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 280.67 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 280.67 217.17 0)
@@ -1433,7 +1433,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D33") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -1442,13 +1442,13 @@
   (symbol (lib_id "Device:D") (at 262.89 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a4d230f-dce8-4460-ab9f-699e2e4e7fc3)
-    (property "Reference" "D32" (at 265.43 215.9 90)
+    (property "Reference" "D28" (at 265.43 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 265.43 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 262.89 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 262.89 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 262.89 217.17 0)
@@ -1465,7 +1465,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D32") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
     )
@@ -1474,13 +1474,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 240.03 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b229c91-8b88-4724-bdef-d9a554401fb3)
-    (property "Reference" "SW19" (at 240.03 187.96 0)
+    (property "Reference" "SW25" (at 240.03 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 240.03 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 240.03 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 240.03 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 190.5 0)
@@ -1491,7 +1491,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW19") (unit 1)
+          (reference "SW25") (unit 1)
         )
       )
     )
@@ -1500,13 +1500,13 @@
   (symbol (lib_id "Device:D") (at 280.67 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c693054-e128-4f8a-9239-8de77945910c)
-    (property "Reference" "D9" (at 283.21 180.34 90)
+    (property "Reference" "D29" (at 283.21 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 283.21 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 280.67 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 280.67 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 280.67 181.61 0)
@@ -1523,7 +1523,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D9") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -1532,13 +1532,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 151.13 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 127a1a1b-2ddc-4002-83b6-87e2e6c06715)
-    (property "Reference" "SW14" (at 151.13 187.96 0)
+    (property "Reference" "SW7" (at 151.13 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 151.13 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 190.5 0)
@@ -1549,7 +1549,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW14") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -1558,13 +1558,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 186.69 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16085558-79a2-48f5-86ef-d2cb618d3ea2)
-    (property "Reference" "SW28" (at 186.69 205.74 0)
+    (property "Reference" "SW16" (at 186.69 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 186.69 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 186.69 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 186.69 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 208.28 0)
@@ -1575,7 +1575,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW28") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
     )
@@ -1584,13 +1584,13 @@
   (symbol (lib_id "Device:D") (at 191.77 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f71d152-461e-4b62-a7ad-98da2e6519eb)
-    (property "Reference" "D4" (at 194.31 180.34 90)
+    (property "Reference" "D13" (at 194.31 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 194.31 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 191.77 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 181.61 0)
@@ -1607,7 +1607,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D4") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -1616,13 +1616,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 168.91 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 202fad20-172d-4f6d-9544-742895fe1a7b)
-    (property "Reference" "SW3" (at 168.91 170.18 0)
+    (property "Reference" "SW10" (at 168.91 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 168.91 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 168.91 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 168.91 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 172.72 0)
@@ -1633,7 +1633,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW3") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -1642,13 +1642,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 133.35 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 209e668d-8164-43a7-af98-78a557044f33)
-    (property "Reference" "SW37" (at 133.35 224.79 0)
+    (property "Reference" "SW5" (at 133.35 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 133.35 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.35 227.33 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 133.35 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 227.33 0)
@@ -1659,7 +1659,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW37") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -1693,13 +1693,13 @@
   (symbol (lib_id "Device:D") (at 191.77 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 226ed95c-696b-4a42-b9d1-c71cc5aa56b0)
-    (property "Reference" "D16" (at 194.31 198.12 90)
+    (property "Reference" "D14" (at 194.31 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 194.31 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 191.77 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 199.39 0)
@@ -1716,7 +1716,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D16") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -1725,7 +1725,7 @@
   (symbol (lib_id "power:GND") (at 27.94 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2446548a-039f-458f-be7f-962a7efb20da)
-    (property "Reference" "#PWR02" (at 21.59 87.63 0)
+    (property "Reference" "#PWR04" (at 21.59 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 87.63 90)
@@ -1741,7 +1741,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1750,13 +1750,13 @@
   (symbol (lib_id "Device:D") (at 191.77 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25e7ed8f-e753-4c17-ac66-c3f78c1970f6)
-    (property "Reference" "D28" (at 194.31 215.9 90)
+    (property "Reference" "D15" (at 194.31 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 194.31 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 191.77 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 217.17 0)
@@ -1773,7 +1773,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D28") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -1782,13 +1782,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 204.47 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29f9d7c6-90d6-4472-af04-b2ddbc2c893d)
-    (property "Reference" "SW29" (at 204.47 205.74 0)
+    (property "Reference" "SW20" (at 204.47 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 204.47 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 204.47 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 204.47 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 208.28 0)
@@ -1799,7 +1799,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW29") (unit 1)
+          (reference "SW20") (unit 1)
         )
       )
     )
@@ -1808,13 +1808,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 168.91 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c96f8c7-0ef0-41b6-9b70-74340d0ae72b)
-    (property "Reference" "SW27" (at 168.91 205.74 0)
+    (property "Reference" "SW12" (at 168.91 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 168.91 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 168.91 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 168.91 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 208.28 0)
@@ -1825,7 +1825,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW27") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
     )
@@ -1834,13 +1834,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 275.59 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2eb423fa-7a9c-4d2b-a2e5-ab7b6ca58baa)
-    (property "Reference" "SW33" (at 275.59 205.74 0)
+    (property "Reference" "SW32" (at 275.59 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 275.59 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 275.59 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 275.59 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 275.59 208.28 0)
@@ -1851,7 +1851,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW33") (unit 1)
+          (reference "SW32") (unit 1)
         )
       )
     )
@@ -1860,13 +1860,13 @@
   (symbol (lib_id "Device:D") (at 227.33 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30fae3a9-d597-479e-a381-0c0724b07128)
-    (property "Reference" "D18" (at 229.87 198.12 90)
+    (property "Reference" "D21" (at 229.87 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 229.87 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 227.33 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 227.33 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.33 199.39 0)
@@ -1883,7 +1883,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D18") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -1892,13 +1892,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 222.25 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3431a170-0dd5-46e2-a261-733a0b78625f)
-    (property "Reference" "SW6" (at 222.25 170.18 0)
+    (property "Reference" "SW21" (at 222.25 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 222.25 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 222.25 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 222.25 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 172.72 0)
@@ -1909,7 +1909,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW6") (unit 1)
+          (reference "SW21") (unit 1)
         )
       )
     )
@@ -1924,7 +1924,7 @@
     (property "Value" "D" (at 300.99 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 298.45 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 298.45 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 298.45 217.17 0)
@@ -1950,13 +1950,13 @@
   (symbol (lib_id "Device:D") (at 173.99 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 435dddf6-2574-41d8-837f-02776f745976)
-    (property "Reference" "D3" (at 176.53 180.34 90)
+    (property "Reference" "D9" (at 176.53 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 176.53 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 173.99 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 173.99 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 181.61 0)
@@ -1973,7 +1973,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D3") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1982,13 +1982,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 275.59 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45a92cd6-c8ae-4637-9e15-c88bc6085cba)
-    (property "Reference" "SW21" (at 275.59 187.96 0)
+    (property "Reference" "SW31" (at 275.59 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 275.59 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 275.59 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 275.59 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 275.59 190.5 0)
@@ -1999,7 +1999,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW21") (unit 1)
+          (reference "SW31") (unit 1)
         )
       )
     )
@@ -2033,13 +2033,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 133.35 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b95a373-7d0f-435a-b8e1-2bb6f27a185b)
-    (property "Reference" "SW25" (at 133.35 205.74 0)
+    (property "Reference" "SW4" (at 133.35 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 133.35 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.35 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 133.35 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 208.28 0)
@@ -2050,7 +2050,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW25") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -2059,13 +2059,13 @@
   (symbol (lib_id "Device:D") (at 262.89 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e90a1e5-0498-4100-914a-6ffb3df2d1cc)
-    (property "Reference" "D20" (at 265.43 198.12 90)
+    (property "Reference" "D27" (at 265.43 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 265.43 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 262.89 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 262.89 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 262.89 199.39 0)
@@ -2082,7 +2082,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D20") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -2091,13 +2091,13 @@
   (symbol (lib_id "Device:D") (at 156.21 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53b64045-2afb-499c-8bb1-e03de85a2fac)
-    (property "Reference" "D26" (at 158.75 215.9 90)
+    (property "Reference" "D7" (at 158.75 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 158.75 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 156.21 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 156.21 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 217.17 0)
@@ -2114,7 +2114,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D26") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2123,13 +2123,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 222.25 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 554e99e1-a2c4-40f9-aade-1cdfb876d379)
-    (property "Reference" "SW30" (at 222.25 205.74 0)
+    (property "Reference" "SW23" (at 222.25 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 222.25 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 222.25 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 222.25 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 208.28 0)
@@ -2140,7 +2140,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW30") (unit 1)
+          (reference "SW23") (unit 1)
         )
       )
     )
@@ -2149,13 +2149,13 @@
   (symbol (lib_id "Device:D") (at 280.67 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58670ca8-59a0-4363-97c4-4d6bfc4d0f0f)
-    (property "Reference" "D21" (at 283.21 198.12 90)
+    (property "Reference" "D30" (at 283.21 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 283.21 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 280.67 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 280.67 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 280.67 199.39 0)
@@ -2172,7 +2172,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D21") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -2248,13 +2248,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 111.76 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dc17331-b778-4f55-882c-33077a7d4343)
-    (property "Reference" "SW36" (at 111.76 17.78 0)
+    (property "Reference" "SW1" (at 111.76 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 111.76 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 111.76 20.32 0)
+    (property "Footprint" "kbd_Parts:ResetSW" (at 111.76 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 20.32 0)
@@ -2265,7 +2265,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW36") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -2274,13 +2274,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 257.81 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e856205-6811-48ba-9951-82959768fc97)
-    (property "Reference" "SW32" (at 257.81 205.74 0)
+    (property "Reference" "SW29" (at 257.81 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 257.81 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 257.81 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 257.81 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 208.28 0)
@@ -2291,7 +2291,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW32") (unit 1)
+          (reference "SW29") (unit 1)
         )
       )
     )
@@ -2300,13 +2300,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 186.69 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60edddbe-c1d8-452e-abfd-e389bec33248)
-    (property "Reference" "SW40" (at 186.69 224.79 0)
+    (property "Reference" "SW17" (at 186.69 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 186.69 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 186.69 227.33 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 186.69 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 227.33 0)
@@ -2317,7 +2317,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW40") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
     )
@@ -2326,13 +2326,13 @@
   (symbol (lib_id "Device:D") (at 227.33 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f1e0d3-fbba-48ea-aa24-549a7685efc5)
-    (property "Reference" "D6" (at 229.87 180.34 90)
+    (property "Reference" "D20" (at 229.87 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 229.87 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 227.33 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 227.33 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.33 181.61 0)
@@ -2349,7 +2349,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D6") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -2358,13 +2358,13 @@
   (symbol (lib_id "Device:D") (at 298.45 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69775b28-13d8-4afb-836c-bb2475c72e82)
-    (property "Reference" "D10" (at 300.99 180.34 90)
+    (property "Reference" "D32" (at 300.99 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 300.99 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 298.45 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 298.45 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 298.45 181.61 0)
@@ -2381,7 +2381,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D10") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -2390,13 +2390,13 @@
   (symbol (lib_id "Device:D") (at 173.99 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c05c395-4990-407b-b7ef-a132f4ee99f2)
-    (property "Reference" "D39" (at 176.53 234.95 90)
+    (property "Reference" "D12" (at 176.53 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 176.53 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 173.99 236.22 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 173.99 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 236.22 0)
@@ -2413,7 +2413,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D39") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -2422,13 +2422,13 @@
   (symbol (lib_id "Device:D") (at 156.21 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 707f8548-7f69-4e45-863d-68d861250e9b)
-    (property "Reference" "D14" (at 158.75 198.12 90)
+    (property "Reference" "D6" (at 158.75 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 158.75 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 156.21 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 156.21 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 199.39 0)
@@ -2445,7 +2445,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D14") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2454,13 +2454,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 222.25 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 743c26a5-565f-4818-a44b-a4361248583b)
-    (property "Reference" "SW18" (at 222.25 187.96 0)
+    (property "Reference" "SW22" (at 222.25 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 222.25 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 222.25 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 222.25 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 190.5 0)
@@ -2471,7 +2471,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW18") (unit 1)
+          (reference "SW22") (unit 1)
         )
       )
     )
@@ -2480,13 +2480,13 @@
   (symbol (lib_id "Device:D") (at 245.11 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7729786d-7ecc-462a-a2ec-3022e2fee188)
-    (property "Reference" "D31" (at 247.65 215.9 90)
+    (property "Reference" "D25" (at 247.65 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 247.65 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 245.11 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 245.11 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 217.17 0)
@@ -2503,7 +2503,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D31") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -2512,13 +2512,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 186.69 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79b424de-d204-4dbe-bec5-5b6158831a65)
-    (property "Reference" "SW4" (at 186.69 170.18 0)
+    (property "Reference" "SW14" (at 186.69 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 186.69 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 186.69 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 186.69 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 172.72 0)
@@ -2529,7 +2529,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW4") (unit 1)
+          (reference "SW14") (unit 1)
         )
       )
     )
@@ -2538,7 +2538,7 @@
   (symbol (lib_id "power:GND") (at 27.94 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bb26697-7509-49b4-a1b2-a59e81ad7fc4)
-    (property "Reference" "#PWR07" (at 21.59 62.23 0)
+    (property "Reference" "#PWR02" (at 21.59 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 62.23 90)
@@ -2554,7 +2554,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2563,13 +2563,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 328.93 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d633d13-1ff4-4e98-aab2-ef8eb1e71646)
-    (property "Reference" "SW12" (at 328.93 170.18 0)
+    (property "Reference" "SW39" (at 328.93 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 328.93 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 328.93 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 328.93 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 328.93 172.72 0)
@@ -2580,7 +2580,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW12") (unit 1)
+          (reference "SW39") (unit 1)
         )
       )
     )
@@ -2589,13 +2589,13 @@
   (symbol (lib_id "Device:D") (at 316.23 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fb1e388-d48d-40fc-9a4c-6a3f26ba9365)
-    (property "Reference" "D35" (at 318.77 215.9 90)
+    (property "Reference" "D37" (at 318.77 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 318.77 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 316.23 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 316.23 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 316.23 217.17 0)
@@ -2612,7 +2612,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D35") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -2621,13 +2621,13 @@
   (symbol (lib_id "Device:D") (at 209.55 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 820070e6-ef34-4db2-806b-3b0da0bdc4e4)
-    (property "Reference" "D29" (at 212.09 215.9 90)
+    (property "Reference" "D19" (at 212.09 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 212.09 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 209.55 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 209.55 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 217.17 0)
@@ -2644,7 +2644,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D29") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -2653,13 +2653,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 293.37 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8239574b-2f6f-42a8-8b41-3b94ba44004e)
-    (property "Reference" "SW34" (at 293.37 205.74 0)
+    (property "Reference" "SW35" (at 293.37 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 293.37 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 293.37 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 293.37 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 293.37 208.28 0)
@@ -2670,7 +2670,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW34") (unit 1)
+          (reference "SW35") (unit 1)
         )
       )
     )
@@ -2679,13 +2679,13 @@
   (symbol (lib_id "Device:D") (at 316.23 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c72eace-c2aa-4615-9bba-d9bded26dab2)
-    (property "Reference" "D23" (at 318.77 198.12 90)
+    (property "Reference" "D36" (at 318.77 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 318.77 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 316.23 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 316.23 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 316.23 199.39 0)
@@ -2702,7 +2702,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D23") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -2711,7 +2711,7 @@
   (symbol (lib_id "power:GND") (at 82.55 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e602178-0795-4fcb-aea2-870a966eb741)
-    (property "Reference" "#PWR04" (at 88.9 49.53 0)
+    (property "Reference" "#PWR05" (at 88.9 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 49.53 90)
@@ -2727,7 +2727,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2736,13 +2736,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 293.37 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e85fd43-9e66-493b-8a15-7273abdb99b7)
-    (property "Reference" "SW22" (at 293.37 187.96 0)
+    (property "Reference" "SW34" (at 293.37 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 293.37 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 293.37 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 293.37 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 293.37 190.5 0)
@@ -2753,7 +2753,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW22") (unit 1)
+          (reference "SW34") (unit 1)
         )
       )
     )
@@ -2762,13 +2762,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 257.81 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 925e7773-f677-447c-bcf6-16feef390365)
-    (property "Reference" "SW20" (at 257.81 187.96 0)
+    (property "Reference" "SW28" (at 257.81 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 257.81 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 257.81 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 257.81 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 190.5 0)
@@ -2779,7 +2779,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW20") (unit 1)
+          (reference "SW28") (unit 1)
         )
       )
     )
@@ -2788,13 +2788,13 @@
   (symbol (lib_id "Device:D") (at 138.43 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bf4e428-431b-4f7b-aa32-7cb6a43d3999)
-    (property "Reference" "D13" (at 140.97 198.12 90)
+    (property "Reference" "D2" (at 140.97 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 140.97 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 138.43 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 138.43 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 199.39 0)
@@ -2811,7 +2811,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D13") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2820,13 +2820,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 186.69 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c7e0f1a-3231-48b9-b32d-accd7defbf5b)
-    (property "Reference" "SW16" (at 186.69 187.96 0)
+    (property "Reference" "SW15" (at 186.69 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 186.69 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 186.69 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 186.69 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 190.5 0)
@@ -2837,7 +2837,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW16") (unit 1)
+          (reference "SW15") (unit 1)
         )
       )
     )
@@ -2846,13 +2846,13 @@
   (symbol (lib_id "Device:D") (at 191.77 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c8698dd-2439-4f21-9f49-b56a142e4002)
-    (property "Reference" "D40" (at 194.31 234.95 90)
+    (property "Reference" "D16" (at 194.31 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 194.31 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 191.77 236.22 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 191.77 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 236.22 0)
@@ -2869,7 +2869,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D40") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -2878,13 +2878,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 293.37 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d591a39-6746-4dc8-869b-0154470b107a)
-    (property "Reference" "SW10" (at 293.37 170.18 0)
+    (property "Reference" "SW33" (at 293.37 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 293.37 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 293.37 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 293.37 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 293.37 172.72 0)
@@ -2895,7 +2895,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW10") (unit 1)
+          (reference "SW33") (unit 1)
         )
       )
     )
@@ -2904,13 +2904,13 @@
   (symbol (lib_id "Device:D") (at 173.99 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1ebef0b-1a5a-49f6-9d1a-eb3641982e50)
-    (property "Reference" "D27" (at 176.53 215.9 90)
+    (property "Reference" "D11" (at 176.53 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 176.53 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 173.99 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 173.99 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 217.17 0)
@@ -2927,7 +2927,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D27") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -2936,13 +2936,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 151.13 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a40ff9c7-a0dd-4602-b4cd-72f00fdc5e4d)
-    (property "Reference" "SW2" (at 151.13 170.18 0)
+    (property "Reference" "SW6" (at 151.13 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 151.13 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 172.72 0)
@@ -2953,7 +2953,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW2") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -2962,13 +2962,13 @@
   (symbol (lib_id "Device:D") (at 334.01 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4f51c46-6a21-47d1-b04c-8fb075d8e743)
-    (property "Reference" "D12" (at 336.55 180.34 90)
+    (property "Reference" "D38" (at 336.55 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 336.55 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 334.01 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 334.01 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 334.01 181.61 0)
@@ -2985,7 +2985,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D12") (unit 1)
+          (reference "D38") (unit 1)
         )
       )
     )
@@ -2994,13 +2994,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 311.15 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a65faeca-d480-4f99-b584-864f405d16cc)
-    (property "Reference" "SW35" (at 311.15 205.74 0)
+    (property "Reference" "SW38" (at 311.15 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 311.15 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 311.15 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 208.28 0)
@@ -3011,7 +3011,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW35") (unit 1)
+          (reference "SW38") (unit 1)
         )
       )
     )
@@ -3020,13 +3020,13 @@
   (symbol (lib_id "Device:D") (at 298.45 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6e9f510-1668-4e6a-ba70-97be65d1f236)
-    (property "Reference" "D22" (at 300.99 198.12 90)
+    (property "Reference" "D33" (at 300.99 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 300.99 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 298.45 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 298.45 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 298.45 199.39 0)
@@ -3043,7 +3043,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D22") (unit 1)
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -3052,13 +3052,13 @@
   (symbol (lib_id "Device:D") (at 245.11 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a862cbce-9825-4f1d-967f-45f8c0cebc42)
-    (property "Reference" "D7" (at 247.65 180.34 90)
+    (property "Reference" "D23" (at 247.65 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 247.65 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 245.11 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 245.11 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 181.61 0)
@@ -3075,7 +3075,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D7") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -3084,13 +3084,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 311.15 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9226b48-d192-476b-a67d-80105038db0d)
-    (property "Reference" "SW11" (at 311.15 170.18 0)
+    (property "Reference" "SW36" (at 311.15 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 311.15 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 311.15 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 172.72 0)
@@ -3101,7 +3101,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW11") (unit 1)
+          (reference "SW36") (unit 1)
         )
       )
     )
@@ -3110,13 +3110,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 151.13 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a991a622-2ce5-4c5d-a0c4-b28fff393a5b)
-    (property "Reference" "SW38" (at 151.13 224.79 0)
+    (property "Reference" "SW9" (at 151.13 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 227.33 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 151.13 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 227.33 0)
@@ -3127,7 +3127,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW38") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -3136,13 +3136,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 133.35 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9b079a6-f46e-4aea-beac-ba834784a15c)
-    (property "Reference" "SW13" (at 133.35 187.96 0)
+    (property "Reference" "SW3" (at 133.35 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 133.35 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.35 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 133.35 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 190.5 0)
@@ -3153,7 +3153,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW13") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -3162,13 +3162,13 @@
   (symbol (lib_id "Device:D") (at 156.21 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b390e62e-d9d5-4fb9-bdc6-1ba81e2df860)
-    (property "Reference" "D38" (at 158.75 234.95 90)
+    (property "Reference" "D8" (at 158.75 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 158.75 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 156.21 236.22 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 156.21 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 236.22 0)
@@ -3185,7 +3185,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D38") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3194,7 +3194,7 @@
   (symbol (lib_id "power:GND") (at 101.6 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be704de5-ae0f-4fff-9964-3fb98b2679ea)
-    (property "Reference" "#PWR010" (at 101.6 60.96 0)
+    (property "Reference" "#PWR09" (at 101.6 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 58.42 90)
@@ -3210,7 +3210,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3219,13 +3219,13 @@
   (symbol (lib_id "Device:D") (at 209.55 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0e7c6e4-be12-43f5-94c1-ec2c3590f6ed)
-    (property "Reference" "D17" (at 212.09 198.12 90)
+    (property "Reference" "D18" (at 212.09 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 212.09 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 209.55 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 209.55 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 199.39 0)
@@ -3242,7 +3242,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D17") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -3251,7 +3251,7 @@
   (symbol (lib_id "power:GND") (at 127 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c57a781f-851c-4df2-a33c-1f01d0e00f4c)
-    (property "Reference" "#PWR09" (at 133.35 25.4 0)
+    (property "Reference" "#PWR010" (at 133.35 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 25.4 90)
@@ -3267,7 +3267,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3276,13 +3276,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 168.91 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7c9176a-111c-4fd9-80e8-8d0d55aa6577)
-    (property "Reference" "SW39" (at 168.91 224.79 0)
+    (property "Reference" "SW13" (at 168.91 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 168.91 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 168.91 227.33 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 168.91 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 227.33 0)
@@ -3293,7 +3293,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW39") (unit 1)
+          (reference "SW13") (unit 1)
         )
       )
     )
@@ -3327,13 +3327,13 @@
   (symbol (lib_id "Device:D") (at 138.43 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c801811d-c9ca-4d26-afff-f077b341fc24)
-    (property "Reference" "D37" (at 140.97 234.95 90)
+    (property "Reference" "D4" (at 140.97 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 140.97 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 138.43 236.22 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 138.43 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 236.22 0)
@@ -3350,7 +3350,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D37") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3359,13 +3359,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 204.47 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8dc36ca-f40b-4fe4-aeae-0105ca1f2ecd)
-    (property "Reference" "SW17" (at 204.47 187.96 0)
+    (property "Reference" "SW19" (at 204.47 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 204.47 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 204.47 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 204.47 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 190.5 0)
@@ -3376,7 +3376,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW17") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
     )
@@ -3385,13 +3385,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 240.03 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9f0f0dc-e36d-4cd7-a4a4-16c0a604aa32)
-    (property "Reference" "SW31" (at 240.03 205.74 0)
+    (property "Reference" "SW26" (at 240.03 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 240.03 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 240.03 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 240.03 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 208.28 0)
@@ -3402,7 +3402,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW31") (unit 1)
+          (reference "SW26") (unit 1)
         )
       )
     )
@@ -3411,7 +3411,7 @@
   (symbol (lib_id "power:GND") (at 82.55 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfa092c5-1273-428d-94c2-27c0f3f50289)
-    (property "Reference" "#PWR06" (at 88.9 87.63 0)
+    (property "Reference" "#PWR08" (at 88.9 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 87.63 90)
@@ -3427,7 +3427,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3436,13 +3436,13 @@
   (symbol (lib_id "Device:D") (at 209.55 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfddb7a5-b556-47fd-9afa-2fd9f3d65026)
-    (property "Reference" "D5" (at 212.09 180.34 90)
+    (property "Reference" "D17" (at 212.09 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 212.09 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 209.55 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 209.55 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 181.61 0)
@@ -3459,7 +3459,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D5") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -3468,13 +3468,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 328.93 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1a24ead-5a18-4819-9af7-99f25f5dec70)
-    (property "Reference" "SW24" (at 328.93 187.96 0)
+    (property "Reference" "SW40" (at 328.93 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 328.93 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 328.93 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 328.93 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 328.93 190.5 0)
@@ -3485,7 +3485,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW24") (unit 1)
+          (reference "SW40") (unit 1)
         )
       )
     )
@@ -3494,13 +3494,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 311.15 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d408079d-efbf-42a7-bda8-333f69e5aa00)
-    (property "Reference" "SW23" (at 311.15 187.96 0)
+    (property "Reference" "SW37" (at 311.15 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 311.15 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 311.15 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 190.5 0)
@@ -3511,7 +3511,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW23") (unit 1)
+          (reference "SW37") (unit 1)
         )
       )
     )
@@ -3520,13 +3520,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 151.13 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dca76912-0449-4c6e-9326-d6a7636d9b26)
-    (property "Reference" "SW26" (at 151.13 205.74 0)
+    (property "Reference" "SW8" (at 151.13 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 208.28 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 151.13 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 208.28 0)
@@ -3537,7 +3537,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW26") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -3546,13 +3546,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 257.81 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd6807fd-d722-4b76-87a8-ecc1df2ada40)
-    (property "Reference" "SW8" (at 257.81 170.18 0)
+    (property "Reference" "SW27" (at 257.81 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 257.81 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 257.81 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 257.81 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 172.72 0)
@@ -3563,7 +3563,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW8") (unit 1)
+          (reference "SW27") (unit 1)
         )
       )
     )
@@ -3572,13 +3572,13 @@
   (symbol (lib_id "Device:D") (at 316.23 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e17befa9-bc4b-46b8-a0b6-ccebf5811a05)
-    (property "Reference" "D11" (at 318.77 180.34 90)
+    (property "Reference" "D35" (at 318.77 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 318.77 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 316.23 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 316.23 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 316.23 181.61 0)
@@ -3595,7 +3595,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D11") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -3604,13 +3604,13 @@
   (symbol (lib_id "Device:D") (at 227.33 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1b8a447-b9f1-479e-b8b3-d434d0290263)
-    (property "Reference" "D30" (at 229.87 215.9 90)
+    (property "Reference" "D22" (at 229.87 215.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 229.87 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 227.33 217.17 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 227.33 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.33 217.17 0)
@@ -3627,7 +3627,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D30") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -3636,13 +3636,13 @@
   (symbol (lib_id "Device:D") (at 334.01 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28e0309-fe98-4966-ad6f-fa6e03df29b0)
-    (property "Reference" "D24" (at 336.55 198.12 90)
+    (property "Reference" "D39" (at 336.55 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 336.55 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 334.01 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 334.01 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 334.01 199.39 0)
@@ -3659,7 +3659,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D24") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -3668,7 +3668,7 @@
   (symbol (lib_id "power:GND") (at 82.55 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4d6509f-1917-4c03-83c4-6beb268d937a)
-    (property "Reference" "#PWR08" (at 88.9 62.23 0)
+    (property "Reference" "#PWR06" (at 88.9 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 62.23 90)
@@ -3684,7 +3684,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3693,13 +3693,13 @@
   (symbol (lib_id "Device:D") (at 245.11 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6755857-1054-45cf-98e6-a2703fcac298)
-    (property "Reference" "D19" (at 247.65 198.12 90)
+    (property "Reference" "D24" (at 247.65 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 247.65 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 245.11 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 245.11 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 199.39 0)
@@ -3716,7 +3716,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D19") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -3725,13 +3725,13 @@
   (symbol (lib_id "Device:D") (at 173.99 199.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2d9ffcc-94ac-41e8-a9f0-9aefe8bca3c0)
-    (property "Reference" "D15" (at 176.53 198.12 90)
+    (property "Reference" "D10" (at 176.53 198.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 176.53 200.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 173.99 199.39 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 173.99 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 199.39 0)
@@ -3748,7 +3748,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D15") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -3757,13 +3757,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 275.59 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f57ed261-b413-4ab8-bce0-ec471df911bf)
-    (property "Reference" "SW9" (at 275.59 170.18 0)
+    (property "Reference" "SW30" (at 275.59 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 275.59 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 275.59 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 275.59 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 275.59 172.72 0)
@@ -3774,7 +3774,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW9") (unit 1)
+          (reference "SW30") (unit 1)
         )
       )
     )
@@ -3783,13 +3783,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 133.35 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9759c44-bff5-428d-8c53-8c392f6e0037)
-    (property "Reference" "SW1" (at 133.35 170.18 0)
+    (property "Reference" "SW2" (at 133.35 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 133.35 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.35 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 133.35 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 172.72 0)
@@ -3800,7 +3800,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -3809,13 +3809,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 168.91 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fac76348-d806-44d0-90ab-428ef12319c5)
-    (property "Reference" "SW15" (at 168.91 187.96 0)
+    (property "Reference" "SW11" (at 168.91 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 168.91 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 168.91 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 168.91 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 190.5 0)
@@ -3826,7 +3826,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW15") (unit 1)
+          (reference "SW11") (unit 1)
         )
       )
     )
@@ -3835,13 +3835,13 @@
   (symbol (lib_id "Device:D") (at 156.21 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb9a6430-b158-4527-a0e2-a5c74fcc27f1)
-    (property "Reference" "D2" (at 158.75 180.34 90)
+    (property "Reference" "D5" (at 158.75 180.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 158.75 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 156.21 181.61 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 156.21 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 181.61 0)
@@ -3858,7 +3858,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D2") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -3867,13 +3867,13 @@
   (symbol (lib_id "Switch:SW_Push") (at 204.47 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdee3172-ef48-4e90-af7c-19243cb0abb3)
-    (property "Reference" "SW5" (at 204.47 170.18 0)
+    (property "Reference" "SW18" (at 204.47 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 204.47 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 204.47 172.72 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 204.47 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 172.72 0)
@@ -3884,7 +3884,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW5") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
     )
@@ -3893,7 +3893,7 @@
   (symbol (lib_id "power:GND") (at 82.55 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff4c1010-8ef1-484b-900e-2acc4914e534)
-    (property "Reference" "#PWR05" (at 88.9 74.93 0)
+    (property "Reference" "#PWR07" (at 88.9 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 74.93 90)
@@ -3909,7 +3909,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
