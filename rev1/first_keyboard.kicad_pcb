@@ -156,7 +156,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 002ec2ce-b479-41f4-9344-47c10ce44e1c)
-    (at 223.8375 50.95875 90)
+    (at 235.74375 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -167,7 +167,7 @@
     (property "ki_keywords" "diode")
     (path "/0c693054-e128-4f8a-9239-8de77945910c")
     (attr smd)
-    (fp_text reference "D29" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D29" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp c7edcf4e-e8ec-46ae-8c83-150c8a96e35f)
     )
@@ -310,7 +310,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 09b25d84-381f-42a0-97c8-aff6f8cd7246)
-    (at 128.5875 108.10875 90)
+    (at 52.3875 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -321,7 +321,7 @@
     (property "ki_keywords" "diode")
     (path "/b390e62e-d9d5-4fb9-bdc6-1ba81e2df860")
     (attr smd)
-    (fp_text reference "D8" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D8" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 6972238b-402f-4cd1-bfd5-6019c9cc0059)
     )
@@ -362,7 +362,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 0a0cd3e2-aa13-4f07-9d2d-f1e5a16fbeaf)
-    (at 204.7875 108.10875 90)
+    (at 219.075 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -373,7 +373,7 @@
     (property "ki_keywords" "diode")
     (path "/9c8698dd-2439-4f21-9f49-b56a142e4002")
     (attr smd)
-    (fp_text reference "D16" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D16" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 39d03b91-fbe8-49e5-9e65-3a779738abc7)
     )
@@ -414,7 +414,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 0a2f8b17-d63e-4ec0-b133-755fb16c31af)
-    (at 33.3375 89.05875 90)
+    (at 40.48125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -425,7 +425,7 @@
     (property "ki_keywords" "diode")
     (path "/074282cb-9013-4d1a-bf6c-23f02b659266")
     (attr smd)
-    (fp_text reference "D3" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D3" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 5093891d-de93-4c96-995a-67909df5d9c4)
     )
@@ -1291,7 +1291,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 2305be04-f1c6-4a35-8821-cd3ccf35047b)
-    (at 204.7875 50.95875 90)
+    (at 228.6 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -1302,7 +1302,7 @@
     (property "ki_keywords" "diode")
     (path "/002a4537-9f52-4998-837c-f0e0d7e5ac1e")
     (attr smd)
-    (fp_text reference "D26" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D26" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 2d2dc598-1791-4a67-9af4-a3742fcc719f)
     )
@@ -1547,7 +1547,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 297d7297-b4ad-4d87-bc5e-658e57322edb)
-    (at 90.4875 89.05875 90)
+    (at 66.675 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -1558,7 +1558,7 @@
     (property "ki_keywords" "diode")
     (path "/25e7ed8f-e753-4c17-ac66-c3f78c1970f6")
     (attr smd)
-    (fp_text reference "D15" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D15" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 57eb03c3-9bd5-4a75-b194-c38dee8889d7)
     )
@@ -1803,7 +1803,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 30544487-1b58-4a2c-9365-85f09a145e08)
-    (at 128.5875 70.00875 90)
+    (at 78.58125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -1814,7 +1814,7 @@
     (property "ki_keywords" "diode")
     (path "/30fae3a9-d597-479e-a381-0c0724b07128")
     (attr smd)
-    (fp_text reference "D21" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D21" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp e21dd035-41d3-4f9b-be43-ca18f7c55f01)
     )
@@ -1855,7 +1855,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 3336b971-d017-4326-934d-4dc5e38e8ab6)
-    (at 261.9375 50.95875 90)
+    (at 250.03125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -1866,7 +1866,7 @@
     (property "ki_keywords" "diode")
     (path "/e17befa9-bc4b-46b8-a0b6-ccebf5811a05")
     (attr smd)
-    (fp_text reference "D35" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D35" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 8615eaf9-2595-4e33-acbd-52a269fabfc0)
     )
@@ -1907,7 +1907,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 338d3853-83ba-4c81-a7c4-8b977c278ee8)
-    (at 128.5875 89.05875 90)
+    (at 80.9625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -1918,7 +1918,7 @@
     (property "ki_keywords" "diode")
     (path "/e1b8a447-b9f1-479e-b8b3-d434d0290263")
     (attr smd)
-    (fp_text reference "D22" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D22" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp b92e191c-7dd5-4fcb-a90a-ca5526039eae)
     )
@@ -1959,7 +1959,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 339f9546-ab0b-468f-a5f4-7c135dabab3a)
-    (at 33.3375 50.95875 90)
+    (at 35.71875 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -1970,7 +1970,7 @@
     (property "ki_keywords" "diode")
     (path "/037ce23e-4c37-4dd7-99e6-09687dd2afb3")
     (attr smd)
-    (fp_text reference "D1" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D1" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 078204c5-5cd2-4d3d-a92a-18d1e52ce324)
     )
@@ -2215,7 +2215,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 3acf375a-0b6f-4a48-b4d8-30837d9c9225)
-    (at 242.8875 89.05875 90)
+    (at 247.65 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -2226,7 +2226,7 @@
     (property "ki_keywords" "diode")
     (path "/4095d7f8-191a-4034-a729-c13f34799df7")
     (attr smd)
-    (fp_text reference "D34" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D34" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp e705dd2d-0e87-4703-ac0a-56c147ebae25)
     )
@@ -2675,7 +2675,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 52df5493-2777-4a9c-b611-7523f32aced0)
-    (at 90.4875 70.00875 90)
+    (at 61.9125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -2686,7 +2686,7 @@
     (property "ki_keywords" "diode")
     (path "/226ed95c-696b-4a42-b9d1-c71cc5aa56b0")
     (attr smd)
-    (fp_text reference "D14" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D14" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 534414c7-2dc6-4361-b63d-36f5fb7fad89)
     )
@@ -2727,7 +2727,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 54133fad-35a7-4737-a228-9dbe8e4d9d57)
-    (at 261.9375 89.05875 90)
+    (at 254.79375 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -2738,7 +2738,7 @@
     (property "ki_keywords" "diode")
     (path "/7fb1e388-d48d-40fc-9a4c-6a3f26ba9365")
     (attr smd)
-    (fp_text reference "D37" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D37" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 97b9af8c-105f-4763-957c-d13c61231a70)
     )
@@ -2779,7 +2779,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 546b5c6c-9cc6-4ffb-b372-ef37b735c189)
-    (at 128.5875 50.95875 90)
+    (at 76.2 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -2790,7 +2790,7 @@
     (property "ki_keywords" "diode")
     (path "/68f1e0d3-fbba-48ea-aa24-549a7685efc5")
     (attr smd)
-    (fp_text reference "D20" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D20" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp ee6d4539-d53a-42cc-9d74-8ca3da370ac6)
     )
@@ -3025,7 +3025,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 608cf715-28d9-4290-b5f0-4d9249cd19a4)
-    (at 109.5375 50.95875 90)
+    (at 69.05625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -3036,7 +3036,7 @@
     (property "ki_keywords" "diode")
     (path "/cfddb7a5-b556-47fd-9afa-2fd9f3d65026")
     (attr smd)
-    (fp_text reference "D17" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D17" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 40fafaa4-5c93-430d-9d10-b7c3b2d3cee6)
     )
@@ -3077,7 +3077,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 69877510-4f2f-4437-8c44-665a2d7a93eb)
-    (at 52.3875 89.05875 90)
+    (at 50.00625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -3088,7 +3088,7 @@
     (property "ki_keywords" "diode")
     (path "/53b64045-2afb-499c-8bb1-e03de85a2fac")
     (attr smd)
-    (fp_text reference "D7" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D7" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp b9a25b65-1522-4ba7-8f5b-373a6ed6755c)
     )
@@ -3129,7 +3129,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 6ee0df91-a3c3-4cba-bf8f-3e986cfe5c43)
-    (at 109.5375 89.05875 90)
+    (at 73.81875 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -3140,7 +3140,7 @@
     (property "ki_keywords" "diode")
     (path "/820070e6-ef34-4db2-806b-3b0da0bdc4e4")
     (attr smd)
-    (fp_text reference "D19" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D19" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 3b8bbb7c-f759-4f02-b4b5-9c2ebc2d8d4f)
     )
@@ -3589,7 +3589,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 7ce07070-772d-45c0-a320-bae54c23584a)
-    (at 242.8875 50.95875 90)
+    (at 242.8875 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -3600,7 +3600,7 @@
     (property "ki_keywords" "diode")
     (path "/69775b28-13d8-4afb-836c-bb2475c72e82")
     (attr smd)
-    (fp_text reference "D32" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D32" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 0f40e815-2986-4062-a470-5fbda29925a4)
     )
@@ -3845,7 +3845,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 8f017149-2d14-4c89-93ca-40d1c4fc2f04)
-    (at 185.7375 108.10875 90)
+    (at 216.69375 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -3856,7 +3856,7 @@
     (property "ki_keywords" "diode")
     (path "/6c05c395-4990-407b-b7ef-a132f4ee99f2")
     (attr smd)
-    (fp_text reference "D12" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D12" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp f9b31582-f8a2-4e5f-a377-a4d3e8bbc0e0)
     )
@@ -3897,7 +3897,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 96cdba4c-62b4-4afb-8e43-229c73f3dcde)
-    (at 261.9375 70.00875 90)
+    (at 252.4125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -3908,7 +3908,7 @@
     (property "ki_keywords" "diode")
     (path "/8c72eace-c2aa-4615-9bba-d9bded26dab2")
     (attr smd)
-    (fp_text reference "D36" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D36" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp e9057896-5cc7-496c-a61e-1bf11efa14e4)
     )
@@ -3949,7 +3949,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp 9b68fa15-34df-4200-9fb4-83861134479a)
-    (at 52.3875 70.00875 90)
+    (at 47.625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -3960,7 +3960,7 @@
     (property "ki_keywords" "diode")
     (path "/707f8548-7f69-4e45-863d-68d861250e9b")
     (attr smd)
-    (fp_text reference "D6" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D6" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 4fd36777-df61-4ab0-86ee-d5a265a4b523)
     )
@@ -4103,7 +4103,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp acec8781-a787-4d6a-997a-a777aecd3496)
-    (at 223.8375 89.05875 90)
+    (at 240.50625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4114,7 +4114,7 @@
     (property "ki_keywords" "diode")
     (path "/097924bb-a7ae-4321-91c8-6baec9125d0e")
     (attr smd)
-    (fp_text reference "D31" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D31" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp b2cc5768-fd7c-4476-88a4-c02b3bd64d39)
     )
@@ -4155,7 +4155,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp ad372569-0c3f-4a80-9ee4-7ae8940e0e10)
-    (at 109.5375 70.00875 90)
+    (at 71.4375 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4166,7 +4166,7 @@
     (property "ki_keywords" "diode")
     (path "/c0e7c6e4-be12-43f5-94c1-ec2c3590f6ed")
     (attr smd)
-    (fp_text reference "D18" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D18" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 5c8f5f92-aabb-48b6-8367-0605698d09de)
     )
@@ -4207,7 +4207,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp addf558c-03c9-4345-8ae1-85a77067fdba)
-    (at 71.4375 70.00875 90)
+    (at 57.15 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4218,7 +4218,7 @@
     (property "ki_keywords" "diode")
     (path "/f2d9ffcc-94ac-41e8-a9f0-9aefe8bca3c0")
     (attr smd)
-    (fp_text reference "D10" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D10" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 556506ea-2310-46fd-9d05-e5b3479ef394)
     )
@@ -4259,7 +4259,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp ae20ca90-4c02-4453-bff4-a1574e774940)
-    (at 185.7375 70.00875 90)
+    (at 223.8375 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4270,7 +4270,7 @@
     (property "ki_keywords" "diode")
     (path "/e6755857-1054-45cf-98e6-a2703fcac298")
     (attr smd)
-    (fp_text reference "D24" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D24" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp a909797d-0b23-4dbb-b7ce-46c6805eb01e)
     )
@@ -4413,7 +4413,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp b5106bf9-cb1d-46de-ab3c-12f15900ab53)
-    (at 274.45 95.25)
+    (at 259.55625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4424,11 +4424,11 @@
     (property "ki_keywords" "diode")
     (path "/e28e0309-fe98-4966-ad6f-fa6e03df29b0")
     (attr smd)
-    (fp_text reference "D39" (at 0 -1.63) (layer "B.SilkS")
+    (fp_text reference "D39" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 0cb8cd86-44b5-47c7-9617-d822894890a0)
     )
-    (fp_text value "D" (at -0.55 0) (layer "F.Fab") hide
+    (fp_text value "D" (at -0.55 0 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp fd2e2728-6e2e-4505-9713-5bee4c34ddd8)
     )
@@ -4448,13 +4448,13 @@
       (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp e31f3736-8563-4e04-9736-027eb930ddb1))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75)
       (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 2b10675a-6ee7-46ab-b88b-11e441281513))
-    (pad "1" thru_hole rect (at -3.81 0) (size 1.397 1.397) (drill 0.8128) (layers "*.Cu" "*.Mask" "F.SilkS")
+    (pad "1" thru_hole rect (at -3.81 0 90) (size 1.397 1.397) (drill 0.8128) (layers "*.Cu" "*.Mask" "F.SilkS")
       (net 4 "Row1") (pinfunction "K") (pintype "passive") (tstamp b2da3c9a-07be-435d-849e-ed1d53e67c08))
-    (pad "1" smd rect (at -1.775 0) (size 1.3 0.95) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "1" smd rect (at -1.775 0 90) (size 1.3 0.95) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 4 "Row1") (pinfunction "K") (pintype "passive") (tstamp 7a0425bf-1bdc-423e-89f2-eef4cd1f5c0f))
-    (pad "2" smd rect (at 1.775 0) (size 1.3 0.95) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "2" smd rect (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 43 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (tstamp f036f92f-111f-4439-951a-262fd5d4280c))
-    (pad "2" thru_hole circle (at 3.81 0) (size 1.397 1.397) (drill 0.8128) (layers "*.Cu" "*.Mask" "F.SilkS")
+    (pad "2" thru_hole circle (at 3.81 0 90) (size 1.397 1.397) (drill 0.8128) (layers "*.Cu" "*.Mask" "F.SilkS")
       (net 43 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (tstamp 8dde2f82-79ea-4367-ae6b-63e12d3e4eca))
     (model "Diodes_SMD.3dshapes/SMB_Handsoldering.wrl"
       (offset (xyz 0 0 0))
@@ -4465,7 +4465,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp b51c00f4-63cb-4c33-9f36-674e847dff27)
-    (at 242.8875 70.00875 90)
+    (at 245.26875 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4476,7 +4476,7 @@
     (property "ki_keywords" "diode")
     (path "/a6e9f510-1668-4e6a-ba70-97be65d1f236")
     (attr smd)
-    (fp_text reference "D33" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D33" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 71bb66e8-1cae-4618-8080-3756362659ec)
     )
@@ -4517,7 +4517,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp b5b8292d-9d79-4516-aa3a-83feca6148b0)
-    (at 109.5375 108.10875 90)
+    (at 42.8625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4528,7 +4528,7 @@
     (property "ki_keywords" "diode")
     (path "/c801811d-c9ca-4d26-afff-f077b341fc24")
     (attr smd)
-    (fp_text reference "D4" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D4" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 907f0496-2b95-47f1-8eb3-507a37ed099a)
     )
@@ -4671,7 +4671,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp bdf4c0fa-b487-404d-ac61-d96a3f4e248e)
-    (at 204.7875 89.05875 90)
+    (at 233.3625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -4682,7 +4682,7 @@
     (property "ki_keywords" "diode")
     (path "/0a4d230f-dce8-4460-ab9f-699e2e4e7fc3")
     (attr smd)
-    (fp_text reference "D28" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D28" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 321ad0db-d553-4efa-8349-1d670bb158bf)
     )
@@ -5029,7 +5029,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp c6fcba2a-f51c-40be-a921-6bec89855965)
-    (at 185.7375 89.05875 90)
+    (at 226.21875 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -5040,7 +5040,7 @@
     (property "ki_keywords" "diode")
     (path "/7729786d-7ecc-462a-a2ec-3022e2fee188")
     (attr smd)
-    (fp_text reference "D25" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D25" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 14bb0efd-0910-4cc5-81e1-2b56078e4a18)
     )
@@ -5285,7 +5285,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp d117e299-c46c-4bcb-8f8c-a435673779c2)
-    (at 185.7375 50.95875 90)
+    (at 221.45625 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -5296,7 +5296,7 @@
     (property "ki_keywords" "diode")
     (path "/a862cbce-9825-4f1d-967f-45f8c0cebc42")
     (attr smd)
-    (fp_text reference "D23" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D23" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp eb30bb6f-6886-4a57-bb6e-ea13adc86ffa)
     )
@@ -5376,7 +5376,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp d488fd61-71fa-42ca-b04e-23c4bf37c256)
-    (at 280.9875 50.95875 90)
+    (at 257.175 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -5387,7 +5387,7 @@
     (property "ki_keywords" "diode")
     (path "/a4f51c46-6a21-47d1-b04c-8fb075d8e743")
     (attr smd)
-    (fp_text reference "D38" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D38" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 99103983-25b0-4d0b-9d2c-285138858954)
     )
@@ -5428,7 +5428,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp d72818db-84f8-4734-a332-454f6c8cc751)
-    (at 223.8375 70.00875 90)
+    (at 238.125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -5439,7 +5439,7 @@
     (property "ki_keywords" "diode")
     (path "/58670ca8-59a0-4363-97c4-4d6bfc4d0f0f")
     (attr smd)
-    (fp_text reference "D30" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D30" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 317c96b0-fe96-4be5-8b1f-019b1d3892bd)
     )
@@ -5684,7 +5684,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp e18db415-9104-47e7-b09d-c013b94a21b3)
-    (at 204.7875 70.00875 90)
+    (at 230.98125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -5695,7 +5695,7 @@
     (property "ki_keywords" "diode")
     (path "/4e90a1e5-0498-4100-914a-6ffb3df2d1cc")
     (attr smd)
-    (fp_text reference "D27" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D27" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 145799b1-9e4b-4913-97d1-fa4eb88975c3)
     )
@@ -6042,7 +6042,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp ecd6f3e6-e276-4098-b9cf-da7e3605d105)
-    (at 71.4375 89.05875 90)
+    (at 59.53125 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -6053,7 +6053,7 @@
     (property "ki_keywords" "diode")
     (path "/a1ebef0b-1a5a-49f6-9d1a-eb3641982e50")
     (attr smd)
-    (fp_text reference "D11" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D11" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 8e7a0400-cbce-494b-bf03-bd9f55772353)
     )
@@ -6094,7 +6094,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp ef20052d-a188-42eb-a711-a63c74bb0b6c)
-    (at 71.4375 50.95875 90)
+    (at 54.76875 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -6105,7 +6105,7 @@
     (property "ki_keywords" "diode")
     (path "/435dddf6-2574-41d8-837f-02776f745976")
     (attr smd)
-    (fp_text reference "D9" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D9" (at 0 -0.75 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 5d49484d-5132-406d-b892-01726a483204)
     )
@@ -6248,7 +6248,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp efedcb89-6204-4c3d-ad2f-c9a3ac5c1699)
-    (at 33.3375 70.00875 90)
+    (at 38.1 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -6259,7 +6259,7 @@
     (property "ki_keywords" "diode")
     (path "/9bf4e428-431b-4f7b-aa32-7cb6a43d3999")
     (attr smd)
-    (fp_text reference "D2" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D2" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 080003bc-40e2-4337-b980-a53f559ae86d)
     )
@@ -6300,7 +6300,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp f356c18f-007a-4bc7-a9c5-3e74eec4476d)
-    (at 90.4875 50.95875 90)
+    (at 64.29375 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -6311,7 +6311,7 @@
     (property "ki_keywords" "diode")
     (path "/1f71d152-461e-4b62-a7ad-98da2e6519eb")
     (attr smd)
-    (fp_text reference "D13" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D13" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 25f3a834-9222-4df7-b241-d15b752fafe4)
     )
@@ -6556,7 +6556,7 @@
 
   (footprint "kbd_Parts:Diode_TH_SMD" (layer "F.Cu")
     (tstamp fb3972aa-4102-4147-a7b3-4e2093556c84)
-    (at 52.3875 50.95875 90)
+    (at 45.24375 98.2375 90)
     (descr "Resitance 3 pas")
     (tags "R")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -6567,7 +6567,7 @@
     (property "ki_keywords" "diode")
     (path "/fb9a6430-b158-4527-a0e2-a5c74fcc27f1")
     (attr smd)
-    (fp_text reference "D5" (at 0 -1.63 90) (layer "B.SilkS")
+    (fp_text reference "D5" (at 0 -1.63 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.125)) (justify mirror))
       (tstamp 09bd1842-18e7-4f7d-9775-91d21e4a4fa7)
     )
@@ -6708,48 +6708,25 @@
       (net 31 "Net-(D27-A)") (pinfunction "2") (pintype "passive") (tstamp 6b07b28c-4626-490c-add8-8ead557936b6))
   )
 
-  (group "" (id 9f486610-5f3b-4f3a-9336-9c58548ca84a)
-    (members
-      09b25d84-381f-42a0-97c8-aff6f8cd7246
-      0a2f8b17-d63e-4ec0-b133-755fb16c31af
-      0b162c7a-c93e-4169-825c-4ec5cef15707
-      10a603a8-d126-4fab-9650-27c78fe751f2
-      1d18236f-f608-4a93-a0ab-c364e93ae2d4
-      297d7297-b4ad-4d87-bc5e-658e57322edb
-      30544487-1b58-4a2c-9365-85f09a145e08
-      338d3853-83ba-4c81-a7c4-8b977c278ee8
-      339f9546-ab0b-468f-a5f4-7c135dabab3a
-      3a95b547-2db2-4e9c-8515-3712c6271bea
-      43fc49af-39f6-4f65-8b8b-e71a40b1f60d
-      446a9176-1b68-4dd9-b9b2-62989517e6df
-      52c015a5-3b13-4271-b0fd-70b883f3a009
-      52df5493-2777-4a9c-b611-7523f32aced0
-      546b5c6c-9cc6-4ffb-b372-ef37b735c189
-      59e294e2-4459-42eb-8bb5-2616479370af
-      608cf715-28d9-4290-b5f0-4d9249cd19a4
-      69877510-4f2f-4437-8c44-665a2d7a93eb
-      6ee0df91-a3c3-4cba-bf8f-3e986cfe5c43
-      77b27ad5-d0b0-477d-9a56-4ba4c63edc5d
-      792c0a55-bea4-4273-8307-bf33a0980ff7
-      9b68fa15-34df-4200-9fb4-83861134479a
-      a549ec2b-30ba-4f95-b61e-6e17142c0d26
-      ad372569-0c3f-4a80-9ee4-7ae8940e0e10
-      addf558c-03c9-4345-8ae1-85a77067fdba
-      b450c560-d110-4ed8-8b28-2788d55c51f3
-      b5b8292d-9d79-4516-aa3a-83feca6148b0
-      c0054eb6-d5e8-4193-a80c-56ee023332cf
-      c2201588-7570-4a22-beef-9b626f3e13fc
-      ca833a68-50a5-4aee-a8c4-d0b9c308f539
-      d8ef9b3a-e606-4d5c-8215-f2d7cdb07d84
-      deb8e081-52fc-4534-a4c5-167f03d5e2b7
-      e380e046-270d-4dc2-8b7a-d324e17ecc87
-      ecd6f3e6-e276-4098-b9cf-da7e3605d105
-      ef20052d-a188-42eb-a711-a63c74bb0b6c
-      ef3e9769-e267-43b6-815f-ce25afadd2e9
-      efedcb89-6204-4c3d-ad2f-c9a3ac5c1699
-      f356c18f-007a-4bc7-a9c5-3e74eec4476d
-      f984064c-2b84-42d5-8865-7f3a585632aa
-      fb3972aa-4102-4147-a7b3-4e2093556c84
-    )
-  )
+  (gr_line (start 282.36875 100.0125) (end 207.16875 116.68125)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp 4a764db4-79be-44ea-ae4d-0aa07128943a))
+  (gr_line (start 283.36875 31.95625) (end 283.36875 99.0125)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp 57cbf0d8-cd55-4aba-a073-2b809d698373))
+  (gr_line (start 283.36875 99.0125) (end 282.36875 100.0125)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp 643e2462-0a7b-4a41-905f-29a08502cef4))
+  (gr_line (start 282.36875 30.95625) (end 283.36875 31.95625)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp a0236809-f19d-4cae-baf2-0fe72d3f9575))
+  (gr_line (start 11.90625 99.0125) (end 11.90625 31.95625)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp a3b957aa-7959-45a4-9096-f433e9b9ff9c))
+  (gr_line (start 207.16875 116.68125) (end 88.10625 116.68125)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp b1ee4276-baa7-4882-8171-b8caf60a4ebc))
+  (gr_line (start 88.10625 116.68125) (end 12.90625 100.0125)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp c2db313d-6d76-4bec-a3f6-382c01a7f54b))
+  (gr_line (start 12.90625 30.95625) (end 282.36875 30.95625)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp ced9a552-a15f-4478-b1d3-3fc6d1fa3eea))
+  (gr_line (start 12.90625 30.95625) (end 11.90625 31.95625)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp d5f250ed-c53a-4af9-b86f-a30584705fdf))
+  (gr_line (start 11.90625 99.0125) (end 12.90625 100.0125)
+    (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp df74502d-4f16-4ce0-b0b1-ac83f601d660))
+
 )
