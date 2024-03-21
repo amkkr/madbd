@@ -3474,7 +3474,7 @@
     (property "Value" "SW_Push" (at 328.93 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 328.93 190.5 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_2u" (at 328.93 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 328.93 190.5 0)
