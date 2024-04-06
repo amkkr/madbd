@@ -422,7 +422,7 @@
   (junction (at 288.29 186.69) (diameter 0) (color 0 0 0 0)
     (uuid 0deee2d5-a3e1-4394-a466-5e83798c7016)
   )
-  (junction (at 306.07 242.57) (diameter 0) (color 0 0 0 0)
+  (junction (at 306.07 240.03) (diameter 0) (color 0 0 0 0)
     (uuid 0e7c2604-c635-4d59-ab5b-633f0934a7a6)
   )
   (junction (at 252.73 204.47) (diameter 0) (color 0 0 0 0)
@@ -488,6 +488,9 @@
   (junction (at 402.59 179.07) (diameter 0) (color 0 0 0 0)
     (uuid 6c7f5428-ce1d-4da9-906a-15eae7f71158)
   )
+  (junction (at 349.25 214.63) (diameter 0) (color 0 0 0 0)
+    (uuid 6e83f993-42d5-4448-ba26-21d906339264)
+  )
   (junction (at 234.95 186.69) (diameter 0) (color 0 0 0 0)
     (uuid 6f466147-e442-40aa-85a8-9731cebde92c)
   )
@@ -500,7 +503,7 @@
   (junction (at 349.25 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 74a57bc1-997d-49aa-b426-40b307293d77)
   )
-  (junction (at 323.85 242.57) (diameter 0) (color 0 0 0 0)
+  (junction (at 323.85 240.03) (diameter 0) (color 0 0 0 0)
     (uuid 78188519-1599-4325-a4af-12bb793cd668)
   )
   (junction (at 288.29 204.47) (diameter 0) (color 0 0 0 0)
@@ -524,6 +527,9 @@
   (junction (at 377.19 222.25) (diameter 0) (color 0 0 0 0)
     (uuid 9c305177-ee2e-4644-8fdc-b19bdb8f6713)
   )
+  (junction (at 270.51 240.03) (diameter 0) (color 0 0 0 0)
+    (uuid 9faeb582-0645-4f63-97cf-b9383fb228f0)
+  )
   (junction (at 260.35 179.07) (diameter 0) (color 0 0 0 0)
     (uuid a031a515-4e92-44a9-ae6b-e3c8b26b38ef)
   )
@@ -532,6 +538,9 @@
   )
   (junction (at 306.07 204.47) (diameter 0) (color 0 0 0 0)
     (uuid add761ea-f83c-44e7-b9f7-1f38f19e5c1b)
+  )
+  (junction (at 341.63 240.03) (diameter 0) (color 0 0 0 0)
+    (uuid b29f3270-00d0-4b71-ae69-f585b06e4609)
   )
   (junction (at 270.51 186.69) (diameter 0) (color 0 0 0 0)
     (uuid b44d791e-4040-4b91-8a4d-6f07b4a75911)
@@ -551,8 +560,11 @@
   (junction (at 331.47 196.85) (diameter 0) (color 0 0 0 0)
     (uuid c2230f70-4d25-4da5-8d32-5fb2f5f8b881)
   )
-  (junction (at 288.29 242.57) (diameter 0) (color 0 0 0 0)
+  (junction (at 288.29 240.03) (diameter 0) (color 0 0 0 0)
     (uuid cb009679-d4e0-451f-adb6-5cf8a0e7c055)
+  )
+  (junction (at 260.35 214.63) (diameter 0) (color 0 0 0 0)
+    (uuid d2286122-22b6-4d2c-9ad9-d64e252382be)
   )
   (junction (at 349.25 179.07) (diameter 0) (color 0 0 0 0)
     (uuid d33b3033-551a-44dc-999d-c73eafb06ff8)
@@ -618,6 +630,10 @@
     (stroke (width 0) (type default))
     (uuid 06a8c86d-59d8-4e8e-b28f-b8dbce933cc4)
   )
+  (wire (pts (xy 278.13 196.85) (xy 278.13 214.63))
+    (stroke (width 0) (type default))
+    (uuid 0c943b13-e1c4-4f44-877f-34eccacb9e23)
+  )
   (wire (pts (xy 74.93 193.04) (xy 83.82 193.04))
     (stroke (width 0) (type default))
     (uuid 0efccc61-a7f6-475b-81a6-10cee646120f)
@@ -629,6 +645,10 @@
   (wire (pts (xy 74.93 203.2) (xy 83.82 203.2))
     (stroke (width 0) (type default))
     (uuid 12eea53c-3c13-4fed-9056-a19b3a6de491)
+  )
+  (wire (pts (xy 313.69 214.63) (xy 313.69 232.41))
+    (stroke (width 0) (type default))
+    (uuid 19468267-5acd-4123-a292-bfc4220a30cc)
   )
   (wire (pts (xy 313.69 165.1) (xy 313.69 179.07))
     (stroke (width 0) (type default))
@@ -662,9 +682,17 @@
     (stroke (width 0) (type default))
     (uuid 25acbecf-b9ba-48f4-b863-58962731083e)
   )
+  (wire (pts (xy 331.47 196.85) (xy 331.47 214.63))
+    (stroke (width 0) (type default))
+    (uuid 268a45c7-1317-4338-a7d7-bedd05787668)
+  )
   (wire (pts (xy 234.95 222.25) (xy 252.73 222.25))
     (stroke (width 0) (type default))
     (uuid 285d2a86-71e4-402a-a001-777c3ed5fe80)
+  )
+  (wire (pts (xy 260.35 196.85) (xy 260.35 214.63))
+    (stroke (width 0) (type default))
+    (uuid 2cdc0b6e-8f04-43b6-9885-42942ce6cec2)
   )
   (wire (pts (xy 119.38 205.74) (xy 128.27 205.74))
     (stroke (width 0) (type default))
@@ -678,7 +706,7 @@
     (stroke (width 0) (type default))
     (uuid 2fc46b83-3d70-49c6-b0b0-d98e3a7f0483)
   )
-  (wire (pts (xy 288.29 242.57) (xy 306.07 242.57))
+  (wire (pts (xy 288.29 240.03) (xy 306.07 240.03))
     (stroke (width 0) (type default))
     (uuid 3065a3c0-9377-4b0a-9ce9-1bc687c36bb3)
   )
@@ -689,10 +717,6 @@
   (wire (pts (xy 74.93 213.36) (xy 83.82 213.36))
     (stroke (width 0) (type default))
     (uuid 33f82ba4-571e-483e-aa26-97922bf0b75d)
-  )
-  (wire (pts (xy 331.47 214.63) (xy 331.47 234.95))
-    (stroke (width 0) (type default))
-    (uuid 3401b094-7c77-4467-95d6-17798c06f641)
   )
   (wire (pts (xy 394.97 186.69) (xy 412.75 186.69))
     (stroke (width 0) (type default))
@@ -738,10 +762,6 @@
     (stroke (width 0) (type default))
     (uuid 48d0effc-f58b-4c2d-bd2c-db1b48486a25)
   )
-  (wire (pts (xy 331.47 179.07) (xy 331.47 196.85))
-    (stroke (width 0) (type default))
-    (uuid 4ced8db6-4aae-464a-9b87-dd6825f79a9f)
-  )
   (wire (pts (xy 402.59 165.1) (xy 402.59 179.07))
     (stroke (width 0) (type default))
     (uuid 4e0d4f47-a818-4302-8bfd-e7e9c73083a8)
@@ -754,7 +774,7 @@
     (stroke (width 0) (type default))
     (uuid 5026e1ee-ca80-4ac7-afae-131cd0de6c2c)
   )
-  (wire (pts (xy 273.05 242.57) (xy 288.29 242.57))
+  (wire (pts (xy 270.51 240.03) (xy 288.29 240.03))
     (stroke (width 0) (type default))
     (uuid 5152348f-ba09-433d-9ded-8d2ad665d907)
   )
@@ -769,6 +789,10 @@
   (wire (pts (xy 119.38 190.5) (xy 129.54 190.5))
     (stroke (width 0) (type default))
     (uuid 57f1203b-cdd7-4b93-ba7d-de60559e9406)
+  )
+  (wire (pts (xy 349.25 214.63) (xy 349.25 232.41))
+    (stroke (width 0) (type default))
+    (uuid 587704ce-e2cc-4d0a-90a4-3b738992e5fa)
   )
   (wire (pts (xy 306.07 204.47) (xy 323.85 204.47))
     (stroke (width 0) (type default))
@@ -802,7 +826,7 @@
     (stroke (width 0) (type default))
     (uuid 6421387e-83ef-4260-a391-0b54e0874c13)
   )
-  (wire (pts (xy 295.91 214.63) (xy 295.91 234.95))
+  (wire (pts (xy 295.91 179.07) (xy 295.91 196.85))
     (stroke (width 0) (type default))
     (uuid 642c3921-ea95-4de1-9d3d-fd5bd09f6917)
   )
@@ -810,7 +834,7 @@
     (stroke (width 0) (type default))
     (uuid 64f332c5-c1dd-48f1-bad6-3206a067b7b0)
   )
-  (wire (pts (xy 323.85 242.57) (xy 341.63 242.57))
+  (wire (pts (xy 323.85 240.03) (xy 341.63 240.03))
     (stroke (width 0) (type default))
     (uuid 697722fb-9826-4111-a83a-834e1b62ba59)
   )
@@ -825,10 +849,6 @@
   (wire (pts (xy 74.93 218.44) (xy 83.82 218.44))
     (stroke (width 0) (type default))
     (uuid 6fb70150-02af-4a8d-91f8-72033cef03ff)
-  )
-  (wire (pts (xy 313.69 196.85) (xy 313.69 214.63))
-    (stroke (width 0) (type default))
-    (uuid 71ac8e84-6f63-411d-9d16-5ce1297ff95e)
   )
   (wire (pts (xy 429.26 243.84) (xy 439.42 243.84))
     (stroke (width 0) (type default))
@@ -882,10 +902,6 @@
     (stroke (width 0) (type default))
     (uuid 988584cb-1af9-4b23-8092-113922870788)
   )
-  (wire (pts (xy 260.35 196.85) (xy 260.35 214.63))
-    (stroke (width 0) (type default))
-    (uuid 988c17b6-2f62-4117-90d5-2e734926d52e)
-  )
   (wire (pts (xy 260.35 179.07) (xy 260.35 196.85))
     (stroke (width 0) (type default))
     (uuid 9a6a9017-9410-4265-8c0d-9868567ee742)
@@ -894,9 +910,21 @@
     (stroke (width 0) (type default))
     (uuid a06ef7e2-8dfe-4d40-b0ba-92d964b81b57)
   )
+  (wire (pts (xy 295.91 196.85) (xy 295.91 214.63))
+    (stroke (width 0) (type default))
+    (uuid a0f88902-e2da-40a5-93cb-ef2bd06243db)
+  )
+  (wire (pts (xy 313.69 196.85) (xy 313.69 214.63))
+    (stroke (width 0) (type default))
+    (uuid a1bdbf4a-d915-4324-9259-fbcd7a153bba)
+  )
   (wire (pts (xy 74.93 220.98) (xy 83.82 220.98))
     (stroke (width 0) (type default))
     (uuid a1fda078-fd4f-469a-9521-9bbca4f1146d)
+  )
+  (wire (pts (xy 278.13 214.63) (xy 278.13 232.41))
+    (stroke (width 0) (type default))
+    (uuid a7891a05-97d2-44b0-bb78-9074bb951982)
   )
   (wire (pts (xy 288.29 222.25) (xy 306.07 222.25))
     (stroke (width 0) (type default))
@@ -910,6 +938,10 @@
     (stroke (width 0) (type default))
     (uuid aae65d64-d7fb-45a2-9596-72ef026b0ed6)
   )
+  (wire (pts (xy 341.63 240.03) (xy 359.41 240.03))
+    (stroke (width 0) (type default))
+    (uuid ada4f7d8-1c49-4b64-839e-64c315690a3e)
+  )
   (wire (pts (xy 394.97 204.47) (xy 412.75 204.47))
     (stroke (width 0) (type default))
     (uuid b9c6f972-bcc9-482b-ae96-c8f713920089)
@@ -922,9 +954,9 @@
     (stroke (width 0) (type default))
     (uuid bbfe1f44-5772-4cd3-b40d-f9a9df0f48b1)
   )
-  (wire (pts (xy 295.91 196.85) (xy 295.91 214.63))
+  (wire (pts (xy 331.47 214.63) (xy 331.47 232.41))
     (stroke (width 0) (type default))
-    (uuid bdce71e4-a269-4740-a649-e9a0e868d2ca)
+    (uuid bd2b1f0d-4297-41ad-aab9-445aa9543f56)
   )
   (wire (pts (xy 119.38 215.9) (xy 129.54 215.9))
     (stroke (width 0) (type default))
@@ -934,10 +966,6 @@
     (stroke (width 0) (type default))
     (uuid c15648f6-8f75-45ff-a7de-b9be98f92c48)
   )
-  (wire (pts (xy 278.13 196.85) (xy 278.13 214.63))
-    (stroke (width 0) (type default))
-    (uuid c6a0dcaf-f8bf-4be6-9d0d-a5f790060f62)
-  )
   (wire (pts (xy 128.27 218.44) (xy 119.38 218.44))
     (stroke (width 0) (type default))
     (uuid c6a132e8-081a-4e49-ba29-0c0c4f0e3ff2)
@@ -945,10 +973,6 @@
   (wire (pts (xy 74.93 208.28) (xy 83.82 208.28))
     (stroke (width 0) (type default))
     (uuid c80ebe7e-dd85-43fb-b15d-77d9ac1d33cb)
-  )
-  (wire (pts (xy 295.91 179.07) (xy 295.91 196.85))
-    (stroke (width 0) (type default))
-    (uuid c89fd15a-8c56-4fc9-95bb-13e605b48664)
   )
   (wire (pts (xy 367.03 165.1) (xy 367.03 179.07))
     (stroke (width 0) (type default))
@@ -978,10 +1002,6 @@
     (stroke (width 0) (type default))
     (uuid d5027c86-dd79-4496-96cd-ecb16835c126)
   )
-  (wire (pts (xy 278.13 214.63) (xy 278.13 234.95))
-    (stroke (width 0) (type default))
-    (uuid d56e2e29-d241-44cb-8917-eee432954b29)
-  )
   (wire (pts (xy 217.17 204.47) (xy 234.95 204.47))
     (stroke (width 0) (type default))
     (uuid d990b859-96e8-4d18-9849-75bd12b616c5)
@@ -1002,25 +1022,29 @@
     (stroke (width 0) (type default))
     (uuid df113386-9d06-41a7-9d8a-d7e655ca088b)
   )
-  (wire (pts (xy 331.47 196.85) (xy 331.47 214.63))
-    (stroke (width 0) (type default))
-    (uuid e61a165b-525c-4a88-aa20-f2fca4a1a351)
-  )
-  (wire (pts (xy 313.69 214.63) (xy 313.69 234.95))
-    (stroke (width 0) (type default))
-    (uuid e6cfad74-6997-4f13-a0f0-1ed2ff4fefe1)
-  )
   (wire (pts (xy 207.01 165.1) (xy 207.01 179.07))
     (stroke (width 0) (type default))
     (uuid e7554680-2dfc-4063-afb9-6da19be3efa8)
+  )
+  (wire (pts (xy 270.51 240.03) (xy 201.93 240.03))
+    (stroke (width 0) (type default))
+    (uuid ea710009-82d9-41e5-b5d9-d5d9be86c50c)
   )
   (wire (pts (xy 119.38 208.28) (xy 128.27 208.28))
     (stroke (width 0) (type default))
     (uuid eb5eb150-1601-466f-9bab-9fcc1690aa97)
   )
-  (wire (pts (xy 306.07 242.57) (xy 323.85 242.57))
+  (wire (pts (xy 306.07 240.03) (xy 323.85 240.03))
     (stroke (width 0) (type default))
     (uuid ebd69986-3a2a-4a8f-a889-334e591d1ed5)
+  )
+  (wire (pts (xy 295.91 214.63) (xy 295.91 232.41))
+    (stroke (width 0) (type default))
+    (uuid ec9b0296-7b8f-4ea3-9781-a7317f3fa604)
+  )
+  (wire (pts (xy 331.47 179.07) (xy 331.47 196.85))
+    (stroke (width 0) (type default))
+    (uuid eca1786b-bf5f-4cfb-b918-04f39de77a12)
   )
   (wire (pts (xy 217.17 222.25) (xy 234.95 222.25))
     (stroke (width 0) (type default))
@@ -1029,6 +1053,10 @@
   (wire (pts (xy 201.93 222.25) (xy 217.17 222.25))
     (stroke (width 0) (type default))
     (uuid f6733d74-0c98-4530-ad11-a6c0c93b8b8a)
+  )
+  (wire (pts (xy 260.35 214.63) (xy 260.35 232.41))
+    (stroke (width 0) (type default))
+    (uuid f7aa6882-8e0f-44a6-b3be-a9bc10089d47)
   )
   (wire (pts (xy 74.93 200.66) (xy 83.82 200.66))
     (stroke (width 0) (type default))
@@ -1065,6 +1093,13 @@
     (uuid 45f3b3c8-eb8d-4d3f-8cc4-6577f4bc6929)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 260.35 157.8211 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Row3" (shape input) (at 201.93 240.03 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4a994311-caae-4b25-a6d8-44aadf17f3e9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 193.9858 240.03 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "Col0" (shape input) (at 128.27 218.44 0) (fields_autoplaced)
@@ -1135,13 +1170,6 @@
     (uuid 9ede92ed-7122-4537-87cb-74ee938f1cce)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 402.59 156.6116 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "Row3" (shape input) (at 273.05 242.57 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a26cd151-26b8-4a12-8fdb-5a19b39b3df2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 265.1058 242.57 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "Col4" (shape input) (at 278.13 165.1 90) (fields_autoplaced)
@@ -1370,7 +1398,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 318.77 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04ff9f33-201b-4890-8f3e-f8d5dcffeeca)
-    (property "Reference" "SW23" (at 318.77 171.45 0)
+    (property "Reference" "SW22" (at 318.77 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 318.77 173.99 0)
@@ -1387,7 +1415,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW23") (unit 1)
+          (reference "SW22") (unit 1)
         )
       )
     )
@@ -1428,7 +1456,7 @@
   (symbol (lib_id "Device:D") (at 359.41 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 097924bb-a7ae-4321-91c8-6baec9125d0e)
-    (property "Reference" "D31" (at 361.95 217.17 90)
+    (property "Reference" "D32" (at 361.95 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 361.95 219.71 90)
@@ -1451,7 +1479,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D31") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -1492,7 +1520,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 318.77 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b229c91-8b88-4724-bdef-d9a554401fb3)
-    (property "Reference" "SW24" (at 318.77 189.23 0)
+    (property "Reference" "SW23" (at 318.77 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 318.77 191.77 0)
@@ -1509,7 +1537,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW24") (unit 1)
+          (reference "SW23") (unit 1)
         )
       )
     )
@@ -1518,7 +1546,7 @@
   (symbol (lib_id "Device:D") (at 359.41 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c693054-e128-4f8a-9239-8de77945910c)
-    (property "Reference" "D29" (at 361.95 181.61 90)
+    (property "Reference" "D30" (at 361.95 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 361.95 184.15 90)
@@ -1541,7 +1569,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D29") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -1550,7 +1578,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 229.87 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 127a1a1b-2ddc-4002-83b6-87e2e6c06715)
-    (property "Reference" "SW6" (at 229.87 189.23 0)
+    (property "Reference" "SW5" (at 229.87 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 229.87 191.77 0)
@@ -1567,7 +1595,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW6") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -1576,7 +1604,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 265.43 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16085558-79a2-48f5-86ef-d2cb618d3ea2)
-    (property "Reference" "SW15" (at 265.43 207.01 0)
+    (property "Reference" "SW12" (at 265.43 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 265.43 209.55 0)
@@ -1593,7 +1621,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW15") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
     )
@@ -1602,7 +1630,7 @@
   (symbol (lib_id "Device:D") (at 270.51 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f71d152-461e-4b62-a7ad-98da2e6519eb)
-    (property "Reference" "D13" (at 273.05 181.61 90)
+    (property "Reference" "D10" (at 273.05 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 273.05 184.15 90)
@@ -1625,7 +1653,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D13") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -1634,7 +1662,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 247.65 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 202fad20-172d-4f6d-9544-742895fe1a7b)
-    (property "Reference" "SW9" (at 247.65 171.45 0)
+    (property "Reference" "SW7" (at 247.65 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 247.65 173.99 0)
@@ -1651,25 +1679,25 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW9") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 283.21 234.95 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 283.21 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 209e668d-8164-43a7-af98-78a557044f33)
-    (property "Reference" "SW4" (at 283.21 227.33 0)
+    (property "Reference" "SW17" (at 283.21 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 283.21 229.87 0)
+    (property "Value" "SW_Push" (at 283.21 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 283.21 229.87 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 283.21 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 283.21 229.87 0)
+    (property "Datasheet" "~" (at 283.21 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 04acf7ea-df16-40a2-93f0-4154207c5502))
@@ -1677,7 +1705,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW4") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
     )
@@ -1711,7 +1739,7 @@
   (symbol (lib_id "Device:D") (at 270.51 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 226ed95c-696b-4a42-b9d1-c71cc5aa56b0)
-    (property "Reference" "D14" (at 273.05 199.39 90)
+    (property "Reference" "D11" (at 273.05 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 273.05 201.93 90)
@@ -1734,7 +1762,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D14") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1768,7 +1796,7 @@
   (symbol (lib_id "Device:D") (at 270.51 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25e7ed8f-e753-4c17-ac66-c3f78c1970f6)
-    (property "Reference" "D15" (at 273.05 217.17 90)
+    (property "Reference" "D12" (at 273.05 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 273.05 219.71 90)
@@ -1791,7 +1819,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D15") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1800,7 +1828,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 283.21 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29f9d7c6-90d6-4472-af04-b2ddbc2c893d)
-    (property "Reference" "SW19" (at 283.21 207.01 0)
+    (property "Reference" "SW16" (at 283.21 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 283.21 209.55 0)
@@ -1817,7 +1845,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW19") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
     )
@@ -1826,7 +1854,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 247.65 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c96f8c7-0ef0-41b6-9b70-74340d0ae72b)
-    (property "Reference" "SW11" (at 247.65 207.01 0)
+    (property "Reference" "SW9" (at 247.65 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 247.65 209.55 0)
@@ -1843,7 +1871,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW11") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -1852,7 +1880,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 354.33 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2eb423fa-7a9c-4d2b-a2e5-ab7b6ca58baa)
-    (property "Reference" "SW31" (at 354.33 207.01 0)
+    (property "Reference" "SW32" (at 354.33 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 354.33 209.55 0)
@@ -1869,7 +1897,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW31") (unit 1)
+          (reference "SW32") (unit 1)
         )
       )
     )
@@ -1878,7 +1906,7 @@
   (symbol (lib_id "Device:D") (at 306.07 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30fae3a9-d597-479e-a381-0c0724b07128)
-    (property "Reference" "D21" (at 308.61 199.39 90)
+    (property "Reference" "D19" (at 308.61 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 308.61 201.93 90)
@@ -1901,7 +1929,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D21") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -1910,7 +1938,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 300.99 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3431a170-0dd5-46e2-a261-733a0b78625f)
-    (property "Reference" "SW20" (at 300.99 171.45 0)
+    (property "Reference" "SW18" (at 300.99 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 300.99 173.99 0)
@@ -1927,7 +1955,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW20") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
     )
@@ -1936,7 +1964,7 @@
   (symbol (lib_id "Device:D") (at 377.19 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4095d7f8-191a-4034-a729-c13f34799df7)
-    (property "Reference" "D34" (at 379.73 217.17 90)
+    (property "Reference" "D36" (at 379.73 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 379.73 219.71 90)
@@ -1959,7 +1987,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D34") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -1968,7 +1996,7 @@
   (symbol (lib_id "Device:D") (at 252.73 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 435dddf6-2574-41d8-837f-02776f745976)
-    (property "Reference" "D9" (at 255.27 181.61 90)
+    (property "Reference" "D7" (at 255.27 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 255.27 184.15 90)
@@ -1991,7 +2019,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D9") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2000,7 +2028,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 354.33 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45a92cd6-c8ae-4637-9e15-c88bc6085cba)
-    (property "Reference" "SW30" (at 354.33 189.23 0)
+    (property "Reference" "SW31" (at 354.33 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 354.33 191.77 0)
@@ -2017,7 +2045,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW30") (unit 1)
+          (reference "SW31") (unit 1)
         )
       )
     )
@@ -2109,7 +2137,7 @@
   (symbol (lib_id "Device:D") (at 234.95 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53b64045-2afb-499c-8bb1-e03de85a2fac)
-    (property "Reference" "D7" (at 237.49 217.17 90)
+    (property "Reference" "D6" (at 237.49 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 237.49 219.71 90)
@@ -2132,7 +2160,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D7") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2141,7 +2169,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 300.99 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 554e99e1-a2c4-40f9-aade-1cdfb876d379)
-    (property "Reference" "SW22" (at 300.99 207.01 0)
+    (property "Reference" "SW20" (at 300.99 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 300.99 209.55 0)
@@ -2158,7 +2186,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW22") (unit 1)
+          (reference "SW20") (unit 1)
         )
       )
     )
@@ -2167,7 +2195,7 @@
   (symbol (lib_id "Device:D") (at 359.41 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58670ca8-59a0-4363-97c4-4d6bfc4d0f0f)
-    (property "Reference" "D30" (at 361.95 199.39 90)
+    (property "Reference" "D31" (at 361.95 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 361.95 201.93 90)
@@ -2190,7 +2218,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D30") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -2266,7 +2294,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 424.18 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dc17331-b778-4f55-882c-33077a7d4343)
-    (property "Reference" "SW40" (at 424.18 236.22 0)
+    (property "Reference" "SW42" (at 424.18 236.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 424.18 238.76 0)
@@ -2283,7 +2311,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW40") (unit 1)
+          (reference "SW42") (unit 1)
         )
       )
     )
@@ -2315,19 +2343,19 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 336.55 234.95 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 336.55 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60edddbe-c1d8-452e-abfd-e389bec33248)
-    (property "Reference" "SW16" (at 336.55 227.33 0)
+    (property "Reference" "SW29" (at 336.55 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 336.55 229.87 0)
+    (property "Value" "SW_Push" (at 336.55 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 336.55 229.87 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 336.55 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 336.55 229.87 0)
+    (property "Datasheet" "~" (at 336.55 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f293ed8a-c9ab-4172-bfe3-57c442ed0012))
@@ -2335,7 +2363,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW16") (unit 1)
+          (reference "SW29") (unit 1)
         )
       )
     )
@@ -2344,7 +2372,7 @@
   (symbol (lib_id "Device:D") (at 306.07 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f1e0d3-fbba-48ea-aa24-549a7685efc5)
-    (property "Reference" "D20" (at 308.61 181.61 90)
+    (property "Reference" "D18" (at 308.61 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 308.61 184.15 90)
@@ -2367,7 +2395,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D20") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -2376,7 +2404,7 @@
   (symbol (lib_id "Device:D") (at 377.19 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69775b28-13d8-4afb-836c-bb2475c72e82)
-    (property "Reference" "D32" (at 379.73 181.61 90)
+    (property "Reference" "D34" (at 379.73 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 379.73 184.15 90)
@@ -2399,31 +2427,63 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D32") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 323.85 238.76 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 270.51 236.22 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ba1aeb3-1c59-426b-9837-ee153f9e9173)
+    (property "Reference" "D13" (at 273.05 234.95 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "D" (at 273.05 237.49 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 270.51 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 270.51 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "D" (at 270.51 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 270.51 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ee897a69-ae02-41b3-ac54-a1401577e35a))
+    (pin "2" (uuid 3f6f30bd-cd59-41e7-a58c-d00a56eb0703))
+    (instances
+      (project "first_keyboard"
+        (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
+          (reference "D13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D") (at 323.85 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c05c395-4990-407b-b7ef-a132f4ee99f2)
-    (property "Reference" "D12" (at 326.39 237.49 90)
+    (property "Reference" "D25" (at 326.39 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "D" (at 326.39 240.03 90)
+    (property "Value" "D" (at 326.39 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 323.85 238.76 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 323.85 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 323.85 238.76 0)
+    (property "Datasheet" "~" (at 323.85 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 323.85 238.76 0)
+    (property "Sim.Device" "D" (at 323.85 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=K 2=A" (at 323.85 238.76 0)
+    (property "Sim.Pins" "1=K 2=A" (at 323.85 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 669a1467-84dc-43b7-8cb7-46d3eb8afeba))
@@ -2431,7 +2491,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D12") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -2440,7 +2500,7 @@
   (symbol (lib_id "Device:D") (at 234.95 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 707f8548-7f69-4e45-863d-68d861250e9b)
-    (property "Reference" "D6" (at 237.49 199.39 90)
+    (property "Reference" "D5" (at 237.49 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 237.49 201.93 90)
@@ -2463,7 +2523,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D6") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2472,7 +2532,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 300.99 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 743c26a5-565f-4818-a44b-a4361248583b)
-    (property "Reference" "SW21" (at 300.99 189.23 0)
+    (property "Reference" "SW19" (at 300.99 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 300.99 191.77 0)
@@ -2489,7 +2549,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW21") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
     )
@@ -2498,7 +2558,7 @@
   (symbol (lib_id "Device:D") (at 323.85 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7729786d-7ecc-462a-a2ec-3022e2fee188)
-    (property "Reference" "D25" (at 326.39 217.17 90)
+    (property "Reference" "D24" (at 326.39 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 326.39 219.71 90)
@@ -2521,7 +2581,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D25") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -2530,7 +2590,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 265.43 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79b424de-d204-4dbe-bec5-5b6158831a65)
-    (property "Reference" "SW13" (at 265.43 171.45 0)
+    (property "Reference" "SW10" (at 265.43 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 265.43 173.99 0)
@@ -2547,7 +2607,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW13") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -2581,7 +2641,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 407.67 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d633d13-1ff4-4e98-aab2-ef8eb1e71646)
-    (property "Reference" "SW38" (at 407.67 171.45 0)
+    (property "Reference" "SW40" (at 407.67 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 407.67 173.99 0)
@@ -2598,7 +2658,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW38") (unit 1)
+          (reference "SW40") (unit 1)
         )
       )
     )
@@ -2607,7 +2667,7 @@
   (symbol (lib_id "Device:D") (at 394.97 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fb1e388-d48d-40fc-9a4c-6a3f26ba9365)
-    (property "Reference" "D37" (at 397.51 217.17 90)
+    (property "Reference" "D39" (at 397.51 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 397.51 219.71 90)
@@ -2630,7 +2690,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D37") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -2639,7 +2699,7 @@
   (symbol (lib_id "Device:D") (at 288.29 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 820070e6-ef34-4db2-806b-3b0da0bdc4e4)
-    (property "Reference" "D19" (at 290.83 217.17 90)
+    (property "Reference" "D16" (at 290.83 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 290.83 219.71 90)
@@ -2662,7 +2722,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D19") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -2671,7 +2731,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 372.11 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8239574b-2f6f-42a8-8b41-3b94ba44004e)
-    (property "Reference" "SW34" (at 372.11 207.01 0)
+    (property "Reference" "SW36" (at 372.11 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 372.11 209.55 0)
@@ -2688,7 +2748,39 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW34") (unit 1)
+          (reference "SW36") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D") (at 359.41 236.22 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8555d06e-e932-4d78-9d6b-8ee7abab98b4)
+    (property "Reference" "D33" (at 361.95 234.95 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "D" (at 361.95 237.49 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 359.41 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 359.41 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "D" (at 359.41 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 359.41 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ddc82071-669c-4eda-a62b-54d0264d2285))
+    (pin "2" (uuid 7822b0a8-94ef-493b-8401-eaa2cf3c40b1))
+    (instances
+      (project "first_keyboard"
+        (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -2697,7 +2789,7 @@
   (symbol (lib_id "Device:D") (at 394.97 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c72eace-c2aa-4615-9bba-d9bded26dab2)
-    (property "Reference" "D36" (at 397.51 199.39 90)
+    (property "Reference" "D38" (at 397.51 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 397.51 201.93 90)
@@ -2720,7 +2812,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D36") (unit 1)
+          (reference "D38") (unit 1)
         )
       )
     )
@@ -2729,7 +2821,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 372.11 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e85fd43-9e66-493b-8a15-7273abdb99b7)
-    (property "Reference" "SW33" (at 372.11 189.23 0)
+    (property "Reference" "SW35" (at 372.11 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 372.11 191.77 0)
@@ -2743,6 +2835,32 @@
     )
     (pin "1" (uuid 9968e317-fd85-4d43-b5d5-c7fb52fb4a6a))
     (pin "2" (uuid 4ed51a07-fb9b-4e5f-ae65-42c93f17dabc))
+    (instances
+      (project "first_keyboard"
+        (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
+          (reference "SW35") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 354.33 232.41 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 90e0bcdb-30dd-4a13-9f70-bb918c38b26d)
+    (property "Reference" "SW33" (at 354.33 224.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SW_Push" (at 354.33 227.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 354.33 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 354.33 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 619fa822-0ae2-4c65-afb8-c1a7da22f445))
+    (pin "2" (uuid ac286673-db64-49d6-97f6-0f71f033c59b))
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
@@ -2813,7 +2931,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 265.43 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c7e0f1a-3231-48b9-b32d-accd7defbf5b)
-    (property "Reference" "SW14" (at 265.43 189.23 0)
+    (property "Reference" "SW11" (at 265.43 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 265.43 191.77 0)
@@ -2830,31 +2948,31 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW14") (unit 1)
+          (reference "SW11") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 341.63 238.76 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 341.63 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c8698dd-2439-4f21-9f49-b56a142e4002)
-    (property "Reference" "D16" (at 344.17 237.49 90)
+    (property "Reference" "D29" (at 344.17 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "D" (at 344.17 240.03 90)
+    (property "Value" "D" (at 344.17 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 341.63 238.76 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 341.63 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 341.63 238.76 0)
+    (property "Datasheet" "~" (at 341.63 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 341.63 238.76 0)
+    (property "Sim.Device" "D" (at 341.63 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=K 2=A" (at 341.63 238.76 0)
+    (property "Sim.Pins" "1=K 2=A" (at 341.63 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 540f15f9-91de-4fee-9744-d3185b86132a))
@@ -2862,7 +2980,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D16") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -2871,7 +2989,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 372.11 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d591a39-6746-4dc8-869b-0154470b107a)
-    (property "Reference" "SW32" (at 372.11 171.45 0)
+    (property "Reference" "SW34" (at 372.11 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 372.11 173.99 0)
@@ -2888,7 +3006,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW32") (unit 1)
+          (reference "SW34") (unit 1)
         )
       )
     )
@@ -2897,7 +3015,7 @@
   (symbol (lib_id "Device:D") (at 252.73 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1ebef0b-1a5a-49f6-9d1a-eb3641982e50)
-    (property "Reference" "D11" (at 255.27 217.17 90)
+    (property "Reference" "D9" (at 255.27 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 255.27 219.71 90)
@@ -2920,7 +3038,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D11") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -2929,7 +3047,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 229.87 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a40ff9c7-a0dd-4602-b4cd-72f00fdc5e4d)
-    (property "Reference" "SW5" (at 229.87 171.45 0)
+    (property "Reference" "SW4" (at 229.87 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 229.87 173.99 0)
@@ -2946,7 +3064,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW5") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -2955,7 +3073,7 @@
   (symbol (lib_id "Device:D") (at 412.75 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4f51c46-6a21-47d1-b04c-8fb075d8e743)
-    (property "Reference" "D38" (at 415.29 181.61 90)
+    (property "Reference" "D40" (at 415.29 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 415.29 184.15 90)
@@ -2978,7 +3096,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D38") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -2987,7 +3105,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 389.89 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a65faeca-d480-4f99-b584-864f405d16cc)
-    (property "Reference" "SW37" (at 389.89 207.01 0)
+    (property "Reference" "SW39" (at 389.89 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 389.89 209.55 0)
@@ -3004,7 +3122,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW37") (unit 1)
+          (reference "SW39") (unit 1)
         )
       )
     )
@@ -3013,7 +3131,7 @@
   (symbol (lib_id "Device:D") (at 377.19 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6e9f510-1668-4e6a-ba70-97be65d1f236)
-    (property "Reference" "D33" (at 379.73 199.39 90)
+    (property "Reference" "D35" (at 379.73 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 379.73 201.93 90)
@@ -3036,7 +3154,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D33") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -3045,7 +3163,7 @@
   (symbol (lib_id "Device:D") (at 323.85 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a862cbce-9825-4f1d-967f-45f8c0cebc42)
-    (property "Reference" "D23" (at 326.39 181.61 90)
+    (property "Reference" "D22" (at 326.39 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 326.39 184.15 90)
@@ -3068,7 +3186,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D23") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -3077,7 +3195,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 389.89 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9226b48-d192-476b-a67d-80105038db0d)
-    (property "Reference" "SW35" (at 389.89 171.45 0)
+    (property "Reference" "SW37" (at 389.89 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 389.89 173.99 0)
@@ -3094,25 +3212,25 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW35") (unit 1)
+          (reference "SW37") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 300.99 234.95 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 300.99 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a991a622-2ce5-4c5d-a0c4-b28fff393a5b)
-    (property "Reference" "SW8" (at 300.99 227.33 0)
+    (property "Reference" "SW21" (at 300.99 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 300.99 229.87 0)
+    (property "Value" "SW_Push" (at 300.99 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 300.99 229.87 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 300.99 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 300.99 229.87 0)
+    (property "Datasheet" "~" (at 300.99 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 62b9abed-9729-49d8-9a20-4fba41df2147))
@@ -3120,7 +3238,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW8") (unit 1)
+          (reference "SW21") (unit 1)
         )
       )
     )
@@ -3152,25 +3270,25 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 306.07 238.76 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 306.07 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b390e62e-d9d5-4fb9-bdc6-1ba81e2df860)
-    (property "Reference" "D8" (at 308.61 237.49 90)
+    (property "Reference" "D21" (at 308.61 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "D" (at 308.61 240.03 90)
+    (property "Value" "D" (at 308.61 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 306.07 238.76 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 306.07 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 306.07 238.76 0)
+    (property "Datasheet" "~" (at 306.07 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 306.07 238.76 0)
+    (property "Sim.Device" "D" (at 306.07 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=K 2=A" (at 306.07 238.76 0)
+    (property "Sim.Pins" "1=K 2=A" (at 306.07 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f16c8d23-0187-4046-8365-a0dd27676c43))
@@ -3178,7 +3296,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D8") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -3187,7 +3305,7 @@
   (symbol (lib_id "power:GND") (at 148.59 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be704de5-ae0f-4fff-9964-3fb98b2679ea)
-    (property "Reference" "#PWR09" (at 148.59 189.23 0)
+    (property "Reference" "#PWR08" (at 148.59 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 186.69 90)
@@ -3203,7 +3321,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3212,7 +3330,7 @@
   (symbol (lib_id "Device:D") (at 288.29 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0e7c6e4-be12-43f5-94c1-ec2c3590f6ed)
-    (property "Reference" "D18" (at 290.83 199.39 90)
+    (property "Reference" "D15" (at 290.83 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 290.83 201.93 90)
@@ -3235,7 +3353,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D18") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -3244,7 +3362,7 @@
   (symbol (lib_id "power:GND") (at 439.42 243.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c57a781f-851c-4df2-a33c-1f01d0e00f4c)
-    (property "Reference" "#PWR010" (at 445.77 243.84 0)
+    (property "Reference" "#PWR09" (at 445.77 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 443.23 243.84 90)
@@ -3260,25 +3378,25 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 318.77 234.95 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 318.77 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7c9176a-111c-4fd9-80e8-8d0d55aa6577)
-    (property "Reference" "SW12" (at 318.77 227.33 0)
+    (property "Reference" "SW25" (at 318.77 224.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 318.77 229.87 0)
+    (property "Value" "SW_Push" (at 318.77 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 318.77 229.87 0)
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 318.77 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 318.77 229.87 0)
+    (property "Datasheet" "~" (at 318.77 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6309a242-08f3-4bb0-93be-6ed468106900))
@@ -3286,7 +3404,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW12") (unit 1)
+          (reference "SW25") (unit 1)
         )
       )
     )
@@ -3317,25 +3435,25 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 288.29 238.76 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 288.29 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c801811d-c9ca-4d26-afff-f077b341fc24)
-    (property "Reference" "D4" (at 290.83 237.49 90)
+    (property "Reference" "D17" (at 290.83 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "D" (at 290.83 240.03 90)
+    (property "Value" "D" (at 290.83 237.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 288.29 238.76 0)
+    (property "Footprint" "kbd_Parts:Diode_TH_SMD" (at 288.29 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 288.29 238.76 0)
+    (property "Datasheet" "~" (at 288.29 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 288.29 238.76 0)
+    (property "Sim.Device" "D" (at 288.29 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=K 2=A" (at 288.29 238.76 0)
+    (property "Sim.Pins" "1=K 2=A" (at 288.29 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 994c996b-a1ac-4fa3-935f-3a92dfcf2921))
@@ -3343,7 +3461,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D4") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -3352,7 +3470,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 283.21 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8dc36ca-f40b-4fe4-aeae-0105ca1f2ecd)
-    (property "Reference" "SW18" (at 283.21 189.23 0)
+    (property "Reference" "SW15" (at 283.21 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 283.21 191.77 0)
@@ -3369,7 +3487,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW18") (unit 1)
+          (reference "SW15") (unit 1)
         )
       )
     )
@@ -3378,7 +3496,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 318.77 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9f0f0dc-e36d-4cd7-a4a4-16c0a604aa32)
-    (property "Reference" "SW25" (at 318.77 207.01 0)
+    (property "Reference" "SW24" (at 318.77 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 318.77 209.55 0)
@@ -3395,7 +3513,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW25") (unit 1)
+          (reference "SW24") (unit 1)
         )
       )
     )
@@ -3404,7 +3522,7 @@
   (symbol (lib_id "power:GND") (at 129.54 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfa092c5-1273-428d-94c2-27c0f3f50289)
-    (property "Reference" "#PWR08" (at 135.89 215.9 0)
+    (property "Reference" "#PWR07" (at 135.89 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 215.9 90)
@@ -3420,7 +3538,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3429,7 +3547,7 @@
   (symbol (lib_id "Device:D") (at 288.29 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfddb7a5-b556-47fd-9afa-2fd9f3d65026)
-    (property "Reference" "D17" (at 290.83 181.61 90)
+    (property "Reference" "D14" (at 290.83 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 290.83 184.15 90)
@@ -3452,7 +3570,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D17") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -3461,7 +3579,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 407.67 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1a24ead-5a18-4819-9af7-99f25f5dec70)
-    (property "Reference" "SW39" (at 407.67 189.23 0)
+    (property "Reference" "SW41" (at 407.67 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 407.67 191.77 0)
@@ -3478,7 +3596,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW39") (unit 1)
+          (reference "SW41") (unit 1)
         )
       )
     )
@@ -3487,7 +3605,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 389.89 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d408079d-efbf-42a7-bda8-333f69e5aa00)
-    (property "Reference" "SW36" (at 389.89 189.23 0)
+    (property "Reference" "SW38" (at 389.89 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 389.89 191.77 0)
@@ -3504,7 +3622,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW36") (unit 1)
+          (reference "SW38") (unit 1)
         )
       )
     )
@@ -3513,7 +3631,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 229.87 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dca76912-0449-4c6e-9326-d6a7636d9b26)
-    (property "Reference" "SW7" (at 229.87 207.01 0)
+    (property "Reference" "SW6" (at 229.87 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 229.87 209.55 0)
@@ -3530,7 +3648,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW7") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -3565,7 +3683,7 @@
   (symbol (lib_id "Device:D") (at 394.97 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e17befa9-bc4b-46b8-a0b6-ccebf5811a05)
-    (property "Reference" "D35" (at 397.51 181.61 90)
+    (property "Reference" "D37" (at 397.51 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 397.51 184.15 90)
@@ -3588,7 +3706,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D35") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -3597,7 +3715,7 @@
   (symbol (lib_id "Device:D") (at 306.07 218.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1b8a447-b9f1-479e-b8b3-d434d0290263)
-    (property "Reference" "D22" (at 308.61 217.17 90)
+    (property "Reference" "D20" (at 308.61 217.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 308.61 219.71 90)
@@ -3620,7 +3738,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D22") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -3629,7 +3747,7 @@
   (symbol (lib_id "Device:D") (at 412.75 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28e0309-fe98-4966-ad6f-fa6e03df29b0)
-    (property "Reference" "D39" (at 415.29 199.39 90)
+    (property "Reference" "D41" (at 415.29 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 415.29 201.93 90)
@@ -3652,7 +3770,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D39") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -3661,7 +3779,7 @@
   (symbol (lib_id "power:GND") (at 129.54 190.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4d6509f-1917-4c03-83c4-6beb268d937a)
-    (property "Reference" "#PWR06" (at 135.89 190.5 0)
+    (property "Reference" "#PWR05" (at 135.89 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 190.5 90)
@@ -3677,7 +3795,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3686,7 +3804,7 @@
   (symbol (lib_id "Device:D") (at 323.85 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6755857-1054-45cf-98e6-a2703fcac298)
-    (property "Reference" "D24" (at 326.39 199.39 90)
+    (property "Reference" "D23" (at 326.39 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 326.39 201.93 90)
@@ -3709,7 +3827,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D24") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -3718,7 +3836,7 @@
   (symbol (lib_id "Device:D") (at 252.73 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2d9ffcc-94ac-41e8-a9f0-9aefe8bca3c0)
-    (property "Reference" "D10" (at 255.27 199.39 90)
+    (property "Reference" "D8" (at 255.27 199.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 255.27 201.93 90)
@@ -3741,7 +3859,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D10") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3750,7 +3868,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 354.33 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f57ed261-b413-4ab8-bce0-ec471df911bf)
-    (property "Reference" "SW29" (at 354.33 171.45 0)
+    (property "Reference" "SW30" (at 354.33 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 354.33 173.99 0)
@@ -3767,7 +3885,33 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW29") (unit 1)
+          (reference "SW30") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 265.43 232.41 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f79526c1-f905-42af-aeb8-4980154e8a77)
+    (property "Reference" "SW13" (at 265.43 224.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SW_Push" (at 265.43 227.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "kbd_SW:CherryMX_Hotswap_1u" (at 265.43 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 265.43 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 498b42ea-ea50-4059-949a-584d5b3d25e4))
+    (pin "2" (uuid ca7a9681-d3f1-43a1-bb63-3ceb550db032))
+    (instances
+      (project "first_keyboard"
+        (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
+          (reference "SW13") (unit 1)
         )
       )
     )
@@ -3802,7 +3946,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 247.65 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fac76348-d806-44d0-90ab-428ef12319c5)
-    (property "Reference" "SW10" (at 247.65 189.23 0)
+    (property "Reference" "SW8" (at 247.65 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 247.65 191.77 0)
@@ -3819,7 +3963,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW10") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -3828,7 +3972,7 @@
   (symbol (lib_id "Device:D") (at 234.95 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb9a6430-b158-4527-a0e2-a5c74fcc27f1)
-    (property "Reference" "D5" (at 237.49 181.61 90)
+    (property "Reference" "D4" (at 237.49 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 237.49 184.15 90)
@@ -3851,7 +3995,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3860,7 +4004,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 283.21 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdee3172-ef48-4e90-af7c-19243cb0abb3)
-    (property "Reference" "SW17" (at 283.21 171.45 0)
+    (property "Reference" "SW14" (at 283.21 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 283.21 173.99 0)
@@ -3877,7 +4021,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "SW17") (unit 1)
+          (reference "SW14") (unit 1)
         )
       )
     )
@@ -3886,7 +4030,7 @@
   (symbol (lib_id "power:GND") (at 129.54 203.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff4c1010-8ef1-484b-900e-2acc4914e534)
-    (property "Reference" "#PWR07" (at 135.89 203.2 0)
+    (property "Reference" "#PWR06" (at 135.89 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 203.2 90)
@@ -3902,7 +4046,7 @@
     (instances
       (project "first_keyboard"
         (path "/30ce758a-13a8-4989-9c18-1386b25397ac"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
