@@ -1661,5 +1661,8 @@
     (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp e9402019-4978-4176-8f84-d24872186870))
   (gr_line (start 290.5125 188.11875) (end 121.44375 188.11875)
     (stroke (width 0.2) (type default)) (layer "Edge.Cuts") (tstamp f121f0b6-6594-458c-a4b0-a69a32943204))
+  (gr_text "madbd v0.0.2	Design by: @amkkr\n						X: @ama_O255" (at 319.0875 166.6875) (layer "F.SilkS" knockout) (tstamp 8632a8f7-5c1d-46d3-b7d8-dec1846f16fc)
+    (effects (font (size 1.5 1.5) (thickness 0.1875)))
+  )
 
 )
