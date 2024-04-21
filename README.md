@@ -2,12 +2,17 @@
 
 最下段のキー数が少ないおおむね格子状のキーボード
 
-**WIP**
+## Images
+
+### 0.0.1
+
+![0.0.1](images/1000000742.jpg)
 
 ## Show Links
+
 - raspberry pi pico datasheet
-  - https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
+  - <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
 - raspberry pi pico KiCad files
-  - https://datasheets.raspberrypi.com/rp2040/VGA-KiCAD.zip
+  - <https://datasheets.raspberrypi.com/rp2040/VGA-KiCAD.zip>
 - Automated wiring tool
-  - https://github.com/freerouting/freerouting
+  - <https://github.com/freerouting/freerouting>
