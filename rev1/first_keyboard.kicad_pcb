@@ -6464,7 +6464,7 @@
 
   (footprint "RPi_Pico:RPi_Pico_SMD_TH" (layer "F.Cu")
     (tstamp f5c65752-47c5-4d09-9ed4-0ce6ad8a1875)
-    (at 211.93125 133.35)
+    (at 207.54375 133.35)
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (property "Sheetfile" "first_keyboard.kicad_sch")
@@ -6821,4 +6821,94 @@
       (net 74 "unconnected-(U1-SWDIO-Pad43)") (pinfunction "SWDIO") (pintype "bidirectional+no_connect") (tstamp 2904048e-78a1-4f9f-b00c-482dd6cc3a73))
   )
 
+  (group "" (id 0ac3a1c4-a834-431d-881a-eefc23ac47ea)
+    (members
+      012d0bbc-c991-48b7-a9c3-a4bf0702b85b
+      019946a3-0451-45be-bb2a-9411ba8dfa54
+      063f3ef4-d551-4894-a1a5-a3b7b1e9be3a
+      1486658f-b713-4c7c-837c-d00a88680b5c
+      1d9651bf-7796-45ea-8bfe-e4a6342e1f34
+      24d4b9b0-eb60-4809-b540-9031c6aa4572
+      2552e0f4-a58c-4955-abc7-6eda5e731ad0
+      2c70b89e-101d-4395-b57a-f2897b5730e2
+      2e742a16-e774-4dd4-a9e7-bd98bc12e477
+      2f03d40c-de77-40a1-a33a-fd2395aefff9
+      2f416950-f953-4939-82c5-5a8ace22185b
+      312a4c69-7f8a-43b8-86e2-b6eb86d0f5ce
+      580411b8-5f50-4bef-b092-95539251e80e
+      5c5715c8-42c5-4ac2-a07c-5ab38c5028e7
+      5f60d736-09fb-4908-b4e5-b62b6537817b
+      60245ab0-c055-4749-a8b9-e506b5842b97
+      6471bc29-87de-49d4-a200-9cf835def8c5
+      73650dbf-5b15-4747-8e36-4f242b3b82e8
+      78345dea-3273-413c-a2a6-f94e9696e15e
+      8bb0c742-d3d6-472a-a46a-6fa19350f769
+      9370ebb2-2ae3-4827-b4e4-49341229cae2
+      962c4abd-2cf1-4ea0-8859-9adb3e95705d
+      9a7cbe31-a63b-4270-a824-693055ff881f
+      9b075ca8-e758-441b-8914-4e13b45d4eef
+      9d662371-fb2f-43af-9ce8-de5cfe563da1
+      a7c69859-9bd5-41b9-8ed0-075a2dddb52c
+      a84ca691-0233-42d4-aac2-f7a9c0490f6d
+      a8e650b7-5022-4bf1-9af8-1af162efa941
+      abc220ad-3e44-4ab4-b6b6-84f4176312ed
+      aff8297f-1f57-4fbb-af0d-b1b3d7198748
+      b2a287ee-2d96-43a4-8e02-c3177d15dee5
+      b7425290-8e62-4ea3-a185-9aa1a39f97b7
+      bb12a942-ca70-4052-b3a6-ffb7a1735ca4
+      be93b58d-10c1-47f1-a928-2cf1ee23f56e
+      c50f161f-66cd-43ac-829a-28669af9b65f
+      d49bfea6-3068-4a84-aace-ff23860e199a
+      e0339819-ca7c-4aa8-bec9-c3869ae452c3
+      e11d23ee-3482-4ebe-b562-c255197ea5fd
+      eae43429-e45c-4b62-a999-391ddc07b657
+      ee3691ea-5ead-4951-bf0c-1527559c45c8
+    )
+  )
+  (group "" (id af2218d8-2dd4-47ac-8b53-74f56c7c5f5c)
+    (members
+      082319f0-3429-419a-8e27-fc1732ba7365
+      18168899-0915-4371-9ae7-6525f5697281
+      1cf0fe2a-55e7-40d5-95ee-7cf8e9b545e9
+      1d263154-1689-4456-925b-7400b34d2285
+      255f3cdc-3eab-4952-8c70-01cdce16be26
+      2a117461-4fa8-4367-87e7-5596f5c06cbe
+      2e33eed3-31b3-4159-b25e-f764429bb112
+      3af0f068-d567-41b4-8305-56c01be11c99
+      3bc6e94e-d3a3-434c-8c5d-359b43de264f
+      3c772cf1-4b43-4d9e-aadc-3b649a1be07a
+      40698693-5d86-47ec-88e8-ef66e18c6951
+      41098754-2ae1-44be-8953-7d3d3d0105fe
+      463d3815-9677-4f7a-90f0-91940ca64131
+      5318bd59-d895-4fd2-a3c1-1a69b7a5a89c
+      5b45a620-c828-4e46-8a7a-1a320789905e
+      6ab9c5b8-5f8c-4ac3-b26c-7e3ea6bd4982
+      6d1d916e-f84e-4972-b1ca-bd03356acb6c
+      72c09cf5-95ce-4cf0-99bb-8b1ff452d7a4
+      8f352e6d-94bd-45e5-a250-f1e97f33fffb
+      96367ea9-320c-4485-a46d-04aef7731424
+      a497f8d4-bfe2-4924-ad20-dce76f592652
+      ad30e082-b409-48d5-9cb3-a2faae83d234
+      adf27df8-a312-48f1-9fe3-62a17b3a24a0
+      b6b19121-8033-4256-a0c2-1d2a23ac7301
+      bd8e4896-be16-4051-a5b9-97a8941ee0c5
+      bff5201c-d15f-4fb3-a461-d37ccd8c58cb
+      c737adbb-9deb-4225-8852-4cfd3ae9b98a
+      ce9d699d-2619-457c-8801-310ce87bf7f8
+      cf089b7a-ce34-499f-ae79-2b655d7a3469
+      d0116e12-7ed0-4bf3-9646-938da9fbf5c6
+      d7cdd4cf-c6ff-45f7-8c74-104ae23522b0
+      d801a585-27f1-4d3b-a974-4be7fc7d3d07
+      e175d532-cf80-4e1b-9108-53eabef245f0
+      e236cccb-6224-479d-803c-9e52daead8d8
+      e278fcda-7012-4fd9-b596-e54aa62904dd
+      e28bafb1-a35a-426c-b3ca-97ce2a99101f
+      e805f016-c64e-4a35-bc92-f1e98730882f
+      e81c2720-f355-46c4-82ed-6b90991b000f
+      eba44a67-a337-4b4f-b48a-71cd132ef261
+      ebd1fd8c-0b8b-4b5d-a35a-b1322f201a63
+      ef421a21-5c48-4afe-b82e-6dbbd028d395
+      f115dcdf-9698-4c38-8aee-a55efa1edbde
+    )
+  )
 )
