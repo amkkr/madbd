@@ -128,7 +128,7 @@
 	(net 42 "Net-(D38-A)")
 	(net 43 "Net-(D39-A)")
 	(net 44 "unconnected-(U1-RUN-Pad30)")
-	(net 45 "GND")
+	(net 45 "unconnected-(U1-AGND-Pad33)")
 	(net 46 "Col0")
 	(net 47 "Col1")
 	(net 48 "Col2")
@@ -147,8 +147,8 @@
 	(net 61 "unconnected-(U1-GPIO3-Pad5)")
 	(net 62 "unconnected-(U1-GPIO4-Pad6)")
 	(net 63 "unconnected-(U1-GPIO5-Pad7)")
-	(net 64 "unconnected-(U1-GPIO22-Pad29)")
-	(net 65 "unconnected-(U1-GPIO26_ADC0-Pad31)")
+	(net 64 "unconnected-(U1-SWCLK-Pad41)_0")
+	(net 65 "unconnected-(U1-VBUS-Pad40)")
 	(net 66 "unconnected-(U1-GPIO27_ADC1-Pad32)")
 	(net 67 "unconnected-(U1-GPIO28_ADC2-Pad34)")
 	(net 68 "unconnected-(U1-ADC_VREF-Pad35)")
@@ -161,6 +161,37 @@
 	(net 75 "unconnected-(U1-GND-Pad38)")
 	(net 76 "Net-(D40-A)")
 	(net 77 "Net-(D41-A)")
+	(net 78 "unconnected-(U1-GND-Pad8)")
+	(net 79 "unconnected-(U1-GND-Pad13)")
+	(net 80 "unconnected-(U1-GND-Pad28)")
+	(net 81 "unconnected-(U1-VBUS-Pad40)_0")
+	(net 82 "unconnected-(U1-GND-Pad23)")
+	(net 83 "unconnected-(U1-AGND-Pad33)_0")
+	(net 84 "unconnected-(U1-GND-Pad18)")
+	(net 85 "unconnected-(U1-SWDIO-Pad43)_0")
+	(net 86 "unconnected-(U1-GPIO6-Pad9)")
+	(net 87 "unconnected-(U1-ADC_VREF-Pad35)_0")
+	(net 88 "unconnected-(U1-GND-Pad38)_0")
+	(net 89 "unconnected-(U1-GPIO3-Pad5)_0")
+	(net 90 "unconnected-(U1-GPIO5-Pad7)_0")
+	(net 91 "unconnected-(U1-GND-Pad18)_0")
+	(net 92 "unconnected-(U1-VSYS-Pad39)_0")
+	(net 93 "unconnected-(U1-RUN-Pad30)_0")
+	(net 94 "unconnected-(U1-3V3_EN-Pad37)_0")
+	(net 95 "unconnected-(U1-GPIO0-Pad1)_0")
+	(net 96 "unconnected-(U1-GPIO27_ADC1-Pad32)_0")
+	(net 97 "unconnected-(U1-GPIO7-Pad10)")
+	(net 98 "unconnected-(U1-GPIO28_ADC2-Pad34)_0")
+	(net 99 "unconnected-(U1-GND-Pad3)")
+	(net 100 "unconnected-(U1-GND-Pad23)_0")
+	(net 101 "unconnected-(U1-GND-Pad13)_0")
+	(net 102 "unconnected-(U1-3V3-Pad36)_0")
+	(net 103 "unconnected-(U1-GND-Pad42)_0")
+	(net 104 "unconnected-(U1-GPIO1-Pad2)_0")
+	(net 105 "unconnected-(U1-GPIO2-Pad4)_0")
+	(net 106 "unconnected-(U1-GPIO4-Pad6)_0")
+	(net 107 "unconnected-(U1-GND-Pad28)_0")
+	(net 108 "unconnected-(U1-GND-Pad3)_0")
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "012d0bbc-c991-48b7-a9c3-a4bf0702b85b")
@@ -191,7 +222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -215,7 +246,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -251,7 +282,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7729786d-7ecc-462a-a2ec-3022e2fee188")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -416,7 +449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -440,7 +473,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -476,7 +509,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a4f51c46-6a21-47d1-b04c-8fb075d8e743")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -641,7 +676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -665,7 +700,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -701,7 +736,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/002a4537-9f52-4998-837c-f0e0d7e5ac1e")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -866,7 +903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -890,7 +927,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -926,7 +963,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/53b64045-2afb-499c-8bb1-e03de85a2fac")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1091,7 +1130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -1115,7 +1154,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -1151,7 +1190,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/4095d7f8-191a-4034-a729-c13f34799df7")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1316,7 +1357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -1340,7 +1381,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -1376,7 +1417,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6ba1aeb3-1c59-426b-9837-ee153f9e9173")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1539,7 +1582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -1563,7 +1606,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -1576,6 +1619,7 @@
 			)
 		)
 		(path "/79b424de-d204-4dbe-bec5-5b6158831a65")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2039,7 +2083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -2063,7 +2107,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -2076,6 +2120,7 @@
 			)
 		)
 		(path "/202fad20-172d-4f6d-9544-742895fe1a7b")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2541,7 +2586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -2565,7 +2610,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -2601,7 +2646,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/58670ca8-59a0-4363-97c4-4d6bfc4d0f0f")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2764,7 +2811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -2788,7 +2835,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -2801,6 +2848,7 @@
 			)
 		)
 		(path "/c7c9176a-111c-4fd9-80e8-8d0d55aa6577")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3266,7 +3314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -3290,7 +3338,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -3326,7 +3374,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0a4d230f-dce8-4460-ab9f-699e2e4e7fc3")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3491,7 +3541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -3515,7 +3565,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -3551,7 +3601,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/037ce23e-4c37-4dd7-99e6-09687dd2afb3")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3716,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -3740,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -3776,7 +3828,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a1ebef0b-1a5a-49f6-9d1a-eb3641982e50")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3939,7 +3993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -3963,7 +4017,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -3976,6 +4030,7 @@
 			)
 		)
 		(path "/c9f0f0dc-e36d-4cd7-a4a4-16c0a604aa32")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4441,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -4465,7 +4520,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -4501,7 +4556,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e1b8a447-b9f1-479e-b8b3-d434d0290263")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4666,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -4690,7 +4747,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -4726,7 +4783,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e17befa9-bc4b-46b8-a0b6-ccebf5811a05")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4891,7 +4950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -4915,7 +4974,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -4951,7 +5010,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a862cbce-9825-4f1d-967f-45f8c0cebc42")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5114,7 +5175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -5138,7 +5199,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -5151,6 +5212,7 @@
 			)
 		)
 		(path "/7d633d13-1ff4-4e98-aab2-ef8eb1e71646")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5616,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -5640,7 +5702,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -5676,7 +5738,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8c72eace-c2aa-4615-9bba-d9bded26dab2")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5841,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -5865,7 +5929,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -5901,7 +5965,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/68f1e0d3-fbba-48ea-aa24-549a7685efc5")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6064,7 +6130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -6088,7 +6154,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -6101,6 +6167,7 @@
 			)
 		)
 		(path "/a9b079a6-f46e-4aea-beac-ba834784a15c")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6566,7 +6633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -6590,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -6626,7 +6693,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9bf4e428-431b-4f7b-aa32-7cb6a43d3999")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6789,7 +6858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -6813,7 +6882,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -6826,6 +6895,7 @@
 			)
 		)
 		(path "/c8dc36ca-f40b-4fe4-aeae-0105ca1f2ecd")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7291,7 +7361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -7315,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -7351,7 +7421,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/226ed95c-696b-4a42-b9d1-c71cc5aa56b0")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7516,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -7540,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -7576,7 +7648,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/fb9a6430-b158-4527-a0e2-a5c74fcc27f1")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7739,7 +7813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -7763,7 +7837,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -7776,6 +7850,7 @@
 			)
 		)
 		(path "/127a1a1b-2ddc-4002-83b6-87e2e6c06715")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8239,7 +8314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -8263,7 +8338,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -8276,6 +8351,7 @@
 			)
 		)
 		(path "/60edddbe-c1d8-452e-abfd-e389bec33248")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8741,7 +8817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -8765,7 +8841,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -8801,7 +8877,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/25e7ed8f-e753-4c17-ac66-c3f78c1970f6")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8966,7 +9044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -8990,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -9026,7 +9104,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/097924bb-a7ae-4321-91c8-6baec9125d0e")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9189,7 +9269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -9213,7 +9293,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -9226,6 +9306,7 @@
 			)
 		)
 		(path "/a65faeca-d480-4f99-b584-864f405d16cc")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9689,7 +9770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -9713,7 +9794,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -9726,6 +9807,7 @@
 			)
 		)
 		(path "/dd6807fd-d722-4b76-87a8-ecc1df2ada40")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10189,7 +10271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -10213,7 +10295,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -10226,6 +10308,7 @@
 			)
 		)
 		(path "/f57ed261-b413-4ab8-bce0-ec471df911bf")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10689,7 +10772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -10713,7 +10796,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -10726,6 +10809,7 @@
 			)
 		)
 		(path "/16085558-79a2-48f5-86ef-d2cb618d3ea2")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11191,7 +11275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -11215,7 +11299,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -11251,7 +11335,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/707f8548-7f69-4e45-863d-68d861250e9b")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11416,7 +11502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -11440,7 +11526,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -11476,7 +11562,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b390e62e-d9d5-4fb9-bdc6-1ba81e2df860")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11641,7 +11729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -11665,7 +11753,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -11701,7 +11789,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e28e0309-fe98-4966-ad6f-fa6e03df29b0")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11866,7 +11956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -11890,7 +11980,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -11926,7 +12016,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9c8698dd-2439-4f21-9f49-b56a142e4002")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12089,7 +12181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -12113,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -12126,6 +12218,7 @@
 			)
 		)
 		(path "/9d591a39-6746-4dc8-869b-0154470b107a")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12589,7 +12682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -12613,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -12626,6 +12719,7 @@
 			)
 		)
 		(path "/9c7e0f1a-3231-48b9-b32d-accd7defbf5b")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13089,7 +13183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_2u"
 			(at 0 0 93)
 			(layer "F.Fab")
 			(hide yes)
@@ -13113,7 +13207,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 93)
 			(layer "F.Fab")
 			(hide yes)
@@ -13126,6 +13220,7 @@
 			)
 		)
 		(path "/d1a24ead-5a18-4819-9af7-99f25f5dec70")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13453,7 +13548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -13477,7 +13572,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -13513,7 +13608,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/69775b28-13d8-4afb-836c-bb2475c72e82")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13676,7 +13773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -13700,7 +13797,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -13713,6 +13810,7 @@
 			)
 		)
 		(path "/a991a622-2ce5-4c5d-a0c4-b28fff393a5b")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14178,7 +14276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -14202,7 +14300,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -14238,7 +14336,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0c693054-e128-4f8a-9239-8de77945910c")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14401,7 +14501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -14425,7 +14525,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -14438,6 +14538,7 @@
 			)
 		)
 		(path "/04ff9f33-201b-4890-8f3e-f8d5dcffeeca")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14903,7 +15004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -14927,7 +15028,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -14963,7 +15064,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e6755857-1054-45cf-98e6-a2703fcac298")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15128,7 +15231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -15152,7 +15255,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -15188,7 +15291,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/820070e6-ef34-4db2-806b-3b0da0bdc4e4")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15351,7 +15456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -15375,7 +15480,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -15388,6 +15493,7 @@
 			)
 		)
 		(path "/8239574b-2f6f-42a8-8b41-3b94ba44004e")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15851,7 +15957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -15875,7 +15981,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -15888,6 +15994,7 @@
 			)
 		)
 		(path "/d408079d-efbf-42a7-bda8-333f69e5aa00")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16353,7 +16460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -16377,7 +16484,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -16413,7 +16520,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a6e9f510-1668-4e6a-ba70-97be65d1f236")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16578,7 +16687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -16602,7 +16711,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -16638,7 +16747,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6c05c395-4990-407b-b7ef-a132f4ee99f2")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16801,7 +16912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -16825,7 +16936,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -16838,6 +16949,7 @@
 			)
 		)
 		(path "/4b95a373-7d0f-435a-b8e1-2bb6f27a185b")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17303,7 +17415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -17327,7 +17439,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -17363,7 +17475,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1f71d152-461e-4b62-a7ad-98da2e6519eb")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17526,7 +17640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -17550,7 +17664,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -17563,6 +17677,7 @@
 			)
 		)
 		(path "/925e7773-f677-447c-bcf6-16feef390365")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18028,7 +18143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -18052,7 +18167,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -18088,7 +18203,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7fb1e388-d48d-40fc-9a4c-6a3f26ba9365")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18251,7 +18368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -18275,7 +18392,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -18288,6 +18405,7 @@
 			)
 		)
 		(path "/a40ff9c7-a0dd-4602-b4cd-72f00fdc5e4d")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18751,7 +18869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -18775,7 +18893,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -18788,6 +18906,7 @@
 			)
 		)
 		(path "/2eb423fa-7a9c-4d2b-a2e5-ab7b6ca58baa")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19251,7 +19370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -19275,7 +19394,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -19288,6 +19407,7 @@
 			)
 		)
 		(path "/45a92cd6-c8ae-4637-9e15-c88bc6085cba")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19753,7 +19873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -19777,7 +19897,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -19813,7 +19933,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c0e7c6e4-be12-43f5-94c1-ec2c3590f6ed")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19976,7 +20098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -20000,7 +20122,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -20013,6 +20135,7 @@
 			)
 		)
 		(path "/5e856205-6811-48ba-9951-82959768fc97")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20476,7 +20599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -20500,7 +20623,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -20513,6 +20636,7 @@
 			)
 		)
 		(path "/3431a170-0dd5-46e2-a261-733a0b78625f")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20976,7 +21100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -21000,7 +21124,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -21013,6 +21137,7 @@
 			)
 		)
 		(path "/a9226b48-d192-476b-a67d-80105038db0d")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21478,7 +21603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -21502,7 +21627,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -21538,7 +21663,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/30fae3a9-d597-479e-a381-0c0724b07128")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21703,7 +21830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -21727,7 +21854,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -21763,7 +21890,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/074282cb-9013-4d1a-bf6c-23f02b659266")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21928,7 +22057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -21952,7 +22081,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -21988,7 +22117,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f2d9ffcc-94ac-41e8-a9f0-9aefe8bca3c0")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22151,7 +22282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -22175,7 +22306,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -22188,6 +22319,7 @@
 			)
 		)
 		(path "/29f9d7c6-90d6-4472-af04-b2ddbc2c893d")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22651,7 +22783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -22675,7 +22807,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -22688,6 +22820,7 @@
 			)
 		)
 		(path "/90e0bcdb-30dd-4a13-9f70-bb918c38b26d")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23151,7 +23284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -23175,7 +23308,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -23188,6 +23321,7 @@
 			)
 		)
 		(path "/f9759c44-bff5-428d-8c53-8c392f6e0037")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23651,7 +23785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -23675,7 +23809,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -23688,6 +23822,7 @@
 			)
 		)
 		(path "/fac76348-d806-44d0-90ab-428ef12319c5")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24151,7 +24286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -24175,7 +24310,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -24188,6 +24323,7 @@
 			)
 		)
 		(path "/8e85fd43-9e66-493b-8a15-7273abdb99b7")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24651,7 +24787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -24675,7 +24811,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -24688,6 +24824,7 @@
 			)
 		)
 		(path "/0b229c91-8b88-4724-bdef-d9a554401fb3")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25151,7 +25288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -25175,7 +25312,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -25188,6 +25325,7 @@
 			)
 		)
 		(path "/554e99e1-a2c4-40f9-aade-1cdfb876d379")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25653,7 +25791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -25677,7 +25815,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -25713,7 +25851,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/435dddf6-2574-41d8-837f-02776f745976")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25878,7 +26018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -25902,7 +26042,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -25938,7 +26078,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/cfddb7a5-b556-47fd-9afa-2fd9f3d65026")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26101,7 +26243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -26125,7 +26267,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 177)
 			(layer "F.Fab")
 			(hide yes)
@@ -26138,6 +26280,7 @@
 			)
 		)
 		(path "/dca76912-0449-4c6e-9326-d6a7636d9b26")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26601,7 +26744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -26625,7 +26768,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -26638,6 +26781,7 @@
 			)
 		)
 		(path "/f79526c1-f905-42af-aeb8-4980154e8a77")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27101,7 +27245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -27125,7 +27269,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -27138,6 +27282,7 @@
 			)
 		)
 		(path "/fdee3172-ef48-4e90-af7c-19243cb0abb3")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27603,7 +27748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -27627,7 +27772,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -27663,7 +27808,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/4e90a1e5-0498-4100-914a-6ffb3df2d1cc")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27828,7 +27975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -27852,7 +27999,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -27888,7 +28035,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c801811d-c9ca-4d26-afff-f077b341fc24")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28051,7 +28200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -28075,7 +28224,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -28088,6 +28237,7 @@
 			)
 		)
 		(path "/743c26a5-565f-4818-a44b-a4361248583b")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28553,7 +28703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -28577,7 +28727,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 5)
 			(layer "F.Fab")
 			(hide yes)
@@ -28613,7 +28763,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8555d06e-e932-4d78-9d6b-8ee7abab98b4")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28776,7 +28928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -28800,7 +28952,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -28813,6 +28965,7 @@
 			)
 		)
 		(path "/2c96f8c7-0ef0-41b6-9b70-74340d0ae72b")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29276,7 +29429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -29300,7 +29453,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 175)
 			(layer "F.Fab")
 			(hide yes)
@@ -29313,6 +29466,7 @@
 			)
 		)
 		(path "/209e668d-8164-43a7-af98-78a557044f33")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29776,7 +29930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29813,6 +29967,7 @@
 			)
 		)
 		(path "/59131b6d-e055-4724-b45e-a1a810d3188d")
+		(sheetname "ルート")
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -30513,7 +30668,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 58 "unconnected-(U1-GPIO0-Pad1)")
+			(net 95 "unconnected-(U1-GPIO0-Pad1)_0")
 			(pinfunction "GPIO0")
 			(pintype "bidirectional+no_connect")
 			(uuid "c555ac05-748b-4696-ba76-55eadd9fee2d")
@@ -30536,7 +30691,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 59 "unconnected-(U1-GPIO1-Pad2)")
+			(net 104 "unconnected-(U1-GPIO1-Pad2)_0")
 			(pinfunction "GPIO1")
 			(pintype "bidirectional+no_connect")
 			(uuid "ee267343-a856-4625-8bde-72b8480899d7")
@@ -30547,9 +30702,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 99 "unconnected-(U1-GND-Pad3)")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "cdaaf54b-f2ce-4a84-a229-24409b15efe2")
 		)
 		(pad "3" smd rect
@@ -30559,9 +30714,9 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 108 "unconnected-(U1-GND-Pad3)_0")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "fb6d193e-f6e2-4736-a755-39ba1121a371")
 		)
 		(pad "4" thru_hole oval
@@ -30570,7 +30725,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 60 "unconnected-(U1-GPIO2-Pad4)")
+			(net 105 "unconnected-(U1-GPIO2-Pad4)_0")
 			(pinfunction "GPIO2")
 			(pintype "bidirectional+no_connect")
 			(uuid "f3272172-9840-4336-b34f-dbb809dbf28d")
@@ -30605,7 +30760,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 61 "unconnected-(U1-GPIO3-Pad5)")
+			(net 89 "unconnected-(U1-GPIO3-Pad5)_0")
 			(pinfunction "GPIO3")
 			(pintype "bidirectional+no_connect")
 			(uuid "9dcd5f05-2b0f-4adb-a5ab-0755e25003ce")
@@ -30628,7 +30783,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 62 "unconnected-(U1-GPIO4-Pad6)")
+			(net 106 "unconnected-(U1-GPIO4-Pad6)_0")
 			(pinfunction "GPIO4")
 			(pintype "bidirectional+no_connect")
 			(uuid "f6249a76-bcbf-4e2d-a3a5-677bb36248a3")
@@ -30651,7 +30806,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 63 "unconnected-(U1-GPIO5-Pad7)")
+			(net 90 "unconnected-(U1-GPIO5-Pad7)_0")
 			(pinfunction "GPIO5")
 			(pintype "bidirectional+no_connect")
 			(uuid "a1c36de2-2530-4f13-9525-1ce9b93d6c95")
@@ -30662,7 +30817,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 78 "unconnected-(U1-GND-Pad8)")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "2d6d27ed-6660-48d1-b384-3856a643d1db")
@@ -30674,7 +30829,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 78 "unconnected-(U1-GND-Pad8)")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "1ccd185a-4a55-47ff-a5be-6b0d477ce2a5")
@@ -30685,7 +30840,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Row0")
+			(net 86 "unconnected-(U1-GPIO6-Pad9)")
 			(pinfunction "GPIO6")
 			(pintype "bidirectional")
 			(uuid "b4201f12-a624-478b-b67c-47411e9c0689")
@@ -30697,7 +30852,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 2 "Row0")
+			(net 86 "unconnected-(U1-GPIO6-Pad9)")
 			(pinfunction "GPIO6")
 			(pintype "bidirectional")
 			(uuid "7aebd350-c260-4631-8209-0d4f7e4db1bb")
@@ -30708,7 +30863,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Row1")
+			(net 97 "unconnected-(U1-GPIO7-Pad10)")
 			(pinfunction "GPIO7")
 			(pintype "bidirectional")
 			(uuid "d3ef6b4a-abe8-4890-b062-e7eb8b56e56f")
@@ -30720,7 +30875,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 4 "Row1")
+			(net 97 "unconnected-(U1-GPIO7-Pad10)")
 			(pinfunction "GPIO7")
 			(pintype "bidirectional")
 			(uuid "c6a17170-922c-4ef7-b807-55db93f24f55")
@@ -30731,7 +30886,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "Row2")
+			(net 46 "Col0")
 			(pinfunction "GPIO8")
 			(pintype "bidirectional")
 			(uuid "7bcfdc3a-cb89-4dea-bc1b-e1101a0464b4")
@@ -30743,7 +30898,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 6 "Row2")
+			(net 46 "Col0")
 			(pinfunction "GPIO8")
 			(pintype "bidirectional")
 			(uuid "162c2ca5-e657-432f-b324-b0952481952a")
@@ -30754,7 +30909,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Row3")
+			(net 47 "Col1")
 			(pinfunction "GPIO9")
 			(pintype "bidirectional")
 			(uuid "cc8387b5-ac8c-446c-bee4-d47da0cfe6fa")
@@ -30766,7 +30921,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 8 "Row3")
+			(net 47 "Col1")
 			(pinfunction "GPIO9")
 			(pintype "bidirectional")
 			(uuid "b6b4e2fc-ed45-44ed-afe1-3116c02b3bcd")
@@ -30777,9 +30932,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 101 "unconnected-(U1-GND-Pad13)_0")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "cf00026c-52cf-4efb-a0e4-5ac5cffc9fe8")
 		)
 		(pad "13" smd rect
@@ -30789,9 +30944,9 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 79 "unconnected-(U1-GND-Pad13)")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "2f6cd36c-3b15-457c-884a-cbd2462568d7")
 		)
 		(pad "14" thru_hole oval
@@ -30800,7 +30955,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Col0")
+			(net 48 "Col2")
 			(pinfunction "GPIO10")
 			(pintype "bidirectional")
 			(uuid "38e513a0-65cd-473e-baa3-3419774c017d")
@@ -30812,7 +30967,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 46 "Col0")
+			(net 48 "Col2")
 			(pinfunction "GPIO10")
 			(pintype "bidirectional")
 			(uuid "bcf563fc-cdf1-40e0-bd17-18b1ba15479b")
@@ -30823,7 +30978,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Col1")
+			(net 49 "Col3")
 			(pinfunction "GPIO11")
 			(pintype "bidirectional")
 			(uuid "609398a5-50b1-4440-9964-65fdbcc6bdbd")
@@ -30835,7 +30990,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 47 "Col1")
+			(net 49 "Col3")
 			(pinfunction "GPIO11")
 			(pintype "bidirectional")
 			(uuid "f65a1d63-34ef-41c9-ab37-d4f31826992a")
@@ -30846,7 +31001,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Col2")
+			(net 50 "Col4")
 			(pinfunction "GPIO12")
 			(pintype "bidirectional")
 			(uuid "4040a3a1-c278-42fc-94bb-860ef5896d02")
@@ -30858,7 +31013,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 48 "Col2")
+			(net 50 "Col4")
 			(pinfunction "GPIO12")
 			(pintype "bidirectional")
 			(uuid "eb008c10-09cc-46fc-9554-e0b1f5979c6c")
@@ -30869,7 +31024,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Col3")
+			(net 51 "Col5")
 			(pinfunction "GPIO13")
 			(pintype "bidirectional")
 			(uuid "c828f4f5-543e-458e-b1d7-6a3e76c40ea3")
@@ -30881,7 +31036,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 49 "Col3")
+			(net 51 "Col5")
 			(pinfunction "GPIO13")
 			(pintype "bidirectional")
 			(uuid "fa1d8f6c-b074-4138-a07e-0cd7598facd5")
@@ -30892,9 +31047,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 91 "unconnected-(U1-GND-Pad18)_0")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "af2b8e21-38dd-4199-991a-b267310a3634")
 		)
 		(pad "18" smd rect
@@ -30904,9 +31059,9 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 84 "unconnected-(U1-GND-Pad18)")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "72cb26f2-a0e8-4c96-b0e7-82d492438265")
 		)
 		(pad "19" thru_hole oval
@@ -30915,7 +31070,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Col4")
+			(net 2 "Row0")
 			(pinfunction "GPIO14")
 			(pintype "bidirectional")
 			(uuid "1bacf5c7-8fa4-43b7-8329-70360ffc5456")
@@ -30927,7 +31082,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 50 "Col4")
+			(net 2 "Row0")
 			(pinfunction "GPIO14")
 			(pintype "bidirectional")
 			(uuid "2ff08682-6d1d-40fd-a39c-dcbb0ca1eb97")
@@ -30938,7 +31093,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Col5")
+			(net 4 "Row1")
 			(pinfunction "GPIO15")
 			(pintype "bidirectional")
 			(uuid "606b126a-f5e8-430a-bb47-d725ff484699")
@@ -30950,7 +31105,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 51 "Col5")
+			(net 4 "Row1")
 			(pinfunction "GPIO15")
 			(pintype "bidirectional")
 			(uuid "59b3b9f7-546a-4e38-87b9-38191d32765a")
@@ -30961,7 +31116,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Col11")
+			(net 6 "Row2")
 			(pinfunction "GPIO16")
 			(pintype "bidirectional")
 			(uuid "3f9b1514-f070-4644-acab-6108fff45c99")
@@ -30973,7 +31128,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 57 "Col11")
+			(net 6 "Row2")
 			(pinfunction "GPIO16")
 			(pintype "bidirectional")
 			(uuid "dd651268-40e7-4743-9923-ffbf888c326a")
@@ -30984,7 +31139,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "Col10")
+			(net 8 "Row3")
 			(pinfunction "GPIO17")
 			(pintype "bidirectional")
 			(uuid "c95d1869-7e0d-43c3-95a7-404a204fdf37")
@@ -30996,7 +31151,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 56 "Col10")
+			(net 8 "Row3")
 			(pinfunction "GPIO17")
 			(pintype "bidirectional")
 			(uuid "97ff07b9-538e-471b-b1b9-769e234e01aa")
@@ -31007,9 +31162,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 100 "unconnected-(U1-GND-Pad23)_0")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "ce02fbde-2ef2-4eed-bb5d-2f343113e48f")
 		)
 		(pad "23" smd rect
@@ -31019,9 +31174,9 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 82 "unconnected-(U1-GND-Pad23)")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "5ed84ddd-f993-4ca9-98b8-ca0afc311f91")
 		)
 		(pad "24" thru_hole oval
@@ -31030,7 +31185,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "Col9")
+			(net 52 "Col6")
 			(pinfunction "GPIO18")
 			(pintype "bidirectional")
 			(uuid "3709300e-0057-471c-8af4-d0fbdab86e73")
@@ -31042,7 +31197,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 55 "Col9")
+			(net 52 "Col6")
 			(pinfunction "GPIO18")
 			(pintype "bidirectional")
 			(uuid "1e91798b-3c81-46a4-af23-9be3a7f20037")
@@ -31053,7 +31208,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 54 "Col8")
+			(net 53 "Col7")
 			(pinfunction "GPIO19")
 			(pintype "bidirectional")
 			(uuid "b0ab9efd-d35f-484a-ab40-0a15bc656f67")
@@ -31065,7 +31220,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 54 "Col8")
+			(net 53 "Col7")
 			(pinfunction "GPIO19")
 			(pintype "bidirectional")
 			(uuid "daf13d9c-c79c-4adf-8695-f7ebf2426ba7")
@@ -31076,7 +31231,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Col7")
+			(net 54 "Col8")
 			(pinfunction "GPIO20")
 			(pintype "bidirectional")
 			(uuid "38ead921-abee-4299-bff0-7975f5d18e02")
@@ -31088,7 +31243,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 53 "Col7")
+			(net 54 "Col8")
 			(pinfunction "GPIO20")
 			(pintype "bidirectional")
 			(uuid "115dfffe-5c2d-4052-9e95-4fb50cffeef1")
@@ -31099,7 +31254,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Col6")
+			(net 55 "Col9")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional")
 			(uuid "802351bd-99bb-4704-aafd-63f77993fcdf")
@@ -31111,7 +31266,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 52 "Col6")
+			(net 55 "Col9")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional")
 			(uuid "c447bc2d-4dbe-4e38-bcba-2023a0a9bef0")
@@ -31122,9 +31277,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 80 "unconnected-(U1-GND-Pad28)")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "358afc38-71e3-44d9-b7ea-01f32bc75071")
 		)
 		(pad "28" smd rect
@@ -31134,9 +31289,9 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 107 "unconnected-(U1-GND-Pad28)_0")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "f7d4a60f-7997-4f14-9fa9-422dde88da57")
 		)
 		(pad "29" thru_hole oval
@@ -31145,9 +31300,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "unconnected-(U1-GPIO22-Pad29)")
+			(net 56 "Col10")
 			(pinfunction "GPIO22")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "964b58a1-652b-48dd-b916-987e27e45415")
 		)
 		(pad "29" smd rect
@@ -31157,9 +31312,9 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 64 "unconnected-(U1-GPIO22-Pad29)")
+			(net 56 "Col10")
 			(pinfunction "GPIO22")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "24cf5892-81c6-4be9-a01b-5da567fe5202")
 		)
 		(pad "30" thru_hole oval
@@ -31180,7 +31335,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 44 "unconnected-(U1-RUN-Pad30)")
+			(net 93 "unconnected-(U1-RUN-Pad30)_0")
 			(pinfunction "RUN")
 			(pintype "input+no_connect")
 			(uuid "b65b0852-075c-40c7-a601-decbe3229b30")
@@ -31191,9 +31346,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "unconnected-(U1-GPIO26_ADC0-Pad31)")
+			(net 57 "Col11")
 			(pinfunction "GPIO26_ADC0")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "7caa5e07-0816-43e6-b8b4-6cc7bab79bc8")
 		)
 		(pad "31" smd rect
@@ -31203,9 +31358,9 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 65 "unconnected-(U1-GPIO26_ADC0-Pad31)")
+			(net 57 "Col11")
 			(pinfunction "GPIO26_ADC0")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "f010c17a-663c-4d8c-a18a-24f48cf7a20c")
 		)
 		(pad "32" thru_hole oval
@@ -31214,7 +31369,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "unconnected-(U1-GPIO27_ADC1-Pad32)")
+			(net 96 "unconnected-(U1-GPIO27_ADC1-Pad32)_0")
 			(pinfunction "GPIO27_ADC1")
 			(pintype "bidirectional+no_connect")
 			(uuid "c5be69c6-4f28-4727-bf8c-d47e078537f2")
@@ -31237,9 +31392,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 83 "unconnected-(U1-AGND-Pad33)_0")
 			(pinfunction "AGND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "70cdcc38-6900-4852-8efa-a71eaacaec81")
 		)
 		(pad "33" smd rect
@@ -31249,9 +31404,9 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 45 "unconnected-(U1-AGND-Pad33)")
 			(pinfunction "AGND")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "04c61054-fcb3-453c-af07-d33c6df5781e")
 		)
 		(pad "34" thru_hole oval
@@ -31260,7 +31415,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "unconnected-(U1-GPIO28_ADC2-Pad34)")
+			(net 98 "unconnected-(U1-GPIO28_ADC2-Pad34)_0")
 			(pinfunction "GPIO28_ADC2")
 			(pintype "bidirectional+no_connect")
 			(uuid "ccb7588b-8d96-4620-be08-08cc4c7c3726")
@@ -31295,7 +31450,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 68 "unconnected-(U1-ADC_VREF-Pad35)")
+			(net 87 "unconnected-(U1-ADC_VREF-Pad35)_0")
 			(pinfunction "ADC_VREF")
 			(pintype "unspecified+no_connect")
 			(uuid "858c2ef0-4822-461a-8c89-b8a967a34070")
@@ -31318,7 +31473,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 69 "unconnected-(U1-3V3-Pad36)")
+			(net 102 "unconnected-(U1-3V3-Pad36)_0")
 			(pinfunction "3V3")
 			(pintype "unspecified+no_connect")
 			(uuid "d63aef0f-b00c-4fcb-91a7-43788df13831")
@@ -31329,7 +31484,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 70 "unconnected-(U1-3V3_EN-Pad37)")
+			(net 94 "unconnected-(U1-3V3_EN-Pad37)_0")
 			(pinfunction "3V3_EN")
 			(pintype "input+no_connect")
 			(uuid "bb35efd6-8ce9-4109-9bd7-f0f973e18568")
@@ -31352,7 +31507,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 75 "unconnected-(U1-GND-Pad38)")
+			(net 88 "unconnected-(U1-GND-Pad38)_0")
 			(pinfunction "GND")
 			(pintype "bidirectional+no_connect")
 			(uuid "9d4d9333-4fdb-4c13-a1dc-075dc49d0331")
@@ -31375,7 +31530,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 71 "unconnected-(U1-VSYS-Pad39)")
+			(net 92 "unconnected-(U1-VSYS-Pad39)_0")
 			(pinfunction "VSYS")
 			(pintype "unspecified+no_connect")
 			(uuid "afd260cb-eaa6-47f4-bf33-b734c40ab4a2")
@@ -31398,9 +31553,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "GND")
+			(net 65 "unconnected-(U1-VBUS-Pad40)")
 			(pinfunction "VBUS")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "17d477ce-b29a-442d-981f-92ae228f0e4b")
 		)
 		(pad "40" smd rect
@@ -31410,9 +31565,9 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "GND")
+			(net 81 "unconnected-(U1-VBUS-Pad40)_0")
 			(pinfunction "VBUS")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "567b825e-e699-4e1c-b058-a147837f3814")
 		)
 		(pad "41" thru_hole oval
@@ -31421,7 +31576,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 72 "unconnected-(U1-SWCLK-Pad41)")
+			(net 64 "unconnected-(U1-SWCLK-Pad41)_0")
 			(pinfunction "SWCLK")
 			(pintype "input+no_connect")
 			(uuid "117534e1-9863-4ad9-acba-b2c10b015a24")
@@ -31456,7 +31611,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 73 "unconnected-(U1-GND-Pad42)")
+			(net 103 "unconnected-(U1-GND-Pad42)_0")
 			(pinfunction "GND")
 			(pintype "power_in+no_connect")
 			(uuid "dd346441-876e-4e07-8864-b3a0bedf65dc")
@@ -31467,7 +31622,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 74 "unconnected-(U1-SWDIO-Pad43)")
+			(net 85 "unconnected-(U1-SWDIO-Pad43)_0")
 			(pinfunction "SWDIO")
 			(pintype "bidirectional+no_connect")
 			(uuid "7669de5c-17b2-4819-921c-712db23dc78c")
