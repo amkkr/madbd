@@ -255,7 +255,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -266,7 +266,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -316,7 +316,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -325,7 +325,7 @@
 			(uuid "5ad94d23-d28b-442f-9977-54ea8dc913e5")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -389,7 +389,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "019946a3-0451-45be-bb2a-9411ba8dfa54")
-		(at 347.4985 140.480697 -177)
+		(at 347.4985 144.76914 -177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D40"
@@ -705,7 +705,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -716,7 +716,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -766,7 +766,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -775,7 +775,7 @@
 			(uuid "46e7f543-2abb-4290-bfed-2b2005e504ad")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -839,7 +839,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "082319f0-3429-419a-8e27-fc1732ba7365")
-		(at 99.514002 176.673457 177)
+		(at 99.514002 180.9619 177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D6"
@@ -1155,7 +1155,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -1166,7 +1166,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1216,7 +1216,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1225,7 +1225,7 @@
 			(uuid "6a75a162-8820-40c4-bf7d-c708690c91bc")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -1380,7 +1380,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -1391,7 +1391,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1441,7 +1441,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1450,7 +1450,7 @@
 			(uuid "888a27bd-8493-4772-b7df-3df9ba1b1afe")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -1679,7 +1679,7 @@
 			(uuid "a5864f82-01ae-4dde-b384-68417b10f9fc")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -1760,7 +1760,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1800,7 +1800,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -1811,7 +1811,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -1822,8 +1822,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2179,7 +2179,7 @@
 			(uuid "88cae398-c3ba-4278-8390-cdb7240a6125")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -2260,7 +2260,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2300,7 +2300,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -2311,7 +2311,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -2322,8 +2322,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2605,7 +2605,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -2616,7 +2616,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2666,7 +2666,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2675,7 +2675,7 @@
 			(uuid "c0bd3dc4-9962-4715-b6ec-2c022568adb2")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -2905,7 +2905,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2914,7 +2914,7 @@
 			(uuid "3688ea12-b494-40a7-b4f0-a1b0cb547107")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -3014,7 +3014,7 @@
 			(uuid "1874b716-0e44-41fc-9569-ff61a2a78bc8")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -3025,7 +3025,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -3036,7 +3036,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -3047,7 +3047,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -3330,7 +3330,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -3341,7 +3341,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3391,7 +3391,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3400,7 +3400,7 @@
 			(uuid "b7d2fbd0-f94c-44e6-b374-7cee5a00a1a7")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -3464,7 +3464,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "255f3cdc-3eab-4952-8c70-01cdce16be26")
-		(at 81.501499 140.480696 177)
+		(at 81.501499 144.769139 177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D1"
@@ -3780,7 +3780,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -3791,7 +3791,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3841,7 +3841,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3850,7 +3850,7 @@
 			(uuid "a6a5e067-3033-40f0-8c4d-f4d3dca5ab85")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -4080,7 +4080,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4089,7 +4089,7 @@
 			(uuid "40072041-3832-4d04-b451-1d3a2e89f47f")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -4189,7 +4189,7 @@
 			(uuid "20e2c05b-b3e8-47ed-8931-1f3debe1bc1e")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -4200,7 +4200,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -4211,7 +4211,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -4222,7 +4222,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -4505,7 +4505,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -4516,7 +4516,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4566,7 +4566,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4575,7 +4575,7 @@
 			(uuid "9b3b407b-6967-40b3-ad8b-68d17135caf8")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -4639,7 +4639,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "2e742a16-e774-4dd4-a9e7-bd98bc12e477")
-		(at 327.117001 138.688499 -177)
+		(at 327.117001 142.976942 -177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D37"
@@ -4955,7 +4955,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -4966,7 +4966,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5016,7 +5016,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5025,7 +5025,7 @@
 			(uuid "029547ac-0126-4f40-a90d-0d3188fdd6f4")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -5089,7 +5089,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "2f416950-f953-4939-82c5-5a8ace22185b")
-		(at 347 130.96875 3)
+		(at 347 135.257193 3)
 		(property "Reference" "SW40"
 			(at 0 4 3)
 			(layer "B.SilkS")
@@ -5375,7 +5375,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084924)
+			(mid -5.243504 -6.084924)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -5397,7 +5397,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.86871 -2.486119)
 			(end -0.400001 -3.000001)
 			(stroke
 				(width 0.15)
@@ -5437,7 +5437,7 @@
 			(uuid "9c905872-a7d0-4273-ae94-0c2a7130a0e1")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -6.999999 -7)
 			(stroke
 				(width 0.15)
@@ -5458,7 +5458,7 @@
 		)
 		(fp_line
 			(start -7 6.999999)
-			(end -6 6.999999)
+			(end -6 6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5478,7 +5478,7 @@
 		)
 		(fp_line
 			(start 7 -6.999999)
-			(end 6 -6.999999)
+			(end 6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5498,7 +5498,7 @@
 		)
 		(fp_line
 			(start 6.999999 7)
-			(end 6.999999 6)
+			(end 6.999998 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5562,7 +5562,7 @@
 			(uuid "125f3c25-aa2f-4405-9b3e-404ec4256d16")
 		)
 		(pad "1" smd rect
-			(at -7 -2.580001 183)
+			(at -7 -2.580002 183)
 			(size 3.3 3)
 			(drill
 				(offset 0.45 0)
@@ -5589,7 +5589,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "312a4c69-7f8a-43b8-86e2-b6eb86d0f5ce")
-		(at 328.114001 157.712391 -177)
+		(at 328.114001 162.000834 -177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D38"
@@ -5905,7 +5905,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -5916,7 +5916,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5966,7 +5966,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5975,7 +5975,7 @@
 			(uuid "f300c58d-5694-4fb1-addd-b0ee8157095a")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -6039,7 +6039,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "3bc6e94e-d3a3-434c-8c5d-359b43de264f")
-		(at 81.002999 149.992645 -3)
+		(at 81.002999 154.281088 -3)
 		(property "Reference" "SW2"
 			(at 0 4 177)
 			(layer "B.SilkS")
@@ -6325,7 +6325,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243504 -6.084923)
+			(mid -5.243503 -6.084922)
 			(end -3.800001 -6.599999)
 			(stroke
 				(width 0.15)
@@ -6336,7 +6336,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.26871 -2.886119)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -6387,7 +6387,7 @@
 			(uuid "20c7ecc7-cf68-418d-bd1b-c607c7905297")
 		)
 		(fp_line
-			(start -6.999999 6)
+			(start -6.999998 6)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -6408,7 +6408,7 @@
 		)
 		(fp_line
 			(start -7 -7)
-			(end -6 -6.999999)
+			(end -6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6417,7 +6417,7 @@
 			(uuid "a2116d36-7845-4d4f-b066-05aff2f6e57b")
 		)
 		(fp_line
-			(start 6 6.999999)
+			(start 6 6.999998)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -6448,7 +6448,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999999 -6)
+			(end 6.999998 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6539,7 +6539,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "3c772cf1-4b43-4d9e-aadc-3b649a1be07a")
-		(at 80.504499 159.504588 177)
+		(at 80.504499 163.793031 177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D2"
@@ -6929,7 +6929,7 @@
 			(uuid "1e563092-ed32-4f1e-91b5-79d434d2d31a")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -7010,7 +7010,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -7050,7 +7050,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -7061,7 +7061,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -7072,8 +7072,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -7355,7 +7355,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -7366,7 +7366,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -7416,7 +7416,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -7425,7 +7425,7 @@
 			(uuid "9874c36f-62e7-443c-9a3f-aeceec379451")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -7489,7 +7489,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "463d3815-9677-4f7a-90f0-91940ca64131")
-		(at 101.508002 138.625671 177)
+		(at 101.508002 142.914114 177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D4"
@@ -7714,7 +7714,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "5318bd59-d895-4fd2-a3c1-1a69b7a5a89c")
-		(at 101.009502 148.137618 -3)
+		(at 101.009502 152.426061 -3)
 		(property "Reference" "SW5"
 			(at 0 4 177)
 			(layer "B.SilkS")
@@ -8000,7 +8000,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084924)
+			(mid -5.243502 -6.084923)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -8022,7 +8022,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486118)
 			(end -0.400001 -3)
 			(stroke
 				(width 0.15)
@@ -8062,7 +8062,7 @@
 			(uuid "46b413bb-966d-4020-8417-4bcf131d2a2a")
 		)
 		(fp_line
-			(start -6.999999 6)
+			(start -6.999998 6)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -8083,7 +8083,7 @@
 		)
 		(fp_line
 			(start -7 -7)
-			(end -6 -6.999999)
+			(end -6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8092,7 +8092,7 @@
 			(uuid "4b44411d-e4a0-4df0-bdde-507d4c2a2b61")
 		)
 		(fp_line
-			(start 6 6.999999)
+			(start 6 6.999998)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -8123,7 +8123,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999999 -6)
+			(end 6.999998 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8380,7 +8380,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8389,7 +8389,7 @@
 			(uuid "f4097cd4-f024-47b9-9395-00cc0b81ba10")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -8489,7 +8489,7 @@
 			(uuid "d7138435-ff6f-4013-a434-f92f3645fb2b")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -8500,7 +8500,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -8511,7 +8511,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -8522,7 +8522,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -8805,7 +8805,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -8816,7 +8816,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8866,7 +8866,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8875,7 +8875,7 @@
 			(uuid "a5a65260-5793-43e7-8211-d375e89af703")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -9030,7 +9030,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -9041,7 +9041,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9091,7 +9091,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9100,7 +9100,7 @@
 			(uuid "faa0e329-c971-42c1-aa6b-2efa49069b8f")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -9164,7 +9164,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "5f60d736-09fb-4908-b4e5-b62b6537817b")
-		(at 328.6125 167.224336 3)
+		(at 328.6125 171.512779 3)
 		(property "Reference" "SW39"
 			(at 0 4 3)
 			(layer "B.SilkS")
@@ -9450,7 +9450,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084924)
+			(mid -5.243504 -6.084924)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -9512,7 +9512,7 @@
 			(uuid "a3334d7b-3f9c-4d03-8fde-091edcb6bb3b")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -9533,7 +9533,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 6.999999)
+			(end -6 6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9553,7 +9553,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -6.999999)
+			(end 6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9573,7 +9573,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 6.999999 6)
+			(end 6.999998 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9637,7 +9637,7 @@
 			(uuid "c80bb7cd-a9c2-44c2-aaf6-b79f50450238")
 		)
 		(pad "1" smd rect
-			(at -7 -2.580001 183)
+			(at -7 -2.580002 183)
 			(size 3.3 3)
 			(drill
 				(offset 0.45 0)
@@ -9830,7 +9830,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9839,7 +9839,7 @@
 			(uuid "4fa308dc-344a-4453-9b99-d2d170061c4c")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -9939,7 +9939,7 @@
 			(uuid "39926e44-59cb-4f90-a3eb-5e51db0fe36e")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -9950,7 +9950,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -9961,7 +9961,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -9972,7 +9972,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -10330,7 +10330,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -10339,7 +10339,7 @@
 			(uuid "29f72741-c6d7-4b10-8f0d-5bbc07994c02")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -10439,7 +10439,7 @@
 			(uuid "99ac8533-93e3-4b1e-8edc-83401cddfb7e")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -10450,7 +10450,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -10461,7 +10461,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -10472,7 +10472,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -10829,7 +10829,7 @@
 			(uuid "e4909727-fc05-4cc4-ace7-088623b7721f")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -10910,7 +10910,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -10950,7 +10950,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -10961,7 +10961,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -10972,8 +10972,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -11164,7 +11164,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "6d1d916e-f84e-4972-b1ca-bd03356acb6c")
-		(at 100.511002 157.649564 177)
+		(at 100.511002 161.938007 177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D5"
@@ -11480,7 +11480,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -11491,7 +11491,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -11541,7 +11541,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -11550,7 +11550,7 @@
 			(uuid "ba5f4dbd-662c-49dc-b0ab-59785d073b5c")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -11614,7 +11614,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "73650dbf-5b15-4747-8e36-4f242b3b82e8")
-		(at 349.492498 178.528481 -177)
+		(at 349.492498 182.816924 -177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D41"
@@ -11930,7 +11930,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -11941,7 +11941,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -11991,7 +11991,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12000,7 +12000,7 @@
 			(uuid "de76efd0-3c23-4aab-8337-47930382f9cd")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -12230,7 +12230,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12239,7 +12239,7 @@
 			(uuid "48cbe0db-9aa1-4a8c-8984-82419538dacc")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -12339,7 +12339,7 @@
 			(uuid "14603b8d-0dda-485f-b7cc-1e304771ac3f")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -12350,7 +12350,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -12361,7 +12361,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -12372,7 +12372,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -12729,7 +12729,7 @@
 			(uuid "44bd24e8-f7fc-4a38-81d6-d5d9cc540c9d")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -12810,7 +12810,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12850,7 +12850,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -12861,7 +12861,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -12872,8 +12872,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13064,7 +13064,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_2u"
 		(layer "F.Cu")
 		(uuid "9370ebb2-2ae3-4827-b4e4-49341229cae2")
-		(at 350.873487 159.379964 -87)
+		(at 350.873487 163.668407 -87)
 		(property "Reference" "SW41"
 			(at 0 3.556 93)
 			(layer "B.SilkS")
@@ -13170,7 +13170,7 @@
 		)
 		(fp_line
 			(start 4.820001 -6.784)
-			(end -3.805002 -6.784)
+			(end -3.805003 -6.784)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13191,8 +13191,8 @@
 		)
 		(fp_arc
 			(start -6.069 -4.9)
-			(mid -5.327189 -6.310888)
-			(end -3.805002 -6.784)
+			(mid -5.327189 -6.310887)
+			(end -3.805003 -6.784)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13202,8 +13202,8 @@
 		)
 		(fp_poly
 			(pts
-				(xy -6.079999 -0.86) (xy -2.48 -0.870001) (xy -2.42 -1.269999) (xy -2.27 -1.619999) (xy -1.89 -2.19)
-				(xy -1.480001 -2.49) (xy -1.12 -2.680001) (xy -0.780001 -2.770001) (xy 4.82 -2.83) (xy 4.82 -6.780001)
+				(xy -6.079998 -0.86) (xy -2.48 -0.870001) (xy -2.42 -1.269998) (xy -2.27 -1.619999) (xy -1.89 -2.19)
+				(xy -1.480001 -2.49) (xy -1.12 -2.680001) (xy -0.780001 -2.770001) (xy 4.82 -2.83) (xy 4.820001 -6.780001)
 				(xy -4 -6.78) (xy -4.68 -6.68) (xy -5.13 -6.45) (xy -5.52 -6.12) (xy -5.840001 -5.65) (xy -6.07 -5.010001)
 				(xy -6.09 -4.22)
 			)
@@ -13246,7 +13246,7 @@
 			(uuid "a25a36c0-e61d-42de-a1b1-3e0480403bb8")
 		)
 		(fp_line
-			(start -6 6.999999)
+			(start -6 6.999998)
 			(end -7 6.999999)
 			(stroke
 				(width 0.15)
@@ -13266,7 +13266,7 @@
 			(uuid "f2f1c8bd-da85-4385-a288-6f308b270513")
 		)
 		(fp_line
-			(start 6.999999 6)
+			(start 6.999998 6)
 			(end 6.999999 7)
 			(stroke
 				(width 0.15)
@@ -13276,7 +13276,7 @@
 			(uuid "4a69a4cc-1184-4d06-a9b7-e991fcf29bd7")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -6.999999 -7)
 			(stroke
 				(width 0.15)
@@ -13296,7 +13296,7 @@
 			(uuid "d6c18f55-fb78-49de-b582-958efb807ba5")
 		)
 		(fp_line
-			(start 6 -6.999999)
+			(start 6 -6.999998)
 			(end 7 -6.999999)
 			(stroke
 				(width 0.15)
@@ -13517,7 +13517,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -13528,7 +13528,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13578,7 +13578,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13587,7 +13587,7 @@
 			(uuid "ba926d11-3c69-49b6-8355-3cc8c4dfa928")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -13816,7 +13816,7 @@
 			(uuid "9c476130-0d34-48f7-bad7-29492a887c54")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -13897,7 +13897,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13937,7 +13937,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -13948,7 +13948,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -13959,8 +13959,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14242,7 +14242,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -14253,7 +14253,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14303,7 +14303,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14312,7 +14312,7 @@
 			(uuid "0baf39db-0376-4adc-872a-9e674cfeedc9")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -14542,7 +14542,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14551,7 +14551,7 @@
 			(uuid "050017e4-ec48-47b7-9465-0b139a618bac")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -14651,7 +14651,7 @@
 			(uuid "cb0bba83-5949-4832-8993-e6bda053148c")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -14662,7 +14662,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -14673,7 +14673,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -14684,7 +14684,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -14967,7 +14967,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -14978,7 +14978,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15028,7 +15028,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15037,7 +15037,7 @@
 			(uuid "34064460-28a1-48b7-a9cf-29805cdf6e69")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -15192,7 +15192,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -15203,7 +15203,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15253,7 +15253,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15262,7 +15262,7 @@
 			(uuid "53f05481-d2fa-4451-96b0-05bf2bad228a")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -15492,7 +15492,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15501,7 +15501,7 @@
 			(uuid "599a2e2f-5a00-4172-b102-a495f38a62dd")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -15601,7 +15601,7 @@
 			(uuid "335a7a30-1dea-42f8-a9ab-209ac9d41dff")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -15612,7 +15612,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -15623,7 +15623,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -15634,7 +15634,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -15826,7 +15826,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "a84ca691-0233-42d4-aac2-f7a9c0490f6d")
-		(at 327.615499 148.200445 3)
+		(at 327.615499 152.488888 3)
 		(property "Reference" "SW38"
 			(at 0 4 3)
 			(layer "B.SilkS")
@@ -16112,7 +16112,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084924)
+			(mid -5.243504 -6.084924)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -16174,7 +16174,7 @@
 			(uuid "b31e3236-0b7d-4020-9c6a-e1a5fbd863f1")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -16195,7 +16195,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 6.999999)
+			(end -6 6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16215,7 +16215,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -6.999999)
+			(end 6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16235,7 +16235,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 6.999999 6)
+			(end 6.999998 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16299,7 +16299,7 @@
 			(uuid "34d1142a-ddb2-47f4-a044-5f29ca837430")
 		)
 		(pad "1" smd rect
-			(at -7 -2.580001 183)
+			(at -7 -2.580002 183)
 			(size 3.3 3)
 			(drill
 				(offset 0.45 0)
@@ -16417,7 +16417,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -16428,7 +16428,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16478,7 +16478,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16487,7 +16487,7 @@
 			(uuid "e96b3725-d0ee-485a-916e-680a332973ce")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -16615,7 +16615,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 473.265698 -4.740735 83)
+			(at 473.265698 -4.740734 83)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ce5c4e0b-7f50-4eef-a689-58f2d9f881d0")
@@ -16627,7 +16627,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 473.265698 -4.740735 83)
+			(at 473.265698 -4.740734 83)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9a48f97-c17d-4ee8-ad70-5e7e1aff73d1")
@@ -16642,7 +16642,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -16653,7 +16653,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16703,7 +16703,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16712,7 +16712,7 @@
 			(uuid "e77ebcfa-8718-43f1-9168-b54b1bd6d0b0")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -16776,7 +16776,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "ad30e082-b409-48d5-9cb3-a2faae83d234")
-		(at 80.005998 169.016537 -3)
+		(at 80.005998 173.30498 -3)
 		(property "Reference" "SW3"
 			(at 0 4 177)
 			(layer "B.SilkS")
@@ -17062,7 +17062,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243504 -6.084923)
+			(mid -5.243503 -6.084922)
 			(end -3.800001 -6.599999)
 			(stroke
 				(width 0.15)
@@ -17073,7 +17073,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.26871 -2.886119)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -17124,7 +17124,7 @@
 			(uuid "fe5c71e4-6e71-46d1-8a88-345696b4524b")
 		)
 		(fp_line
-			(start -6.999999 6)
+			(start -6.999998 6)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -17145,7 +17145,7 @@
 		)
 		(fp_line
 			(start -7 -7)
-			(end -6 -6.999999)
+			(end -6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17154,7 +17154,7 @@
 			(uuid "290d3d07-ee58-432b-80e5-916241a4c83b")
 		)
 		(fp_line
-			(start 6 6.999999)
+			(start 6 6.999998)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -17185,7 +17185,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999999 -6)
+			(end 6.999998 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17367,7 +17367,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -17378,7 +17378,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17428,7 +17428,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17437,7 +17437,7 @@
 			(uuid "b0cf7c85-3803-4e60-8243-99e8cbe141a6")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -17667,7 +17667,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17676,7 +17676,7 @@
 			(uuid "95b672db-d340-418d-9b23-0598948b32dc")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -17776,7 +17776,7 @@
 			(uuid "592219a4-2bd5-4822-9f14-ac196ad99ac4")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -17787,7 +17787,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -17798,7 +17798,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -17809,7 +17809,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -18001,7 +18001,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "b2a287ee-2d96-43a4-8e02-c3177d15dee5")
-		(at 329.111001 176.736284 -177)
+		(at 329.111001 181.024727 -177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D39"
@@ -18226,7 +18226,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "b6b19121-8033-4256-a0c2-1d2a23ac7301")
-		(at 102.0065 129.113725 -3)
+		(at 102.0065 133.402168 -3)
 		(property "Reference" "SW4"
 			(at 0 4 177)
 			(layer "B.SilkS")
@@ -18512,7 +18512,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084924)
+			(mid -5.243502 -6.084923)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -18534,7 +18534,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486118)
 			(end -0.400001 -3)
 			(stroke
 				(width 0.15)
@@ -18574,7 +18574,7 @@
 			(uuid "58a284c3-1364-4fdc-8aa0-13d357f33f7c")
 		)
 		(fp_line
-			(start -6.999999 6)
+			(start -6.999998 6)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -18595,7 +18595,7 @@
 		)
 		(fp_line
 			(start -7 -7)
-			(end -6 -6.999999)
+			(end -6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -18604,7 +18604,7 @@
 			(uuid "2b610ac7-d27d-4b01-a30c-3b6b093b6254")
 		)
 		(fp_line
-			(start 6 6.999999)
+			(start 6 6.999998)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -18635,7 +18635,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999999 -6)
+			(end 6.999998 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -18892,7 +18892,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -18901,7 +18901,7 @@
 			(uuid "14fde998-f14c-4f29-a01e-101f075d6aaa")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -19001,7 +19001,7 @@
 			(uuid "60aeeef1-541e-4ca6-be4b-3175ed6fd020")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -19012,7 +19012,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -19023,7 +19023,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -19034,7 +19034,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -19392,7 +19392,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -19401,7 +19401,7 @@
 			(uuid "5e1ff4b6-785e-492c-b7b8-c8a89cd89e72")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -19501,7 +19501,7 @@
 			(uuid "c9e16c99-45ad-4976-afd1-1488541aead8")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -19512,7 +19512,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -19523,7 +19523,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -19534,7 +19534,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -19817,7 +19817,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -19828,7 +19828,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -19878,7 +19878,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -19887,7 +19887,7 @@
 			(uuid "c285f381-0797-459d-a795-becb8e289cc6")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -20117,7 +20117,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -20126,7 +20126,7 @@
 			(uuid "d089c177-222f-47d1-bb2f-aa4881223b10")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -20226,7 +20226,7 @@
 			(uuid "82c8d4e3-76d0-402a-88bc-216904bf20cd")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -20237,7 +20237,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -20248,7 +20248,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -20259,7 +20259,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -20616,7 +20616,7 @@
 			(uuid "4a70127c-9e2f-4489-92e6-2b09027c29f5")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -20697,7 +20697,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -20737,7 +20737,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -20748,7 +20748,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -20759,8 +20759,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -20951,7 +20951,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "c50f161f-66cd-43ac-829a-28669af9b65f")
-		(at 326.618501 129.176552 3)
+		(at 326.618501 133.464995 3)
 		(property "Reference" "SW37"
 			(at 0 4 3)
 			(layer "B.SilkS")
@@ -21237,7 +21237,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084924)
+			(mid -5.243504 -6.084924)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -21299,7 +21299,7 @@
 			(uuid "f6b6a0ac-87cc-4923-875c-dab62a264f32")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -21320,7 +21320,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 6.999999)
+			(end -6 6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -21340,7 +21340,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -6.999999)
+			(end 6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -21360,7 +21360,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 6.999999 6)
+			(end 6.999998 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -21424,7 +21424,7 @@
 			(uuid "4b86ab09-4550-4d04-a09b-02b759b0c35a")
 		)
 		(pad "1" smd rect
-			(at -7 -2.580001 183)
+			(at -7 -2.580002 183)
 			(size 3.3 3)
 			(drill
 				(offset 0.45 0)
@@ -21542,7 +21542,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -21553,7 +21553,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -21603,7 +21603,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -21612,7 +21612,7 @@
 			(uuid "ea73406f-5a76-40eb-8000-61d7b8755406")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -21676,7 +21676,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "ce9d699d-2619-457c-8801-310ce87bf7f8")
-		(at 79.507499 178.528482 177)
+		(at 79.507499 182.816925 177)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D3"
@@ -21992,7 +21992,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -22003,7 +22003,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22053,7 +22053,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22062,7 +22062,7 @@
 			(uuid "8b6d24cf-dcd1-4dc2-a831-f9bde5737f71")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -22291,7 +22291,7 @@
 			(uuid "9d5de924-689e-4a68-83b4-4755c8768cca")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -22372,7 +22372,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22412,7 +22412,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -22423,7 +22423,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -22434,8 +22434,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22792,7 +22792,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22801,7 +22801,7 @@
 			(uuid "491ba6ec-b6f5-4767-a6eb-bb5cbb4e5d24")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -22901,7 +22901,7 @@
 			(uuid "4974fe08-ef51-4f0b-a2a4-c9cc09720c01")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -22912,7 +22912,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -22923,7 +22923,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -22934,7 +22934,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -23126,7 +23126,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "d7cdd4cf-c6ff-45f7-8c74-104ae23522b0")
-		(at 82 130.96875 -3)
+		(at 82 135.257193 -3)
 		(property "Reference" "SW1"
 			(at 0 4 177)
 			(layer "B.SilkS")
@@ -23412,7 +23412,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243504 -6.084923)
+			(mid -5.243503 -6.084922)
 			(end -3.800001 -6.599999)
 			(stroke
 				(width 0.15)
@@ -23423,7 +23423,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.26871 -2.886119)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -23474,7 +23474,7 @@
 			(uuid "5437bda5-963e-49bd-aae5-e5aba9794531")
 		)
 		(fp_line
-			(start -6.999999 6)
+			(start -6.999998 6)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -23495,7 +23495,7 @@
 		)
 		(fp_line
 			(start -7 -7)
-			(end -6 -6.999999)
+			(end -6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23504,7 +23504,7 @@
 			(uuid "4f6b1396-7732-4928-8bc2-420adc494143")
 		)
 		(fp_line
-			(start 6 6.999999)
+			(start 6 6.999998)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -23535,7 +23535,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999999 -6)
+			(end 6.999998 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23791,7 +23791,7 @@
 			(uuid "c2cd9344-8cb6-4fc8-a6c2-8a115cd52c4e")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -23872,7 +23872,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23912,7 +23912,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -23923,7 +23923,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -23934,8 +23934,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -24292,7 +24292,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -24301,7 +24301,7 @@
 			(uuid "7173a175-78d7-4537-ad61-8517718066d0")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -24401,7 +24401,7 @@
 			(uuid "dbaf3615-6ece-4e0b-b5c4-18c0d2ccc70d")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -24412,7 +24412,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -24423,7 +24423,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -24434,7 +24434,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -24792,7 +24792,7 @@
 		)
 		(fp_line
 			(start -0.4 -3)
-			(end 4.6 -3.000001)
+			(end 4.6 -3.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -24801,7 +24801,7 @@
 			(uuid "dcfee3fa-d076-4057-8e1d-8d67c168e341")
 		)
 		(fp_line
-			(start 2.6 -4.799999)
+			(start 2.6 -4.799998)
 			(end -4.1 -4.8)
 			(stroke
 				(width 3.5)
@@ -24901,7 +24901,7 @@
 			(uuid "ff6c2359-42e3-4fdd-b281-d541b9ea31fd")
 		)
 		(fp_line
-			(start 4.6 -3.000001)
+			(start 4.6 -3.000002)
 			(end 4.6 -4)
 			(stroke
 				(width 0.15)
@@ -24912,7 +24912,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243505 -6.084926)
+			(mid -5.243506 -6.084927)
 			(end -3.800001 -6.6)
 			(stroke
 				(width 0.15)
@@ -24923,7 +24923,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521471)
-			(mid -2.268709 -2.886119)
+			(mid -2.268709 -2.88612)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -24934,7 +24934,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486119)
 			(end -0.4 -3)
 			(stroke
 				(width 0.15)
@@ -25291,7 +25291,7 @@
 			(uuid "611743f0-d211-4270-b04c-d01daabbbc7d")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -25372,7 +25372,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -25412,7 +25412,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -25423,7 +25423,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -25434,8 +25434,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -25717,7 +25717,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -25728,7 +25728,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -25778,7 +25778,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -25787,7 +25787,7 @@
 			(uuid "4d31a22f-5b4a-4262-9da9-176fc61c09df")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -25942,7 +25942,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -25953,7 +25953,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26003,7 +26003,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26012,7 +26012,7 @@
 			(uuid "126a0160-1557-4d29-afc8-2c3d2aacb552")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -26076,7 +26076,7 @@
 	(footprint "kbd_SW:CherryMX_Hotswap_1u"
 		(layer "F.Cu")
 		(uuid "e28bafb1-a35a-426c-b3ca-97ce2a99101f")
-		(at 100.0125 167.161507 -3)
+		(at 100.0125 171.44995 -3)
 		(property "Reference" "SW6"
 			(at 0 4 177)
 			(layer "B.SilkS")
@@ -26362,7 +26362,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084924)
+			(mid -5.243502 -6.084923)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -26384,7 +26384,7 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486118)
+			(mid -1.868709 -2.486118)
 			(end -0.400001 -3)
 			(stroke
 				(width 0.15)
@@ -26424,7 +26424,7 @@
 			(uuid "60ced448-8b18-4404-bec6-a79ca0b8f3d6")
 		)
 		(fp_line
-			(start -6.999999 6)
+			(start -6.999998 6)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -26445,7 +26445,7 @@
 		)
 		(fp_line
 			(start -7 -7)
-			(end -6 -6.999999)
+			(end -6 -6.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26454,7 +26454,7 @@
 			(uuid "725b04e9-c5b2-4997-b556-3c5f0593e5e6")
 		)
 		(fp_line
-			(start 6 6.999999)
+			(start 6 6.999998)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -26485,7 +26485,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999999 -6)
+			(end 6.999998 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26741,7 +26741,7 @@
 			(uuid "c91b1f1d-2829-4c18-bc1a-4316a9238625")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -26822,7 +26822,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26862,7 +26862,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -26873,7 +26873,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -26884,8 +26884,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27241,7 +27241,7 @@
 			(uuid "f4cef22b-ac5c-476d-a7fe-b1551e0ebec8")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -27322,7 +27322,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27362,7 +27362,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -27373,7 +27373,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -27384,8 +27384,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27667,7 +27667,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -27678,7 +27678,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27728,7 +27728,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27737,7 +27737,7 @@
 			(uuid "11fea30a-754d-40cd-8948-bf6325172950")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -27892,7 +27892,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 -0.75)
+			(start 2.699998 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -27903,7 +27903,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699999 -0.75)
+			(end 2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27953,7 +27953,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699999 0.75)
+			(end -2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -27962,7 +27962,7 @@
 			(uuid "08c8c8e2-ac6b-40e4-bfdd-5ffc0b0c641d")
 		)
 		(fp_line
-			(start -2.699999 0.75)
+			(start -2.699998 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -28191,7 +28191,7 @@
 			(uuid "ef2c68d3-1ecd-434a-9da2-ed18f97a82c6")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -28272,7 +28272,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28312,7 +28312,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -28323,7 +28323,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -28334,8 +28334,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28617,7 +28617,7 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699999 0.75)
+			(start 2.699998 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -28628,7 +28628,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699999 -0.75)
+			(end -2.699998 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28678,7 +28678,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699999 0.75)
+			(end 2.699998 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -28687,7 +28687,7 @@
 			(uuid "76f87df5-1a31-4936-b06c-102a7b693bf4")
 		)
 		(fp_line
-			(start -2.699999 -0.75)
+			(start -2.699998 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -28916,7 +28916,7 @@
 			(uuid "fa838194-e4f9-455c-a149-893e41e81a37")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -28997,7 +28997,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -29037,7 +29037,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -29048,7 +29048,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -29059,8 +29059,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -29416,7 +29416,7 @@
 			(uuid "64b4225b-ed02-45cb-87a2-ee30d2ee47d0")
 		)
 		(fp_line
-			(start -0.400001 -2.999999)
+			(start -0.400001 -2.999998)
 			(end 4.6 -3)
 			(stroke
 				(width 0.15)
@@ -29497,7 +29497,7 @@
 		)
 		(fp_line
 			(start 4.6 -4)
-			(end 4.4 -4.000001)
+			(end 4.4 -4.000002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -29537,7 +29537,7 @@
 		)
 		(fp_arc
 			(start -5.9 -4.699999)
-			(mid -5.243503 -6.084926)
+			(mid -5.243504 -6.084925)
 			(end -3.799999 -6.6)
 			(stroke
 				(width 0.15)
@@ -29548,7 +29548,7 @@
 		)
 		(fp_arc
 			(start -3.016318 -1.521469)
-			(mid -2.26871 -2.886117)
+			(mid -2.268709 -2.886118)
 			(end -0.8 -3.4)
 			(stroke
 				(width 1)
@@ -29559,8 +29559,8 @@
 		)
 		(fp_arc
 			(start -2.616318 -1.121471)
-			(mid -1.86871 -2.486119)
-			(end -0.400001 -2.999999)
+			(mid -1.868711 -2.486119)
+			(end -0.400001 -2.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -31486,8 +31486,8 @@
 		)
 	)
 	(gr_line
-		(start 92.86875 116.68125)
-		(end 90.4875 119.0625)
+		(start 92.86875 121.44375)
+		(end 90.4875 123.350943)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31497,7 +31497,7 @@
 	)
 	(gr_line
 		(start 285.75 195.2625)
-		(end 359.56875 180.975)
+		(end 359.56875 185.263443)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31507,7 +31507,7 @@
 	)
 	(gr_line
 		(start 142.875 195.2625)
-		(end 69.05625 180.975)
+		(end 69.05625 185.263443)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31516,8 +31516,8 @@
 		(uuid "0e20342b-43d8-4a29-b282-48b2b22d9942")
 	)
 	(gr_line
-		(start 90.4875 119.0625)
-		(end 71.4375 119.0625)
+		(start 90.4875 123.350943)
+		(end 71.4375 123.350943)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31526,8 +31526,8 @@
 		(uuid "16203cc2-84eb-4b4d-9e9e-e805f81c3d9d")
 	)
 	(gr_line
-		(start 311.94375 111.91875)
-		(end 316.70625 116.68125)
+		(start 314.325 114.3)
+		(end 316.70625 121.44375)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31536,8 +31536,8 @@
 		(uuid "192f6436-e8e0-4ead-a90e-bfed77147bff")
 	)
 	(gr_line
-		(start 69.05625 121.44375)
-		(end 66.675 178.59375)
+		(start 69.05625 125.732193)
+		(end 66.675 182.882193)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31546,8 +31546,8 @@
 		(uuid "20d58c82-d086-4cb0-81a1-67a43743933a")
 	)
 	(gr_line
-		(start 359.56875 121.44375)
-		(end 361.95 178.59375)
+		(start 359.56875 125.732193)
+		(end 361.95 182.882193)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31566,7 +31566,7 @@
 		(uuid "41e0b4d1-b051-4280-8b23-a1f65e9b9afc")
 	)
 	(gr_line
-		(start 116.68125 111.91875)
+		(start 119.0625 111.91875)
 		(end 192.88125 119.0625)
 		(stroke
 			(width 0.1)
@@ -31576,8 +31576,18 @@
 		(uuid "4a731fa3-5c01-4fed-9f85-9bca7098cfb8")
 	)
 	(gr_line
-		(start 357.1875 119.0625)
-		(end 359.56875 121.44375)
+		(start 119.0625 111.91875)
+		(end 114.3 114.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "52e7d252-a7f7-4661-9369-e6f257bb77b7")
+	)
+	(gr_line
+		(start 357.1875 123.350943)
+		(end 359.56875 125.732193)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31596,18 +31606,8 @@
 		(uuid "675fb929-6a2d-4c04-86c2-fd41bc9e1917")
 	)
 	(gr_line
-		(start 116.68125 111.91875)
-		(end 111.91875 116.68125)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "70234f5c-5a16-4bea-9352-e5fcfda7248a")
-	)
-	(gr_line
-		(start 66.675 178.59375)
-		(end 69.05625 180.975)
+		(start 66.675 182.882193)
+		(end 69.05625 185.263443)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31616,8 +31616,8 @@
 		(uuid "7fbbaa0a-ad92-4b5d-8986-0896f5505fc1")
 	)
 	(gr_line
-		(start 316.70625 116.68125)
-		(end 335.75625 116.68125)
+		(start 316.70625 121.44375)
+		(end 335.75625 121.44375)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31636,7 +31636,7 @@
 		(uuid "840de687-8746-41fd-bace-70f1b101d7e3")
 	)
 	(gr_line
-		(start 311.94375 111.91875)
+		(start 309.5625 111.91875)
 		(end 235.74375 119.0625)
 		(stroke
 			(width 0.1)
@@ -31646,8 +31646,8 @@
 		(uuid "8707144d-1de7-4be2-a84a-0ff51f857f39")
 	)
 	(gr_line
-		(start 335.75625 116.68125)
-		(end 338.1375 119.0625)
+		(start 335.75625 121.44375)
+		(end 338.1375 123.350943)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31656,8 +31656,8 @@
 		(uuid "8d906b97-1c64-44d6-80c1-e0d65302b451")
 	)
 	(gr_line
-		(start 361.95 178.59375)
-		(end 359.56875 180.975)
+		(start 361.95 182.882193)
+		(end 359.56875 185.263443)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31676,14 +31676,34 @@
 		(uuid "b9c376b3-02eb-414a-b896-dbae914b84c4")
 	)
 	(gr_line
-		(start 111.91875 116.68125)
-		(end 92.86875 116.68125)
+		(start 111.91875 121.44375)
+		(end 92.86875 121.44375)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "bff93828-3984-4669-8b18-4b8d4111f901")
+	)
+	(gr_line
+		(start 309.5625 111.91875)
+		(end 314.325 114.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c881028c-6949-4bf2-bacd-1f7d9aafa1e6")
+	)
+	(gr_line
+		(start 114.3 114.3)
+		(end 111.91875 121.44375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ce036aa9-c753-4868-a2de-d1333593be1e")
 	)
 	(gr_line
 		(start 285.75 195.2625)
@@ -31696,8 +31716,8 @@
 		(uuid "cefc22c0-4417-4128-a972-c4c19ef37f22")
 	)
 	(gr_line
-		(start 71.4375 119.0625)
-		(end 69.05625 121.44375)
+		(start 71.4375 123.350943)
+		(end 69.05625 125.732193)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31716,8 +31736,8 @@
 		(uuid "dab9bdc6-2dfa-4c0c-a26f-d51a08e350f7")
 	)
 	(gr_line
-		(start 338.1375 119.0625)
-		(end 357.1875 119.0625)
+		(start 338.1375 123.350943)
+		(end 357.1875 123.350943)
 		(stroke
 			(width 0.1)
 			(type default)
