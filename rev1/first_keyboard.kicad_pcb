@@ -699,7 +699,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "0107ccac-8f18-482d-9f03-4af069b07162")
-		(at 326.23125 147.03125 90)
+		(at 323.85 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D35"
@@ -928,7 +928,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "0127802b-fad7-4099-8a0d-786957cf98ae")
-		(at 164.30625 185.13125 90)
+		(at 161.925 186.69 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D13"
@@ -1157,7 +1157,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "03036e48-764d-4707-bcd4-9d9f841387d9")
-		(at 269.08125 132.74375 90)
+		(at 266.7 134.3025 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D22"
@@ -1386,7 +1386,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "08ebd585-bceb-407e-a8e8-a52162272508")
-		(at 107.15625 166.08125 90)
+		(at 104.775 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D6"
@@ -2617,7 +2617,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "0e7c812e-f9f7-4544-ac01-b12f76941d11")
-		(at 183.35625 132.74375 90)
+		(at 180.975 134.3025 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D18"
@@ -2846,7 +2846,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "126d6ae8-f1ba-4bc1-9921-eb08ea68fb17")
-		(at 145.25625 166.08125 90)
+		(at 142.875 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D12"
@@ -3576,7 +3576,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "14b7ca13-ff3c-4afb-9ca1-1a7c1ecc4a40")
-		(at 107.15625 127.98125 90)
+		(at 104.775 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D4"
@@ -3805,7 +3805,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "1d35adef-38f9-4740-bf0a-b80606ac7fe7")
-		(at 126.20625 147.03125 90)
+		(at 123.825 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D8"
@@ -4535,7 +4535,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "20888b0d-a484-4548-ba49-7582a8dc8574")
-		(at 202.40625 192.275 90)
+		(at 200.025 193.83375 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D21"
@@ -5766,7 +5766,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "22d19849-8209-43bb-8cd7-1a50209ffbe4")
-		(at 88.10625 151.79375 90)
+		(at 85.725 153.3525 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D2"
@@ -5995,7 +5995,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "263992c7-6b84-4d72-abbb-cc3875ee149a")
-		(at 126.20625 127.98125 90)
+		(at 123.825 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D7"
@@ -7727,7 +7727,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "3a54b6fa-767a-40a8-b0c8-995b728c6461")
-		(at 126.20625 166.08125 90)
+		(at 123.825 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D9"
@@ -7956,7 +7956,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "3a743dd5-05a0-4068-add1-ef9031fd24f7")
-		(at 250.03125 192.275 90)
+		(at 247.65 193.83375 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D25"
@@ -8185,7 +8185,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "3f2af567-40ac-4a58-a317-2982aececac0")
-		(at 288.13125 166.08125 90)
+		(at 285.75 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D28"
@@ -8414,7 +8414,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "3f3d1200-d823-4631-af2e-53985dde2d8b")
-		(at 88.10625 170.84375 90)
+		(at 85.725 172.4025 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D3"
@@ -10146,7 +10146,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "563ac1ee-b9b6-4013-bad8-e4e7b65b5945")
-		(at 183.35625 170.84375 90)
+		(at 180.975 172.4025 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D20"
@@ -10876,7 +10876,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "569942ea-fa94-402f-8dbf-a054e27cf058")
-		(at 164.30625 147.03125 90)
+		(at 161.925 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D15"
@@ -11105,7 +11105,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "5a7a4946-b1ea-46a4-a7e4-b90013e09d12")
-		(at 326.23125 166.08125 90)
+		(at 323.85 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D36"
@@ -12336,7 +12336,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "6045427b-0709-4d89-bbd1-41babab82aa4")
-		(at 342.9 147.03125 90)
+		(at 342.9 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D38"
@@ -12565,7 +12565,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "6a3bd6d2-66b7-4a4e-9f0b-98f7ec197510")
-		(at 145.25625 147.03125 90)
+		(at 142.875 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D11"
@@ -13657,7 +13657,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "7d461f79-5e4a-4f05-b256-663bb86da782")
-		(at 288.13125 147.03125 90)
+		(at 285.75 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D27"
@@ -14387,7 +14387,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "7ecbc99c-651c-455a-8c51-f86a0219ae96")
-		(at 288.13125 127.98125 90)
+		(at 285.75 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D26"
@@ -16620,7 +16620,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "84e0036a-daed-47d6-9e72-a03638992be8")
-		(at 183.35625 189.89375 90)
+		(at 180.975 191.4525 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D17"
@@ -16849,7 +16849,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "8504a1f8-52f4-4a86-a56c-494568560599")
-		(at 307.18125 147.03125 90)
+		(at 304.8 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D32"
@@ -17078,7 +17078,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "86619dd5-c8d7-45bc-b9e8-47fdf654daf2")
-		(at 342.9 127.98125 90)
+		(at 342.9 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D37"
@@ -17808,7 +17808,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "8958513a-8535-4d2d-b41f-900ad6840516")
-		(at 145.25625 127.98125 90)
+		(at 142.875 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D10"
@@ -18538,7 +18538,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "8f3801ae-8c91-4e0b-8744-2eb2084c2363")
-		(at 364.33125 132.74375 90)
+		(at 361.95 134.3025 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D40"
@@ -18767,7 +18767,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "8fbeee97-57a9-491e-9b2b-72a6979a10ca")
-		(at 342.9 166.08125 90)
+		(at 342.9 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D39"
@@ -18996,7 +18996,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "91fddfa4-4843-4b7c-b944-90074b6d8c6d")
-		(at 183.35625 151.79375 90)
+		(at 180.975 153.3525 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D19"
@@ -20728,7 +20728,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "b319b3d8-ad0e-4bd6-a7d9-d1af1385c4fb")
-		(at 107.15625 147.03125 90)
+		(at 104.775 148.59 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D5"
@@ -21458,7 +21458,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "b44b04ad-bef3-4b4f-98db-e95118e1752c")
-		(at 307.18125 127.98125 90)
+		(at 304.8 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D31"
@@ -21687,7 +21687,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "b5f4776b-fa79-4588-8538-227814a148a3")
-		(at 326.23125 127.98125 90)
+		(at 323.85 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D34"
@@ -21916,7 +21916,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "b7adc3d3-edda-4003-be5a-7609b8d8ce15")
-		(at 88.10625 132.74375 90)
+		(at 85.725 134.3025 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D1"
@@ -24650,7 +24650,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "d3a244f0-07c1-4a5a-9811-3327f48a8771")
-		(at 307.18125 166.08125 90)
+		(at 304.8 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D33"
@@ -24879,7 +24879,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "d552aa93-f9e2-43cd-bff5-868e1108726d")
-		(at 269.08125 170.84375 90)
+		(at 266.7 172.4025 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D24"
@@ -25108,7 +25108,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "d600770f-bf2f-481e-911c-52d6ad24ef96")
-		(at 269.08125 189.89375 90)
+		(at 266.7 191.4525 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D29"
@@ -25337,7 +25337,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "d669fcd8-011f-4886-8c2c-598208d7a32a")
-		(at 269.08125 151.79375 90)
+		(at 266.7 153.3525 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D23"
@@ -26568,7 +26568,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "e69c2073-5657-4994-8650-8f3c646e194f")
-		(at 164.30625 127.98125 90)
+		(at 161.925 129.54 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D14"
@@ -29476,7 +29476,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "f0d41bba-ab1f-4c68-a266-e7e6e3f85b5f")
-		(at 364.33125 166.08125 90)
+		(at 357.1875 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D41"
@@ -30707,7 +30707,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "fa3bb1b5-bad0-4374-8155-614def2b0c2c")
-		(at 164.30625 166.08125 90)
+		(at 161.925 167.64 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D16"
@@ -31938,7 +31938,7 @@
 	(footprint "kbd_Parts:Diode_TH_SMD"
 		(layer "F.Cu")
 		(uuid "ff609f6d-417b-46fd-9251-e928931947cd")
-		(at 288.13125 185.13125 90)
+		(at 285.75 186.69 90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D30"
@@ -32543,71 +32543,5 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fd89652e-f832-475b-ac2d-65171650c59b")
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
-		(uuid "91c64235-22a4-49b8-92a7-46b83ef37ab2")
-		(pts
-			(xy 250.03125 138.1125) (xy 216.69375 138.1125)
-		)
-		(height 0)
-		(gr_text "33.3375 mm"
-			(at 233.3625 136.3125 0)
-			(layer "F.Cu")
-			(uuid "91c64235-22a4-49b8-92a7-46b83ef37ab2")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
-		(uuid "afa2b86c-07ae-488c-8def-0a5fad54d0f5")
-		(pts
-			(xy 183.35625 138.1125) (xy 216.69375 138.1125)
-		)
-		(height 0)
-		(gr_text "33.3375 mm"
-			(at 200.025 136.3125 0)
-			(layer "F.Cu")
-			(uuid "afa2b86c-07ae-488c-8def-0a5fad54d0f5")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 )
