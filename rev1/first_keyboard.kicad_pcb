@@ -1704,7 +1704,7 @@
 		(at 162.45625 192.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref3"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "993dff33-7d78-4882-a738-f015db066666")
@@ -5337,7 +5337,7 @@
 		(at 242.45625 192.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref6"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "f822cd44-19e2-4686-a683-014de96b4149")
@@ -5964,7 +5964,7 @@
 		(at 318.45625 117.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref8"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "70a2165d-48e6-44df-8823-d014d76279b4")
@@ -6090,7 +6090,7 @@
 		(at 86.45625 117.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref1"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "231230e9-555a-4e1b-9eaa-b4bc5c8e6f85")
@@ -6216,7 +6216,7 @@
 		(at 314.45625 173.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref7"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "933f1c67-3038-40c4-891c-646496221d2a")
@@ -10211,7 +10211,7 @@
 		(at 90.45625 173.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref2"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "38d42347-73d0-406b-981c-2882ec224dff")
@@ -16850,7 +16850,7 @@
 		(at 238.45625 117.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref5"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "a65f5321-c40f-4baa-bfbe-8679abc85a0d")
@@ -17978,7 +17978,7 @@
 		(at 166.45625 117.025)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "Ref4"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "bbff8b67-c3ea-4526-af5d-570684413edb")
