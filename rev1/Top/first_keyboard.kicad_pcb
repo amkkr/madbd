@@ -49,7 +49,7 @@
 			(layerselection 0x00010f0_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes no)
 			(usegerberadvancedattributes no)
 			(creategerberjobfile no)
@@ -80,31 +80,19 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber/20240804/PCB/")
+			(outputdirectory "../Gerber/20240908/TOP/")
 		)
 	)
 	(net 0 "")
-	(net 1 "Col0")
-	(net 2 "Col1")
-	(net 3 "Col2")
-	(net 4 "Col3")
-	(net 5 "Col4")
-	(net 6 "Col5")
-	(net 7 "Col6")
-	(net 8 "Col7")
-	(net 9 "Col8")
-	(net 10 "Col9")
-	(net 11 "Col10")
-	(net 12 "Col11")
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "004c6f11-b079-4535-a476-2046eba5a258")
 		(at 192.88125 188.11875)
 		(property "Reference" "SW21"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d443d212-4a25-4df6-81d0-ad6c351fcdf2")
+			(uuid "79e79b33-5d34-4948-819f-5f4069eaba61")
 			(effects
 				(font
 					(size 1 1)
@@ -116,7 +104,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c131dae-46ed-4bb4-bf40-a3c2e77ca98d")
+			(uuid "5228d954-e710-442c-8c16-557b04ff5218")
 			(effects
 				(font
 					(size 1 1)
@@ -124,11 +112,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6028974b-2883-43b6-9935-f73852e72d5f")
+			(uuid "88be981b-fe93-4320-953f-0baf8bc63dd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +128,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a5789c5-d4dc-41c6-91e8-3084f7122617")
+			(uuid "08e1a06a-e266-4986-8b7d-26c46f971b6c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,7 +140,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0105112-210a-4d87-a23e-73e761db269b")
+			(uuid "4a072db8-3665-40b4-a0f6-222acda9bbec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,6 +153,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "783ed1cf-c655-4bb9-b6e4-c05898a0807b")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2fb3b734-4f81-47e1-a165-69a9257868c9")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7bf68e90-2338-493d-82d1-437a5bdb5219")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "da912039-d85b-4d8e-9d30-3a118a9b03b5")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -172,7 +200,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cf66ee20-bd83-4d9e-921d-5d10ac8c7403")
+			(uuid "09f2d29c-0441-49ac-8916-1fd21e5e4e79")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -182,7 +210,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9852c9cb-f700-4b4c-9502-8bef606590ea")
+			(uuid "67d199d6-77b5-4e3c-8010-13bd7b1dbdc2")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -192,7 +220,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "10bbcb2c-38a9-4efa-884b-b6703298a027")
+			(uuid "4dd617af-1c6b-4e3a-a6bf-433ea43ee93f")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -202,51 +230,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ea8ad712-b64d-4a7d-b68b-70330a739d7b")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c7d3484a-d78b-4117-8e40-264c0a2f665e")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f7acb9b0-69a8-4e66-aecd-cb7736ac85bd")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4d081a42-340c-46ce-9820-5feac118fe3e")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0e9bb2f2-f667-42ab-a14a-69ce79358892")
+			(uuid "9006dc20-e703-47c6-94e5-5658021e3388")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -355,15 +339,15 @@
 			(uuid "1874d237-663a-4113-957d-33cb01004749")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "0c0681cc-baa1-4abe-b2d8-0166b1d49f50")
 		(at 230.98125 147.6375)
 		(property "Reference" "SW23"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "34fb983e-1bbd-4d42-970b-c0cf1b75c1f5")
+			(uuid "082ed23e-9905-4249-87fb-5b8f8645942c")
 			(effects
 				(font
 					(size 1 1)
@@ -375,7 +359,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91029262-a283-429d-a7c2-36014ce9adb6")
+			(uuid "fc54abe3-ce43-4276-8241-59006128ffc0")
 			(effects
 				(font
 					(size 1 1)
@@ -383,11 +367,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c52cd43-b36b-4931-ac43-2825282e965e")
+			(uuid "5914302f-1026-4a85-bd5f-5f7246cbc6f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +383,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4f23c81-0d9a-43ce-9cbf-9ecd43a6732b")
+			(uuid "1a6376d5-d275-4f8a-8a81-ca11fad7a07f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -411,7 +395,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ac6995d-cbd3-44b0-898d-16d2c42cc909")
+			(uuid "b85ae37c-9842-41b3-a09f-1d0b0bd8b626")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,6 +408,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1f9adceb-1a3a-4609-a5dd-beaad010e3df")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1be0cff0-a13f-4221-a110-c054b7c10776")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5301e32b-1452-420d-857e-1ce2330d7042")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d018f8d1-737d-447b-8e9d-e64b32f08db2")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -431,7 +455,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9dcd361b-f6d4-4ce5-99bd-7f6c5a358769")
+			(uuid "84158d2a-28df-47fa-82f1-e0acf855f569")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -441,7 +465,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "52bbf491-f25b-4669-8359-9c124cfe6cc4")
+			(uuid "4d2c2ab7-9324-49af-8cb6-fec1da13bb2e")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -451,7 +475,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "43fb98b9-d365-40da-815d-9db6ee76d12a")
+			(uuid "166e42bd-253b-4ab2-a89a-92a270a5942f")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -461,62 +485,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b02fd94e-9cb6-4f92-94bf-bdd58ca1f042")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2ee25dce-d135-4d72-8c6b-c77a281184e7")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "eb2196ea-0b38-4383-9e7b-19ce596fbac6")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e60c0823-925d-4894-9ed7-3ef215127f6d")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "68e84c8d-6012-4172-8af2-bb3e35eb489d")
+			(uuid "f0075658-93f9-4850-9eb8-f49a62944aa4")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "0e18b6bf-c568-4bd0-8ee4-a1ae6db08a3c")
 		(at 230.98125 185.7375)
 		(property "Reference" "SW29"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f129774e-82aa-4d8b-aee4-9c75e2ff9d23")
+			(uuid "39791b79-d8c1-4746-8e0b-508485e9acfe")
 			(effects
 				(font
 					(size 1 1)
@@ -528,7 +508,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1850b0c2-a944-4bb4-979a-7b872e996a27")
+			(uuid "43e03c51-dc93-4b15-ab67-35c103230b00")
 			(effects
 				(font
 					(size 1 1)
@@ -536,11 +516,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee70ef80-4522-406a-8e1d-21d97f0ac466")
+			(uuid "39239c7a-6580-43d7-806f-d6e7f2461485")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +532,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75994ca8-eb31-4c58-bc94-be7d283e48cb")
+			(uuid "097eac9f-bd34-4e3d-acec-ea7650545ee0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +544,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f18505cb-77e5-4e03-b86e-90add8c0da20")
+			(uuid "b6fc7bf8-5308-4df2-b5bb-da642291835d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,6 +557,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "175c307c-86f9-4c78-a89c-ff41cac1664b")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2536ddcb-95b2-4ab0-a3bd-f1449a40729e")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fc7ba7ef-ea93-4766-a157-cfc2fadd0b14")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "223581e1-90fc-4911-bd8d-5253b3cbe237")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -584,7 +604,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "24ce18aa-7eb4-4207-b82b-8a9acaf65e47")
+			(uuid "97684677-8100-4957-a453-5ca492f25cb5")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -594,7 +614,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "01daf0d4-5fd9-4d59-9a9e-cf9670acd9b0")
+			(uuid "61285d05-b18e-4a91-916e-f5cc8ef85bbb")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -604,7 +624,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0d95d085-0639-4fdb-9779-2a30b9e60217")
+			(uuid "798986e9-7caa-420e-9008-91bd51548225")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -614,62 +634,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a43f0a8e-f5f0-4092-8dcb-6e53f39032ed")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9c7d9ff0-163c-4d6a-b06b-5691556482df")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "168bb5c0-7464-40e0-96eb-05c7ec37f837")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "01c7dffb-33be-493f-9e96-f9f674285579")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "5f8282cc-6dc6-45e4-a569-fd54e8277509")
+			(uuid "b312657d-2299-4c3f-9ef2-cf1f41e17b5d")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "1312b9c0-55c4-479e-b6ea-ceaee084bd2e")
 		(at 154.78125 180.975)
 		(property "Reference" "SW13"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d612b6b5-23bd-48ee-b83e-d6b33df96099")
+			(uuid "06cf5021-ea17-4725-a618-f47e1ee099d6")
 			(effects
 				(font
 					(size 1 1)
@@ -681,7 +657,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9eaa66a3-c097-4616-a1e1-104219655134")
+			(uuid "ad380c85-0232-4791-95d7-ace1bc2c80e8")
 			(effects
 				(font
 					(size 1 1)
@@ -689,11 +665,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8f72e04-e847-4ecb-8bf4-e05cc05fb0cf")
+			(uuid "765a6953-a1eb-4756-9915-88c001b8f18c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +681,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96064973-a99b-44d1-a0eb-84b27f0a87fa")
+			(uuid "2235565c-23e9-4285-bcd7-0b84db3ec108")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +693,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a94fbc8-a073-4521-ab13-d4ddaf2fee84")
+			(uuid "4a82fec8-b705-4be0-a6a0-481903ea354e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,6 +706,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6bd0e00c-9383-4b30-8e36-bc49845985ea")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8f7c1ec9-dc06-4ddc-a8e6-eecf4e9a686c")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c689d646-2f45-4d8f-92ec-ee89bbee97e9")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "81486496-f136-498b-aa80-e45fba55cc01")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -737,7 +753,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "48548f3e-ed0d-42c8-9cdf-9b58195de810")
+			(uuid "308ce10e-1c9d-48e3-8d3f-9fbc9cf26a5b")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -747,7 +763,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "77254c67-a89d-4b64-9fdd-18f9ff9d67e7")
+			(uuid "fff61148-4a93-4c8c-a1b5-9d81736ab43e")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -757,7 +773,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "385b8d11-f1df-4bc6-94d8-a899270af322")
+			(uuid "9a4f53d9-e531-4586-a915-fb2fd0a61f6f")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -767,51 +783,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "558906d9-819f-4177-8a39-e88372872391")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b6bea40a-146b-43ec-b40d-b70adb893429")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "727f3381-fb42-4ded-b209-3c2b0e8f69b5")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "de070eb2-c142-4608-ade3-ab7460bfbbc9")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "19757ef0-c94b-4b7e-9558-3bc2671056b6")
+			(uuid "344b1aad-ed19-4c10-bc0f-70b057f42a96")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -920,15 +892,15 @@
 			(uuid "629b18b1-0711-43e2-9b57-1521f47cb8fd")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "1fe0fea3-0564-4ff1-84e9-da9d6fc9c0fd")
 		(at 307.18125 161.925)
 		(property "Reference" "SW39"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ef42d615-52b9-4585-9c80-8b62aba65a1e")
+			(uuid "8043d151-ec06-40bc-91f8-b059a6bedafc")
 			(effects
 				(font
 					(size 1 1)
@@ -940,7 +912,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d79ee6de-12c6-46b7-bb95-10543b35d176")
+			(uuid "297db56d-1751-4b41-af67-f7e1cd7b39f5")
 			(effects
 				(font
 					(size 1 1)
@@ -948,11 +920,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19fef0c0-3077-4041-b301-7470bd3f3f32")
+			(uuid "6be2ec0d-3947-481c-83c4-820673697161")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +936,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "005a8257-4532-4c24-a2aa-948a2b12974d")
+			(uuid "34e64e5f-d2c9-4210-937f-f97d54f598e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +948,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ac1bf49-8fd6-4554-ab6c-64816bce32df")
+			(uuid "195f9e9e-f40e-4686-a981-9e956ac38bd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,6 +961,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "23e7740a-8636-4b2c-ac79-defa88bc2a5f")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d906ad9f-53d0-468d-928f-87fef70d118a")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d3067df-8fe7-4a00-8293-d691a230910d")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2da8f45c-b6e1-4dfe-babd-accf746377ab")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -996,7 +1008,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0c1c143d-94d5-491a-8dd4-95a693a4eed7")
+			(uuid "551a2982-6179-4776-827a-9bf93f114839")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -1006,7 +1018,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5efc1088-680e-42b0-a8cf-eae5098bb757")
+			(uuid "02494ec9-b2b3-418e-9066-01610b3d9196")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -1016,7 +1028,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7e129c22-8e36-4b10-89c9-22712c660385")
+			(uuid "3a80fde5-fa16-46a9-b7d0-077e589d1518")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -1026,62 +1038,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "98eebb00-1ea6-473a-837f-40bf5c3ca31a")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0b9a5fe4-7e9b-4d70-a4a7-31f76fd97dc1")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "09dfd348-0aa3-45d0-9cb4-6450111400a7")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2ab3ec28-5618-4a0a-b487-312909bcd1e9")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "1754480d-5cb9-4a02-8794-4cd539061332")
+			(uuid "a3094a94-f8c1-4b7b-8b03-d4d60fc3e678")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "2110b0a0-be58-4950-ba93-587be045c1e7")
 		(at 230.98125 128.5875)
 		(property "Reference" "SW22"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e7383f2a-2925-4c2d-b5b6-5b80d742588e")
+			(uuid "c0b71777-cf50-41ec-a2ce-ced59bf35c6b")
 			(effects
 				(font
 					(size 1 1)
@@ -1093,7 +1061,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf48be54-8ca6-4d34-98b2-615cfdcdc710")
+			(uuid "6fdae7b4-5e15-41f3-a111-d24440d5a6ad")
 			(effects
 				(font
 					(size 1 1)
@@ -1101,11 +1069,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3c5f036-2717-4da0-96ba-a94b9c50d0cc")
+			(uuid "31d3c07a-f234-410d-9a82-83ee52efdb73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1085,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7035164-bf16-466f-b788-d9d416b33bcc")
+			(uuid "6f325828-55be-4826-b254-922895e45092")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1097,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "750d98d0-4cdb-40eb-9aca-404c71ef1a8b")
+			(uuid "b4656fcd-e46a-4ede-8fa8-946d87451ec4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,6 +1110,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3c62a38e-21fe-4702-9bb1-7746521bea7f")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "782bef38-5390-489f-81c3-52a8941b0fa7")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "22034e0a-80ed-4ad9-ab12-e7cd305ff8e0")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1a0a0432-edea-4f67-bfcf-aa153459e056")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -1149,7 +1157,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0b793b24-08b0-4f07-8a29-59107421a0f9")
+			(uuid "50b9ef0d-b535-4f15-a0bc-78061096f32b")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -1159,7 +1167,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e3fd85c7-439a-4195-80af-c0a19aea1b93")
+			(uuid "eaa0edef-9fd9-41af-89e0-3bbf4fccb4d2")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -1169,7 +1177,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "152e6aeb-d458-49f9-aeea-25fa93654d28")
+			(uuid "b0612b83-b669-4d6d-9f78-79bed79cd740")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -1179,62 +1187,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d754b78d-afd4-48a4-8e71-0a8f4aac1e30")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "61cacc32-8a70-4810-921c-d6d2294131b8")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "32db2c2f-8d0c-4fda-9fd7-e4f9b52fb647")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "23a29a35-af68-47be-bd54-55bbf55ee28d")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3cfe6c6a-e3e1-45bb-ad00-b25e9f3624b0")
+			(uuid "24d9cc65-8694-4a73-b0f9-67961fe1f3b0")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "21bb1244-0c05-42fb-970c-5d4f4c491532")
 		(at 269.08125 142.875)
 		(property "Reference" "SW32"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bd10f096-7207-4ed0-b0b4-3a5134d93d64")
+			(uuid "11246117-62b5-4eec-a1fc-7071b8a42020")
 			(effects
 				(font
 					(size 1 1)
@@ -1246,7 +1210,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a38440b-bd79-4d6a-ac07-3d42f7f0c3d2")
+			(uuid "54711318-a0c6-457d-9cc1-8708b20aed16")
 			(effects
 				(font
 					(size 1 1)
@@ -1254,11 +1218,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fa3c477-4839-4a23-80b7-aad68c501e83")
+			(uuid "65808b05-34b5-4132-9084-54a58c3c3fce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1234,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c77f4ecd-24bc-4b59-aace-c0662afcbcf7")
+			(uuid "3f23b886-74d4-4121-9064-7ebba282b009")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1246,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56bf0d76-b075-421b-a621-29e6967132eb")
+			(uuid "2a44c6ce-4013-4570-89eb-65fa42c8744a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,6 +1259,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5c0301b9-08f3-4a05-854a-5e5f95403152")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea43ba3e-7443-4b33-9f18-c4a9805b298e")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7b0c7726-cb52-482d-a6da-dd09063e5ee1")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "55d53c5f-4866-46dd-82af-796999192224")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -1302,7 +1306,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "99eb16a0-a2a7-465e-b80e-e845928e3246")
+			(uuid "60fabf3a-cc0e-47ae-a122-b821fd5797cd")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -1312,7 +1316,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b3cdf17a-d432-4e04-8e7c-0e925a9854d3")
+			(uuid "c03b1877-863b-4537-ac8f-1447b69b5ef3")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -1322,7 +1326,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0ef89eef-8c7f-4937-bd60-5145d96326f5")
+			(uuid "9172f88c-d85b-4f57-ae5d-ea6e77581c42")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -1332,62 +1336,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b83dfcc8-cd7e-472f-94b0-b9dafa3c051a")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3037cc15-aa77-4d70-a698-4d6795fe59b6")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "77373aae-1d94-4b1d-8cab-518a122b882e")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "fa455e3a-73e7-48b0-a0db-8afb46f1e2fa")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e2b6e1ae-8d65-4535-8a35-95e94fd5bac0")
+			(uuid "6b342524-2652-49d5-b142-79c865025e6e")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "293e7fd4-a991-496e-8e08-3c68c04ce862")
 		(at 78.58125 128.5875)
 		(property "Reference" "SW1"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "735efccf-7fb3-4b54-8560-81a7842384b1")
+			(uuid "c10a1f41-9e1e-4612-a574-f81344c2c54a")
 			(effects
 				(font
 					(size 1 1)
@@ -1399,7 +1359,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4061ce9c-7502-482b-bbf9-c5aad3a941aa")
+			(uuid "b48e1671-1cda-46c6-a2c6-ee860f939a06")
 			(effects
 				(font
 					(size 1 1)
@@ -1407,11 +1367,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "304886fd-4515-4d4e-9748-5c71a881d4e8")
+			(uuid "2ef3e46e-2453-4c43-801d-6e8228b044d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1383,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79ba06f3-cf70-4013-9bcf-f91bf1774ffe")
+			(uuid "0c559211-09eb-4557-bd06-3c52fda888ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1395,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05c72af4-e9c6-4e1a-b5cc-3312a1b6a234")
+			(uuid "6379abec-5380-49f8-9682-91e5d6008a27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,6 +1408,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "14eb331a-6b52-4dbb-b530-4dde73e6c520")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39c1ea15-ccd0-4e04-93b7-81a94d10a7c9")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a53dfc5d-1d96-489e-b5e4-77b209cca83f")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bba1b9e2-5fc1-4f73-b595-585e9a7cf048")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -1455,7 +1455,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f355fb29-e42e-40aa-af05-1c5740ab3717")
+			(uuid "2bc1d219-11f3-4872-b42d-f17073ce6b41")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -1465,7 +1465,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3db0be9f-10c8-4c6c-a282-33a599145a9e")
+			(uuid "68e15a38-7ae4-4d42-9ebc-70e5630cfef4")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -1475,7 +1475,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "08821267-f5f3-4396-8093-1fc5a2cb6fb3")
+			(uuid "3f49d305-7459-4feb-bb80-16f871da8429")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -1485,62 +1485,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5c7648be-4d98-41f4-8295-2aadfa8fd283")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "664c172d-d6a1-47cb-b77a-74e1084c8191")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "069a6472-a84c-4024-b122-1715eeb0f2d3")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d8c5a53a-5b7f-487b-b96c-91a0787aea3a")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9b353eab-83e6-46fb-823f-542e4578e41e")
+			(uuid "6ee106ae-3a5f-4efa-857e-be8cc266d1d1")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "2b55c270-943f-4a4a-9a2f-03b988ad0fd9")
 		(at 173.83125 128.5875)
 		(property "Reference" "SW18"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7b807269-2e8d-406e-9083-46f00c0964c7")
+			(uuid "cbca0754-5e4c-41cc-951f-42c048abe40d")
 			(effects
 				(font
 					(size 1 1)
@@ -1552,7 +1508,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95aaae78-0872-42e8-a6e4-0c62e0718ffd")
+			(uuid "987333fa-d282-427c-a007-9996272a1711")
 			(effects
 				(font
 					(size 1 1)
@@ -1560,11 +1516,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7535ce33-ed0a-4ae5-8cb5-4e5854ab5d13")
+			(uuid "50b43f35-fa30-4cb1-b0ab-334882f22745")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1532,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d294458e-51c4-4bbd-aa24-94bd8e8cb5f0")
+			(uuid "21e7bf68-8ae5-45d6-ae98-66a43c3216f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1544,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fe1904e-cecd-4803-976d-fdf37a06a61f")
+			(uuid "03199f1a-8f38-41d0-b563-b7b720b23e31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,6 +1557,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8c283efd-524a-4500-999f-aa87493c0497")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b94d9df6-5ef6-4fde-9df1-67891068c96e")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cd29518e-b403-425e-a370-b08ae2211388")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "32e6fed3-08ae-4390-8630-76e78eac1cd3")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -1608,7 +1604,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8c19febe-3901-41be-964e-dc7df1546d4e")
+			(uuid "d56a4042-6fd5-4841-af9a-a6e84b2d02df")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -1618,7 +1614,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cb223be7-e609-45a3-bf72-a53e201edcea")
+			(uuid "6dd4c16b-8414-473c-b2ad-b4394f145409")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -1628,7 +1624,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f9a9b58b-4d64-4954-942f-22ebbbd0cfbd")
+			(uuid "d7d74c96-69b8-431e-a943-570e3d921109")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -1638,62 +1634,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0a71db72-14cd-432d-b98f-1fea465f684b")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "216f66f0-ee2e-4d3e-8f5d-fb9060f10d69")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "562e5ecf-6267-44a8-a772-d024cddec03a")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "80338f59-d951-43a6-8981-e48e12cb78a7")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f33b4da9-1600-4a68-ab13-c8b0fed335a5")
+			(uuid "d13e1f2a-92ae-478c-ac47-63e75dd790f3")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "366b498c-5f87-427a-856b-3572e2f95b4c")
 		(at 116.68125 161.925)
 		(property "Reference" "SW9"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "863b05b6-11ef-4d6f-9d93-f1128d3d21d5")
+			(uuid "257c9d2d-46d6-4294-a53b-68d70d3f3568")
 			(effects
 				(font
 					(size 1 1)
@@ -1705,7 +1657,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "daaf7c03-25d7-4f1a-9d26-8a1d6401da8b")
+			(uuid "8bd48f5d-aa60-4b1f-b08a-d92d209bc5a2")
 			(effects
 				(font
 					(size 1 1)
@@ -1713,11 +1665,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b2b9b19-67ec-4ca6-af81-70e1744cb6fe")
+			(uuid "8871c47f-5ce5-416e-99b7-1d4b8fe09af2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1681,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "712b73b5-275e-482d-9da1-ac5d7000adc3")
+			(uuid "65f9eec2-a6ce-4a46-a0b3-49001092e33a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1693,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a3d07a5-54be-4ca8-820d-0fcfe6bf1eab")
+			(uuid "881c15a3-a978-4893-8891-2aca84d95036")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,6 +1706,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0cf9718a-6c9c-4921-b6a7-bec477578f36")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cef88ff6-23bb-4db8-8518-ef13d0acc468")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d20d264c-40b5-4b0f-91de-6997ebf6af2a")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bb241ad8-8144-48cc-9900-674c97337d40")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -1761,7 +1753,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "56774ae5-1247-45c2-92a8-c5fa2d6f9813")
+			(uuid "0423d832-5be3-4669-b45d-6ffb4af15c28")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -1771,7 +1763,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3a5742e9-d555-47ac-94c0-43947247ca0a")
+			(uuid "941f1937-e46e-4cfd-b3ec-58840ff664fb")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -1781,7 +1773,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4bef315b-c92e-4206-8437-8f26c9c1ec50")
+			(uuid "cede1f64-efd9-49f0-85a9-cf9bbfee6331")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -1791,51 +1783,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c55f384c-147b-4972-89bb-14e7bad8a762")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f504df1c-0abd-4730-b474-7605c03f07e1")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "543fa3a0-49a1-44f2-a36b-5ff52aa8b1ba")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c21ddbcd-a815-4b93-831d-8237a014bfcf")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ef62f98c-781d-4954-91f0-28dcff08838b")
+			(uuid "0b9aea2b-496d-489c-b09c-7eefb1c890a0")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -1944,15 +1892,15 @@
 			(uuid "b18ed4d6-292d-4a3c-9f57-f3511c4ae260")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "4135c111-5be3-48c7-99d3-4cbc994c256c")
 		(at 173.83125 147.6375)
 		(property "Reference" "SW19"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2e02bf8d-3b22-4e3c-90f2-96c5ceba2c88")
+			(uuid "0f6c9335-741f-43a0-acbf-4cc3a5246155")
 			(effects
 				(font
 					(size 1 1)
@@ -1964,7 +1912,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bf199c4-3aed-4e54-b268-d42dfc738dc1")
+			(uuid "f9fec36f-975e-45cc-8121-1dabbc828557")
 			(effects
 				(font
 					(size 1 1)
@@ -1972,11 +1920,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fe40375-f9c9-4e7f-ba47-a5609b25480d")
+			(uuid "6b7f2d2f-5ccf-4186-86ae-d6e4232442c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1936,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97bbc1a7-2e8f-4f95-b70a-a7ded1af0937")
+			(uuid "ce6e3f9e-858a-47df-95ed-90098288886d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +1948,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e61eb74-803a-4a9d-aa54-c335be4f9a2a")
+			(uuid "5ec614a4-e759-47da-8587-bf15db9f81cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,6 +1961,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "684d1831-6f96-4300-8e35-2fc6330300ad")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2d68e351-ceee-4793-920e-fd88decd684a")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d831e9a9-bd84-4125-b545-93b22c58d141")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "205babdf-7998-40bf-ba14-7e8d4c96e024")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -2020,7 +2008,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7b78ff90-d181-44bd-814c-52d82f7871cc")
+			(uuid "0992d8b0-8db2-4a20-8d83-0a668e3cea40")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -2030,7 +2018,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "baad0ce0-d66f-47da-9310-a0b644ba470c")
+			(uuid "26853f2e-c4bf-4ea8-bd54-687ccf88c8f6")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -2040,7 +2028,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8e4754fb-184f-4716-b258-583db8ae2879")
+			(uuid "bc4090a5-f309-42d5-9312-7f3c8da5d26d")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -2050,51 +2038,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9d12bcc5-4524-4bdf-a43c-5d02a9059452")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d2bdff4f-028e-4c92-861e-31913dfd5c9d")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4b6db758-91e4-4d68-bcd0-6c7e6a0c4281")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b3432f75-ab4a-46a4-8307-d21bc9a0161f")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c436f586-55bc-40fc-ac6b-f692e12b5a3b")
+			(uuid "48908252-a774-476a-a2b0-520552f23d78")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -2203,15 +2147,15 @@
 			(uuid "d746b942-2339-4251-a778-d3c5893e56b9")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "534b0618-7bd8-4b9c-91ff-c8fa913ef6d4")
 		(at 250.03125 142.875)
 		(property "Reference" "SW27"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8efe28e8-8666-4b54-8e64-ff404d8c5fc7")
+			(uuid "04bb89e1-ce2d-44c3-92e4-24acf95fc75e")
 			(effects
 				(font
 					(size 1 1)
@@ -2223,7 +2167,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17cf340b-6b44-4577-8eed-b2d950b7636f")
+			(uuid "227cf4a9-7e7e-41dd-a0f2-c6b707dfe08d")
 			(effects
 				(font
 					(size 1 1)
@@ -2231,11 +2175,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "065ed3d5-7999-4aa9-9978-33e22dea7ec5")
+			(uuid "cbddc548-2eb8-4d16-b7ff-3229cfce6415")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2191,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71ece0e3-3a0e-49ac-967b-31c201f0d74a")
+			(uuid "ce3e7c0b-6be6-4cad-be82-aa314005c8fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2203,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fa155de-33ab-4849-a923-cbdc09d8be6b")
+			(uuid "80f9ed55-c719-4a5b-be1b-2969e7812b0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,6 +2216,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4c2cd025-6e64-4ca7-b98f-60b3d83e4172")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "da91c8f1-17ff-4da5-9b86-bac2410d692e")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1e14222-96d5-4561-b769-fb4d7afaacac")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7d7a72d4-2fb1-42f3-96cc-9d2dcf24fea1")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -2279,7 +2263,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "67671dcb-fc55-4f33-8c00-0922f310115f")
+			(uuid "4eb117e2-d255-4349-b6ee-99089026e522")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -2289,7 +2273,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fc392020-7b8a-4eee-ae67-3ba66b87efdb")
+			(uuid "eb343b61-5f78-4284-a9e0-dcb772f955b3")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -2299,7 +2283,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6c5f4e5c-72a4-485e-9337-960192bf84fb")
+			(uuid "d91dc46a-1fb6-4414-8c76-64aeb277af7a")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -2309,62 +2293,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6997d66b-f05a-40a1-ba66-5b756752378e")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b86bc8d1-1b9e-4923-bb34-b11dce408e37")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "bc742b4e-56e8-40ad-8ef1-efd0c15773f4")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f77aae61-236d-4424-81d5-7a7b72aea104")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "674a97f0-ddef-4843-b015-b1724ad87457")
+			(uuid "9c671949-d74f-4473-9aa3-3dbfee7235f3")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "54779e75-9690-493d-9bc7-de4d328a4184")
 		(at 97.63125 123.825)
 		(property "Reference" "SW4"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b137cb02-2dab-47f4-9465-ce86faeb37fc")
+			(uuid "c7e08ab1-307f-442b-851b-964141987948")
 			(effects
 				(font
 					(size 1 1)
@@ -2376,7 +2316,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0f684c0-9a54-4c7f-a1e6-505b891a9a02")
+			(uuid "19a73fbc-c2be-4697-9036-34dc8dd56901")
 			(effects
 				(font
 					(size 1 1)
@@ -2384,11 +2324,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df547f66-623e-49fc-91a7-25e228ed3e1b")
+			(uuid "58603252-ccd6-4d09-a17e-85dbeaf7c9de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2340,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22b8340e-41d8-4e8d-9f8b-6e217b23a697")
+			(uuid "e17beac8-957f-476a-9779-b5989bbf14b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2352,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0b5a3e5-5cbc-4b85-8b5c-c578b89deea9")
+			(uuid "58ff13bc-8af4-492c-9cb3-e3540a24df51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,6 +2365,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea25d7f6-574c-4b53-a324-bb59fa7f71f7")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "96d79334-f5ac-4442-a183-fe6cca9be167")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6814ebb5-0a46-4123-a293-f5bd6755d105")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "880e0d54-66f9-4da7-9f7c-f95d473fba15")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -2432,7 +2412,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1d098266-de65-433a-a5fb-728410a2b186")
+			(uuid "a7acb694-0e39-4db5-a1ce-158a2a5ce2cc")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -2442,7 +2422,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "709cefc8-b097-4f29-94f9-dad223757be8")
+			(uuid "65c133fa-f888-4265-9d0b-50cfc83cfcb7")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -2452,7 +2432,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "09563386-32a4-47f1-9030-60b41f870cd2")
+			(uuid "8583b747-7553-4042-a649-29dd150b637f")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -2462,51 +2442,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d22cc896-54ae-4fed-9933-230a916c61ba")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "25c80d73-acc3-4c22-8388-5d46417ce9bd")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "97edd3fb-686a-4c80-bce4-6b5fa659119b")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "a122c747-f4a3-4c71-8a21-b27d11f92371")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "87f202d7-5ded-4ac5-8e42-6013e3272a8f")
+			(uuid "27f9e61d-7e8c-4ad4-b555-39d0a22872f4")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -2615,15 +2551,15 @@
 			(uuid "69b6a15a-268f-4a87-b955-0dfe0fe313a2")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "565fe0c0-f843-4976-8da5-b814fe2e41a8")
 		(at 288.13125 123.825)
 		(property "Reference" "SW34"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8bf9b4bf-0f0e-47d6-83c9-804fe7a7513d")
+			(uuid "21cd3d7e-3871-468f-a830-70c2904c5303")
 			(effects
 				(font
 					(size 1 1)
@@ -2635,7 +2571,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5dc2cb5-f695-4bd3-8fa7-f9d9de9ca6d7")
+			(uuid "2bb2f100-cf9d-4ce7-bc60-18d95fcb5173")
 			(effects
 				(font
 					(size 1 1)
@@ -2643,11 +2579,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d0eec08-0ae2-403f-8601-4d039f5a5b2b")
+			(uuid "cb5782c7-4208-4c4a-9f7f-32352f755477")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2595,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a394bdb-b1c0-4910-87c1-19443160e79e")
+			(uuid "ee95c6fd-ac48-4d5c-9170-833e743711cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2607,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "229beb12-3dd3-4b37-86c1-6e022f242935")
+			(uuid "0da80a93-cd7e-4475-9806-8c7689a142d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,6 +2620,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7bc32f4a-4cb0-41f6-a097-5434d4bbee94")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2dffc876-73ac-47e6-bb74-1647c161a195")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a1d19a3b-bb56-4807-b88d-f3943fb3c6bc")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e24825e8-f900-4fbd-8118-f9381fb6fcd9")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -2691,7 +2667,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5ce4172e-6c13-4aaa-8aec-385a041c024e")
+			(uuid "3ab40f3b-6ea2-41cf-af0d-87f5d64a5e75")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -2701,7 +2677,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ea6cb59f-1383-49a5-bf19-2c9486ce28b4")
+			(uuid "8232fca2-69ff-4dd3-bd44-f2edf7ec1e39")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -2711,7 +2687,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5dd4b6f6-984c-42dd-99cf-7af1e585edaa")
+			(uuid "d0f1da10-0f99-4d17-8ff9-65e5a175a178")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -2721,62 +2697,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "be08cf24-1721-4e22-bc29-230070b34f36")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "1ca4bed6-b172-4905-a69b-de7083f87cfb")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4d82218f-7864-42bd-8e60-c8f541e57a62")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "31cd13b9-cf44-4769-a2d5-d97e2f780a7f")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "07ec56a1-e5df-4c37-9be7-b037ba2a279c")
+			(uuid "24df895e-e9fd-41c4-8c68-b4cd32456b93")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "5c71e084-4440-4871-bf32-abb9fe28c326")
 		(at 154.78125 123.825)
 		(property "Reference" "SW14"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fc3fcaf7-9dc6-4467-9711-92c9763eb7b3")
+			(uuid "8c153811-67c1-4f70-b74c-454bea6d7198")
 			(effects
 				(font
 					(size 1 1)
@@ -2788,7 +2720,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aff1c323-70fd-4655-8ff5-43d68b7ddae6")
+			(uuid "f3fedd20-5205-479d-b0f3-b88d511b60a6")
 			(effects
 				(font
 					(size 1 1)
@@ -2796,11 +2728,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "750ef24b-8b4f-4403-9c62-4c71d8f4406d")
+			(uuid "b005667d-58d5-4014-a88d-c46615b09a6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2744,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0af284c5-0a07-40c8-9110-e9dcc8ec8144")
+			(uuid "05e3aa0c-3f21-40d8-982f-477ca75e0e57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2756,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ab7f48e-8f68-42c6-af2b-cad34c9aff08")
+			(uuid "f0f94751-912b-49e5-854c-2b8a79571330")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,6 +2769,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d46e0799-9a35-46e4-b292-4bcd3f2eed0d")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f71c3351-86f6-489f-b790-d98b2342ad2a")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7b173cfc-75e1-4a3a-81f8-31f7d9ca0ab1")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4e47b166-5161-4d74-ae90-fea0f3e5d001")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -2844,7 +2816,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5ca2bf59-5b6c-4c47-9618-10d494e7e74f")
+			(uuid "85538a4d-e261-475c-822a-627432b4f246")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -2854,7 +2826,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c6798cda-a798-49df-ad4e-92b50f7953da")
+			(uuid "e175cb11-6e9c-4a27-b735-e032e95b9af2")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -2864,7 +2836,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3cdcad2d-7a47-42ec-a97c-544fbfdd8699")
+			(uuid "16ecdf68-7ce5-496a-9383-77482b6f958e")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -2874,62 +2846,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0be76b20-ade8-4743-9d02-79cadc3cbc9c")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "dca7d1cc-a503-4baf-8d51-2656cbc940eb")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b6a2a769-1575-4192-8e6a-5fc14688c16f")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "34ef3ff4-0687-4a1e-8007-a9c2955e18fc")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0ced5e3a-a66e-461d-84b4-932bc4f013dc")
+			(uuid "ec46738b-2f5d-4c49-b09c-01d78ec89c0a")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "5c9f5462-304f-4222-9acf-04a55c1bc527")
 		(at 250.03125 161.925)
 		(property "Reference" "SW28"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "03023ea2-1af1-4e52-af1a-104fd89d2016")
+			(uuid "cf380105-32b5-44e2-a48b-9271942f2b75")
 			(effects
 				(font
 					(size 1 1)
@@ -2941,7 +2869,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73ddb5de-fb20-496a-8c3b-0b36b05cb402")
+			(uuid "285314fe-f03b-4760-8558-8232c06afa1c")
 			(effects
 				(font
 					(size 1 1)
@@ -2949,11 +2877,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86310237-e57d-42b0-97a9-8161b3300812")
+			(uuid "a59d29a9-6f1f-4960-9fcc-cbb76ec4fac1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +2893,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3c2b570-ef2e-4690-b58f-d6dc90d2418c")
+			(uuid "59b7bd20-2ad3-4a4c-81ff-40d12a4fec2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2905,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5525cf6-b986-49fc-ba9f-778a430f0c34")
+			(uuid "6be580dc-99b0-4984-a2ac-834ea0092a74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,6 +2918,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4eb4e06a-47cf-46e9-8400-931abf5b0b9d")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "479cb939-d83d-4429-a528-2fa878268a1b")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "afff5ba0-d8c3-4c84-bfcc-6ba377770ec5")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1a39cfd7-3182-4a50-a74f-d0e45bb3c8a8")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -2997,7 +2965,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "83212718-802b-4594-90e7-423c8d71a2d9")
+			(uuid "c23aee44-a7d7-4c8e-9f97-173aea0d50f2")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -3007,7 +2975,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f08383b1-3ac5-4308-a572-5a311f5cb78d")
+			(uuid "bb9fcfb8-0881-427b-a23c-ec718706a493")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -3017,7 +2985,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "09c62498-0717-49a5-ae1f-ad57958b36e7")
+			(uuid "8007f100-58d6-4ace-92b6-90c519dce83a")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -3027,54 +2995,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fee28d4b-814a-4279-a9f0-d190ce8927fb")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "287806fb-b59f-4b2c-b473-3af51566c16d")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "7716e6e0-6d17-403f-97cd-7c95bbff0927")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b7887a93-1727-48dc-a18a-ccfbb2ed1406")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "8413b7a1-5144-4aa4-bbdf-f016f44abedd")
+			(uuid "3dd1b137-8dd7-44bc-8c6b-01cdf027da76")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_2u"
+	(footprint "kbd_SW_Hole:SW_Hole_2u"
 		(layer "F.Cu")
 		(uuid "715e9fa5-bf66-403f-ab30-5bac97ad4465")
 		(at 326.23125 157.1625 90)
@@ -3082,7 +3006,7 @@
 			(at 7 8.1 90)
 			(layer "Edge.Cuts")
 			(hide yes)
-			(uuid "f0dab869-14d8-419e-86b3-47de4e8c569e")
+			(uuid "3c7ba7d5-2ce2-4a40-9b0b-18670a4061fd")
 			(effects
 				(font
 					(size 1 1)
@@ -3094,7 +3018,7 @@
 			(at -7.4 -8.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e934e119-088c-46c3-aea0-75a970dd9629")
+			(uuid "f8f8b81f-c7fe-4689-9459-8a0a6f8e590e")
 			(effects
 				(font
 					(size 1 1)
@@ -3102,11 +3026,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_2u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_2u"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "811501ce-ef79-4d4d-b275-a72146997ec4")
+			(uuid "24d53f0c-0fde-455e-b397-4a50c5c0b13c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3042,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65bb0f61-7624-4428-9207-bfb877179665")
+			(uuid "634b5815-8bd3-49d2-8711-8cdd9674f9c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3054,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bac3bf1-74cf-46a1-ab6b-7675917d9995")
+			(uuid "8d673554-f39e-45a2-97cd-86c42c9438d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,6 +3067,126 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "068187e3-f725-4df7-8ac0-40fe5020ec9c")
+		)
+		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0e278bf2-6c32-44f7-912e-59a700ae754d")
+		)
+		(fp_line
+			(start 15.4 -6)
+			(end 8.4 -6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "717207ae-5446-44db-8371-213e00bb104f")
+		)
+		(fp_line
+			(start 8.4 -6)
+			(end 8.4 8.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "54182b1a-0908-4229-acdc-d1e92f99f709")
+		)
+		(fp_line
+			(start -8.4 -6)
+			(end -8.4 8.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2ef3a0b0-a0dd-4074-a118-27ad275d8931")
+		)
+		(fp_line
+			(start -15.4 -6)
+			(end -8.4 -6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2a1df545-bacc-4cbe-bb14-99e36161242f")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f64053be-88df-4dfa-a553-8b4c3dfb97f3")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1fa2ebad-f8fb-4f25-892e-a730ab12f4d1")
+		)
+		(fp_line
+			(start 15.4 8.8)
+			(end 15.4 -6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "75e98303-c27a-4b0f-904a-5351f1ac4e2a")
+		)
+		(fp_line
+			(start 8.4 8.8)
+			(end 15.4 8.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7a4da3ff-c079-48eb-8a43-28be5e5f7316")
+		)
+		(fp_line
+			(start -8.4 8.8)
+			(end -15.4 8.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a23fe24b-b041-4c24-82c9-f71756fd13bd")
+		)
+		(fp_line
+			(start -15.4 8.8)
+			(end -15.4 -6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "13ef3739-fbf0-4954-bb82-bd70bb184480")
+		)
+		(fp_line
 			(start 19.05 -9.525)
 			(end -19.05 -9.525)
 			(stroke
@@ -3150,7 +3194,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ecb5393c-ae3c-4848-950f-bb8c3a0b7535")
+			(uuid "81e5649f-f55b-41c6-8a34-38e45a620dbc")
 		)
 		(fp_line
 			(start -19.05 -9.525)
@@ -3160,7 +3204,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "16437d70-3c82-44c6-9b70-e9c5ad1de601")
+			(uuid "f03f79b9-78bf-4b54-a803-61ce96ce99a6")
 		)
 		(fp_line
 			(start 19.05 9.525)
@@ -3170,7 +3214,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6be55141-849c-4b7f-9c22-15c036875cb0")
+			(uuid "068880ab-57f5-467d-9bfb-9058777311ab")
 		)
 		(fp_line
 			(start -19.05 9.525)
@@ -3180,150 +3224,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1a7651c4-2445-4436-bdcc-aaf56161207f")
-		)
-		(pad "1" thru_hole oval
-			(at -15.4 1.4 90)
-			(size 2 16.6)
-			(drill oval 0.3 14.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2605624b-a78b-4af9-a3ec-39abd2b12c8d")
-		)
-		(pad "1" thru_hole oval
-			(at -11.9 -5.9 180)
-			(size 2 8.9)
-			(drill oval 0.3 7.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ee951bec-dc3a-4ce5-a1a5-962de15a7d44")
-		)
-		(pad "1" thru_hole oval
-			(at -11.9 8.7 180)
-			(size 2 8.9)
-			(drill oval 0.3 7.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9a62bfda-81dd-4e04-a609-4974bf470812")
-		)
-		(pad "1" thru_hole oval
-			(at -8.4 1.4 90)
-			(size 2 16.6)
-			(drill oval 0.3 14.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "1663fcff-56b9-415a-82b2-f4e04cb53aa8")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ae46c827-e70a-4134-9d33-d2e4223f56f7")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 180)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e70afd08-6180-49e8-9d9d-5c77fa0f7f9e")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 180)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2d9946a1-81ae-40ef-aa20-ea3e0d851bd3")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "a69b635f-b5dd-41ae-800b-597a93f6bb46")
-		)
-		(pad "1" thru_hole oval
-			(at 8.4 1.4 90)
-			(size 2 16.6)
-			(drill oval 0.3 14.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "fbd84074-668a-4d76-baf4-d1b83c76859e")
-		)
-		(pad "1" thru_hole oval
-			(at 11.9 -5.9 180)
-			(size 2 8.9)
-			(drill oval 0.3 7.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "145b586b-d20d-4de4-94dd-2d29bfa4afd0")
-		)
-		(pad "1" thru_hole oval
-			(at 11.9 8.7 180)
-			(size 2 8.9)
-			(drill oval 0.3 7.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e9506b00-a8ae-4a6a-89e9-887831b20b8a")
-		)
-		(pad "1" thru_hole oval
-			(at 15.4 1.4 90)
-			(size 2 16.6)
-			(drill oval 0.3 14.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "46cf80b7-3aa3-4205-a38c-08c411883b49")
+			(uuid "3ee0d225-a247-418a-8ce3-ca5dd8072965")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "72240a52-0cc9-43ca-b133-89f248791220")
 		(at 288.13125 142.875)
 		(property "Reference" "SW35"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "23128f57-8414-49ea-ada2-692994dc6e4a")
+			(uuid "02bf7bd3-7069-4b00-bb76-1ee0c6af7414")
 			(effects
 				(font
 					(size 1 1)
@@ -3335,7 +3247,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75c7feac-f091-4b7e-b276-325f4e2e4819")
+			(uuid "8e8865d1-0ebc-470e-8628-d57d0e3dac39")
 			(effects
 				(font
 					(size 1 1)
@@ -3343,11 +3255,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e647da82-8f8d-4dd2-85ec-aa4bf18c90f4")
+			(uuid "91d89673-4bd1-494c-95d6-a20cec699979")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3271,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2707e070-3cb9-40a1-82a2-31bb58df82b9")
+			(uuid "fdc2062d-106e-46a8-ac1c-a1887bfb045b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3283,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14a11667-4e82-4a7e-a434-1da41cb80758")
+			(uuid "8bd35790-6367-46c3-a034-b4f4cbc369a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,6 +3296,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d523e748-e660-416b-b91a-d999fb93e9f9")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cea5ee19-376e-42b7-8788-1ace1f51b29b")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8c14f044-20f4-47a4-9efc-b8385f684f4a")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d60857cd-e4e6-4f85-8022-2cf4eef59175")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -3391,7 +3343,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "306f5d8e-5308-4558-aa23-6cb74c5b3f3e")
+			(uuid "363d1e03-92c6-441c-bf52-3cd2cbc5c5f8")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -3401,7 +3353,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a76182f6-8a0f-4e6b-ad47-c1286492d96e")
+			(uuid "55088369-25c7-41e4-8c24-567aa6444312")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -3411,7 +3363,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2ef7e948-eaa1-48ab-917e-17aa09223f08")
+			(uuid "fccb8616-78d1-499a-9b3c-2516c7e56ec6")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -3421,51 +3373,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e7172d11-296b-41c7-ba76-06fb8b28fc06")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2a1e1728-9f00-4730-94ff-41236ccb8347")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ffa79b2b-dd9d-4650-8afd-e624ebd4d75c")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b726996b-bdcb-4697-90f1-1ad874322bb9")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d6a94c4f-8d6b-493b-af12-d22d0370e228")
+			(uuid "92a2e6d4-adb2-409c-948e-d7adcd5b7163")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -3574,15 +3482,15 @@
 			(uuid "f6ff7652-c5af-4a51-a8dc-1e151b000383")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "7e1b68fb-63bf-4069-93f8-becf4088b119")
 		(at 307.18125 123.825)
 		(property "Reference" "SW37"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f2e71cbd-b7d8-4ea0-b79b-5c33ded0268b")
+			(uuid "85b0aedc-df29-4789-82ad-0ea65dc8bf5f")
 			(effects
 				(font
 					(size 1 1)
@@ -3594,7 +3502,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7e58cad-e174-439b-a690-287b56aeeebd")
+			(uuid "9249a033-3570-4b38-952f-8496bcdd3679")
 			(effects
 				(font
 					(size 1 1)
@@ -3602,11 +3510,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf928baf-cbb0-4125-ba11-217305078ed7")
+			(uuid "156add7d-eefb-422d-956d-265753de7926")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3526,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f9d7ec1-54c6-4bfa-9192-1189669a0817")
+			(uuid "f1e1818c-c389-440e-b309-de3953f6dc40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3538,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a635982-67ea-4d6f-bb3f-0ae88ebee0a7")
+			(uuid "7ce7f6db-4bdb-404e-976b-1c1f9518556f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,6 +3551,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b9c2f823-1f0f-40e3-9e35-ee0949a5fc2a")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e643379f-2369-4e0b-a758-3caef8b60c23")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e35f881-0103-469e-aa38-58cafcf57931")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3ee5a625-a137-4636-90de-b1667d6c8d49")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -3650,7 +3598,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "88670692-a718-47f9-a3ef-fe104cc14d36")
+			(uuid "4ca9255f-98ca-403a-9625-0c45845f2be2")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -3660,7 +3608,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3528d34a-43e0-4e13-87b5-2541816c6a0c")
+			(uuid "f991ecfd-ea24-4608-9b24-5a29755f4529")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -3670,7 +3618,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "64a9df48-ada4-4f91-b5aa-6d0ec89ed7ea")
+			(uuid "339c33f6-051d-4209-ac20-f5ccab0ed4a1")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -3680,62 +3628,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e9d2b556-876e-4b1d-8ec7-f26adb539093")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "7a1feb51-559e-4015-b2bc-72886f583a5e")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "85798dec-fa1d-4c3b-a770-9f7dbb327ac5")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4a6b57a9-8e2d-48b4-a580-c5c6c9429545")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "510440f6-ce1e-4498-9324-7902eb1dccff")
+			(uuid "92e413e5-4955-4db3-98e2-daf969d8f1fb")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "8069c036-83f0-4bda-b3b8-1dbd2d7ad8a2")
 		(at 326.23125 128.5875)
 		(property "Reference" "SW40"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "98673e5c-3e25-430f-9119-f467f4072a70")
+			(uuid "2cdce8d4-e6f4-4d4c-a91c-7d809e24163b")
 			(effects
 				(font
 					(size 1 1)
@@ -3747,7 +3651,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23a92868-fe35-48dc-b198-955674ae10ce")
+			(uuid "7a2566bf-82ee-4083-ad9a-375ca606e761")
 			(effects
 				(font
 					(size 1 1)
@@ -3755,11 +3659,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be13ce94-3e6c-4e19-8fe6-0ddcbdcf6dea")
+			(uuid "2d697edc-b2df-4d90-ab27-1561d12b7128")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3675,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d576aa80-0070-47c5-bb49-87c30791adee")
+			(uuid "eb2d9f7e-2750-42eb-88d1-ee90b4e08809")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3687,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f33f0cee-6149-4921-84fe-023ab858f0fd")
+			(uuid "f9a4b97d-b74b-408f-8c1f-85175085b967")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,6 +3700,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d819834d-44a2-4e66-a173-9b72553eb00b")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5329db5a-ea76-46a3-b187-ff3146a11bf8")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0f2aa15d-760c-4a07-85c0-0edf8759da19")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d35a3aa1-e4fa-41a4-86da-d8f669bd4990")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -3803,7 +3747,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "42dc9501-f3f8-41d3-9b39-109761127e26")
+			(uuid "a2fa36da-dbd5-4397-8c97-ea9b4623b8c3")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -3813,7 +3757,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d3e8c527-2d79-4ccf-9de9-05439ae73634")
+			(uuid "cc8d3531-a9aa-4f93-acc6-9c187b6c31ee")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -3823,7 +3767,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8f79e826-e862-4974-865a-119543660a48")
+			(uuid "87bff8bc-ebcd-4548-b0e5-e993c87ffbb7")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -3833,62 +3777,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e4a69ed2-5563-44f6-9b3d-9d5e10db8261")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0e3a9829-0e9b-4ed0-bce7-ac1eca7197fa")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b695a8b2-f747-494a-9b8e-d9bc9aaef21d")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "fe20a4d4-354f-40bb-a47f-503a0c2df3d6")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 12 "Col11")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "fb822dad-5464-46c9-a0ec-d5e0a90c2562")
+			(uuid "9f95f69d-791b-48e6-b3ce-4bb005a7740e")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "813b3863-fbef-4ad4-a3ee-9521f8ab43f6")
 		(at 78.58125 166.6875)
 		(property "Reference" "SW3"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ba59f0da-e870-40d0-8d22-3a957282c642")
+			(uuid "ee07ee25-60ed-4e45-8482-5c8e888b08ce")
 			(effects
 				(font
 					(size 1 1)
@@ -3900,7 +3800,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8071cef1-3e46-4221-92fb-118b61de9ac1")
+			(uuid "25f17ff1-a92e-4298-8ab4-6789792e998d")
 			(effects
 				(font
 					(size 1 1)
@@ -3908,11 +3808,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09ec5c71-6fea-49fb-bc52-3d1a1c1f5e80")
+			(uuid "1d70a688-298f-439a-9db1-9c4d0c00b9f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3824,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04de826d-d4df-4e64-9942-6f9d1969480c")
+			(uuid "5f9c8d2b-a78a-4008-a7d8-36de47ae93ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3836,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e79b605e-723f-46c6-8794-04d3fa290db1")
+			(uuid "17009535-5af9-4647-a884-9eebb1ae3ddb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,6 +3849,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1e016e6f-822e-477a-9c06-0e5bd10b452d")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0e2c6c3d-4dee-488b-a3d9-a3cce285578b")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "42b8ef82-c199-4385-95f6-80db2827b5f4")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e47cb518-afda-495d-83fe-5c8d26a342f1")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -3956,7 +3896,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b0896277-5d64-4a5d-a866-2d73d272775b")
+			(uuid "195673c4-269d-481a-a333-e831cb902b0c")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -3966,7 +3906,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d379e06b-6630-4077-987e-24d69897fb01")
+			(uuid "3522fa89-809f-4f8b-9200-79706f728821")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -3976,7 +3916,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2abe683b-64cf-40ba-8925-9bc1d5af4e0a")
+			(uuid "4233af6f-c31a-4f58-ab74-f2b84dda959c")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -3986,62 +3926,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1a6a8619-fea5-4acb-935d-826a4d842398")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "45a3cf09-ea4f-4ce2-9c65-f94234fd0e11")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3ddff2a8-92c6-401f-b33f-6d58f59ede36")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "fe56b57d-a147-429d-ad8e-3ad849883b48")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4fce7b45-c329-4a2b-badb-d075dda6c77d")
+			(uuid "e8b93385-af23-495c-8ae5-f0146f8c3c30")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "8289082c-8899-4248-870b-936bd8e65d19")
 		(at 78.58125 147.6375)
 		(property "Reference" "SW2"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "84629405-4c91-4ec1-990d-6318ac042b73")
+			(uuid "3d4d8c15-20e2-4af3-927f-73e0a596a361")
 			(effects
 				(font
 					(size 1 1)
@@ -4053,7 +3949,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a83bcd04-f344-4967-9036-9f236c4e4e79")
+			(uuid "2ccd4d06-ef25-4c4f-839c-1a6cd8eb6bfb")
 			(effects
 				(font
 					(size 1 1)
@@ -4061,11 +3957,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e76eee0-aed2-495b-8cb9-fc597e543a0b")
+			(uuid "6ec4b837-f782-43f4-91a5-7e7a02e7fe82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +3973,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90888c73-ac06-4771-bba8-2e423a7c2a99")
+			(uuid "e993c35e-c86f-4fbd-bb1b-3df679fbac42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +3985,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed5e69f9-9a15-464b-9e17-bc0dda8400ed")
+			(uuid "e0597f50-1643-488f-b276-6812482609db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,6 +3998,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "25f67e26-586e-4628-a27e-aad795490b2e")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "79e89e99-0160-47cd-a36d-bef1af328b34")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5a249d89-0ce9-4713-a603-58682dd44c37")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "806e3654-5514-4753-9a73-1403550baced")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -4109,7 +4045,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b1244b80-480c-4750-92d4-d22b4b92c187")
+			(uuid "cf265446-957b-4ada-8fb9-1c119da791e6")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -4119,7 +4055,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f32d2232-0038-44f4-92e7-a48c222cd98f")
+			(uuid "60857c86-d644-42e1-9520-26378cb2388a")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -4129,7 +4065,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a017cff9-b33b-40a5-8887-3a3cbdf89575")
+			(uuid "c64fab49-20f1-4a8a-9860-4eaddb5e9a64")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -4139,62 +4075,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e6f41b0b-f56e-4dea-b0f1-0978eaf01ccc")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e409bb68-8358-4fe2-9811-0cd5f13f0ca1")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "7f51b5c0-1b43-4820-97d1-80153cdd3ec6")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "38335124-c448-4dde-8b94-7d64d792b9c5")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "Col0")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "324bc955-92b2-4062-a88f-72ddebd61f25")
+			(uuid "fdb8da3c-4ed9-427b-87b2-1a7895300a25")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "83343f2c-b2b8-4423-8c94-c307571e2fef")
 		(at 173.83125 185.7375)
 		(property "Reference" "SW17"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a1264b06-2413-49f0-89a7-4a897d43f671")
+			(uuid "2fd8a426-1975-4980-bc5e-d189808f6eda")
 			(effects
 				(font
 					(size 1 1)
@@ -4206,7 +4098,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "265d7db5-61f5-45fc-b3fe-1841e4d6ceaa")
+			(uuid "96cf2bdc-aafa-4e16-ad63-5149258e5a71")
 			(effects
 				(font
 					(size 1 1)
@@ -4214,11 +4106,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea37d9fb-7c8c-4e1f-aebd-9b397ba3bf94")
+			(uuid "66561dd7-f8cd-4b77-9a91-3ffaf9d6a38a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4122,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac58ef78-7497-4b91-9000-b0e45c07d51f")
+			(uuid "4aef552c-ed13-4260-9948-2a2ab0f1c838")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4134,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf477f16-57a4-48d0-9d63-56ff0d081e0c")
+			(uuid "09ff11b3-7bc7-4784-8961-d8933a093f11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,6 +4147,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c9ab260c-9ca3-44c0-910f-d9d4aaaf5b13")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8fb41e8e-16f7-4563-9320-2bb4e4da4f23")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9e1e1145-6fea-4538-9a2d-a8ebd7218e03")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "adec5530-8b34-4fc5-b867-c7ab2c9125a3")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -4262,7 +4194,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "27d54e25-6ed1-418e-b197-0c7b9bfce207")
+			(uuid "6a5e8671-355e-4893-abe6-9cdcf744b7dc")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -4272,7 +4204,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2a72ded-92bf-4f28-b91e-190e2072f9a0")
+			(uuid "0985bb5e-25dd-48bb-abbc-3b8aa5ff667a")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -4282,7 +4214,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2edca598-b790-4ea6-9f63-4eedd108f169")
+			(uuid "5c8426f2-d84a-4803-ae7b-eaf058d37ead")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -4292,62 +4224,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ba189870-2f0c-49d7-a317-15f558bb6e69")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "a79682c8-7aa0-47f7-9b60-a2f005136ae1")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "7e9b882a-4949-4bff-b67c-55e450444b8f")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "aecd3a43-5ea4-4cfd-8d85-a14fb564e9e8")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b5969cd5-3ef1-4cdd-a5c6-ce3abad1ee42")
+			(uuid "fc82b9d2-0250-4ca1-8e80-86cff92301fd")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "86798891-5e5e-4702-903d-b2e6bc2ef58b")
 		(at 116.68125 123.825)
 		(property "Reference" "SW7"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "16793219-4e0a-4f20-bf19-aaa89bd17c25")
+			(uuid "89a53484-3f43-4907-acd2-f79143c5de86")
 			(effects
 				(font
 					(size 1 1)
@@ -4359,7 +4247,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7d975f4-92bd-4941-8d1f-b8cda93746f3")
+			(uuid "65c13690-cb67-4dc4-b1d7-5be463c6b51a")
 			(effects
 				(font
 					(size 1 1)
@@ -4367,11 +4255,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14c356b1-4181-4d1c-a27a-058c6481e9a3")
+			(uuid "3b09b175-6d55-4809-9083-268c58232fa2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4271,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd98a3f7-6353-4637-bb58-ec7df5e1f85a")
+			(uuid "03a04ba1-d18d-4e5c-92ec-9ef12514231c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4283,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f65a0f57-2ab3-42d8-bd8d-04b6a2f40059")
+			(uuid "2293287e-36f2-4891-8671-1b606787e97f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,6 +4296,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "67d768e7-0b4c-4ae6-93f6-4e1e291377c7")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9a50c75b-5eea-485a-9c3b-03f232749fa8")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "51857b34-8710-48d2-93fd-aa131683fe1b")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00aa1d76-9a1b-44bc-b452-d17d5957f064")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -4415,7 +4343,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "52d621f9-d6dd-4c57-8f2f-538b1e8c7493")
+			(uuid "a5318710-72ae-4015-a47d-464b850e90e4")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -4425,7 +4353,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6479eb72-e408-4b38-ba46-eb20910d137d")
+			(uuid "603b2f6d-dc8e-48fa-8675-17291ff7e290")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -4435,7 +4363,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1e6ce6c7-c127-46e6-a812-7c8db40f84ed")
+			(uuid "4a5b722a-8aa4-45c3-91e2-ed99981b2607")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -4445,62 +4373,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d96528f4-3fe0-41c4-ad02-40ae3a1b80d5")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ff04d64a-b301-451c-9e6a-8d3c9d1fe656")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "8387d93a-119c-4c69-988e-87709d553086")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9200f388-6d33-4650-a6fa-fd7ff420f021")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "002fb41a-8cfb-459a-8fa6-2c3ecad0ca98")
+			(uuid "a0018a9d-e79c-4e17-af49-53e1f2db9ab9")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "8db7d7dd-61b2-4d1c-b183-17134635f6a6")
 		(at 250.03125 123.825)
 		(property "Reference" "SW26"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b47e181b-e8b5-45ce-9fd8-4421b172dd95")
+			(uuid "48673ebd-feba-4463-aecb-462e5c4da3d2")
 			(effects
 				(font
 					(size 1 1)
@@ -4512,7 +4396,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf409235-ad6c-4ca7-a5c5-b3d862acb59e")
+			(uuid "6373b636-e925-449a-81cd-9de19eb2b774")
 			(effects
 				(font
 					(size 1 1)
@@ -4520,11 +4404,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf26c2a3-912c-411d-b1b0-8747e82dfed2")
+			(uuid "ef847bcd-f0e0-4723-b587-3866ea64089a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4420,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e4ac3a4-ee74-4611-b2f5-e1dbb2c62dda")
+			(uuid "01ff3a56-61d4-453a-a6c8-81be5de87e5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4432,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ecd51db7-eb3c-4a3e-84ce-6af2aa56da29")
+			(uuid "044c9f86-5bce-4b84-baf7-4f75eacb5d46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,6 +4445,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "630bae94-83b7-4d08-8442-5ad57184a4cd")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "35a3a75a-96f4-4278-a69e-7d6eb7600fde")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7cd712ae-6967-42de-aade-fa5a6cab38b1")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ad90b8aa-321d-4ba8-bb72-b05f57a07075")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -4568,7 +4492,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e8d97108-2f06-409c-8c0c-71889b14e524")
+			(uuid "eb746a20-9121-467f-8189-450a1db7b745")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -4578,7 +4502,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7d8f344c-61ef-462b-a6a4-b63c2fc0c61e")
+			(uuid "54b68ba1-4dfa-4745-a9a6-c3a0bca4c931")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -4588,7 +4512,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "521920d7-ed1d-4b2d-9080-871debe7b9f5")
+			(uuid "e0b0dadf-466d-4d90-b4f7-f2defe0fae59")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -4598,62 +4522,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "40892da9-1769-4a57-ae4c-102d0fa47675")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3a799e52-9df5-4efb-82a6-3a666af48df4")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3496a69f-7d8c-4a8a-8f32-89212c25ddec")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ba4c5b23-c8f3-4d95-a691-a8d82cdc4703")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "Col7")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9f55f7fb-2c09-4bf7-9f58-36b584e97ebb")
+			(uuid "12f673d5-5818-4a05-a697-b94104205c15")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "94fe0d17-4096-43a3-869a-9bbe8d0ecba1")
 		(at 97.63125 161.925)
 		(property "Reference" "SW6"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "021732ba-ae23-4079-a180-5d2bd044d935")
+			(uuid "5b7f40ff-59fe-4226-94a9-2bd46220ba17")
 			(effects
 				(font
 					(size 1 1)
@@ -4665,7 +4545,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00b2e672-661a-4007-9185-c752e92763ee")
+			(uuid "1aadb1dc-66bd-45a2-ba48-11c13ff4f327")
 			(effects
 				(font
 					(size 1 1)
@@ -4673,11 +4553,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99d40926-c344-45b8-8077-1e63c3768675")
+			(uuid "a33b8c03-9084-4064-8c2b-59608ac6d181")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4569,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "432f06fb-a2c8-433f-b39e-475cdaa5bfa4")
+			(uuid "0cd5cd21-b91a-4751-8a06-3a4f294c2c2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4581,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb588fa5-2c36-4170-af60-98b5cc738906")
+			(uuid "eb52e520-0b58-45ab-b1d9-2f011bd41f1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,6 +4594,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aef97935-b608-424f-b02c-b096750f7c2f")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "803a5f57-2a17-4516-b33c-649feb052d61")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bcf718e8-c873-4158-b924-d080ecda81c5")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "973138a0-a544-4968-8db6-ba7641ecd0f0")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -4721,7 +4641,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bb0963ae-34e5-4fbc-8fff-336c4945e56f")
+			(uuid "c1d5f4fe-a692-41d7-8d93-3b9b8eb1f7a1")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -4731,7 +4651,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5aad06f7-5733-4703-98e9-463f99309ae5")
+			(uuid "8174a81d-5e66-49e2-9f69-84211350defc")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -4741,7 +4661,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "640a97f5-d235-4120-8fc1-cd4a53db51ca")
+			(uuid "8c0a6af8-7480-48ea-b07a-a588765371c3")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -4751,62 +4671,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "68a58552-7bee-4c00-bd45-d67f6add64e3")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "6092c654-2ed4-449a-a4d7-10ec222f1c0f")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0eb72c2a-7e99-418d-b595-ad899024d114")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "525b76ea-2da9-4dd6-a10f-c314c14bbf1e")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2cb9b0e3-caf4-40d8-8cfb-0ba5709d35cc")
+			(uuid "0bd7d7b9-9b98-4cf1-9312-9dfe130056dd")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "a426a974-1f8f-404d-b57d-0522640046f3")
 		(at 230.98125 166.6875)
 		(property "Reference" "SW24"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "810ed202-9e9e-4f1d-9848-0baf10a3105f")
+			(uuid "0db0ae44-567c-44b6-a82e-d83d3981da1f")
 			(effects
 				(font
 					(size 1 1)
@@ -4818,7 +4694,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fd8df51-b34d-4fb8-9a88-df52936bd17f")
+			(uuid "e3b8b0a8-93cb-4b9d-9730-3ca90ffa15f3")
 			(effects
 				(font
 					(size 1 1)
@@ -4826,11 +4702,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f827aa75-0428-4052-988b-2361e89083fa")
+			(uuid "520b3ae3-39f8-4d7c-8a98-19e95085dd32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4718,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1bcf9f5-5094-4f44-9748-cf103e5756f8")
+			(uuid "64b9e8a0-c34c-4faa-83bc-de2605962d69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4730,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70688126-f160-4fb0-9070-f4a5e25bcabe")
+			(uuid "03d8e379-810d-483c-8679-8a14d7eb28d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,6 +4743,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aa493cbd-1f6b-4956-a3eb-8d148dbcc621")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f1aa0999-ed4d-4808-a461-cc6c600648b6")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6eade318-773a-450e-b8a1-aab3e7709041")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1a256193-3c1d-4d4f-b018-d62a941d5691")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -4874,7 +4790,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e319749d-e991-404c-ad1b-5e2e29f02f6f")
+			(uuid "bae157d0-d423-45cf-9447-ab1b0941bfa8")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -4884,7 +4800,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "833be354-f78d-4d83-aade-efc6b77a0a26")
+			(uuid "c0175c22-651a-48ae-a7ae-d0ff9a58b0eb")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -4894,7 +4810,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "06e454b7-785f-4bd0-ac5f-101cc23135cc")
+			(uuid "6c667a6c-d790-414b-9b78-8ed15a6c2576")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -4904,62 +4820,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "80063399-4a2d-4acc-99ee-7ff3dd3d74cc")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "882a4ccb-b5f4-460e-980d-1a1f0569c79c")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0b373f20-e2c7-4f90-98c7-86b9510ff690")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "83f6b038-ec83-493b-b3a7-4b9dcbb65b1c")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ed246db2-ea34-4f61-a54f-444babe8563c")
+			(uuid "3155fac9-4515-4430-b314-4804c9099c2f")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "a574cafa-a56e-4c17-ab07-29e4ddaa8f69")
 		(at 307.18125 142.875)
 		(property "Reference" "SW38"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "513f6e17-7d8b-4d89-8c41-88a559a91757")
+			(uuid "5bbc15b5-184a-48a7-a634-d78907efbed2")
 			(effects
 				(font
 					(size 1 1)
@@ -4971,7 +4843,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c903e1c-e6fa-4ab4-8099-f68b7097bfc6")
+			(uuid "67494414-11dd-41d7-b31e-26a7ac4d8d26")
 			(effects
 				(font
 					(size 1 1)
@@ -4979,11 +4851,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a3951c4-01ca-4797-9078-cc339cd788cb")
+			(uuid "cfad0755-aad5-4e68-8d8d-2ee21cb158eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4867,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7af955ca-4107-49bc-8f71-a0bfe512d135")
+			(uuid "27fde5ad-963c-4283-8d13-ee658667e694")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +4879,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10f4af53-e7bf-46c5-a9e8-7090f19c629d")
+			(uuid "7f1d7d63-e3cf-48a1-b43f-578c658efebf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,6 +4892,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c801fbc9-3df1-439d-9fba-94c6c7f7fd33")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f01c8878-3311-4483-900b-081ac99b777e")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "75d14e09-6c1f-4840-99ff-12c03418f5c0")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a3aaa37b-0f65-44f3-a668-69a1cffee5f1")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -5027,7 +4939,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "26c01888-0e2f-4ec5-93b8-cb55f98038a7")
+			(uuid "ecd42534-ffda-4a0c-9b0f-b2e7872063cc")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -5037,7 +4949,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "05a40a7c-cdd9-4636-ba70-f6c149b817c1")
+			(uuid "8d38fa26-71ae-4217-9d42-d03a3d9390e6")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -5047,7 +4959,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2194bade-e08d-4718-888f-78a479c0e1e4")
+			(uuid "a0e810c6-2885-49d2-9bf8-1dfcef1b53b4")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -5057,62 +4969,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "91f5bb3f-4e99-4ee1-b57a-bab74e5258f5")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "42f83156-7291-42ad-8ac9-62bf8ce46c08")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c8185010-7d7a-46ca-b5e0-2456d4e52a56")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e5c53990-e133-4cbd-b71e-12b4a5d33e2b")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "Col10")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3e67a7c2-359e-4ae0-a5b7-04378a179e61")
+			(uuid "11d67c1b-3e89-4b08-b847-d072c64062f2")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "b33c22cf-9d46-463e-9830-c38f0766a889")
 		(at 135.73125 142.875)
 		(property "Reference" "SW11"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d554a492-06a8-4f42-8b34-98477452bf50")
+			(uuid "27ed725e-3f4e-4274-9529-0ffadbc8f6a6")
 			(effects
 				(font
 					(size 1 1)
@@ -5124,7 +4992,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fed167f-370a-42dc-a5b6-8cc93e1a3265")
+			(uuid "bfc919e8-0fd4-4e60-b3fb-034120e30721")
 			(effects
 				(font
 					(size 1 1)
@@ -5132,11 +5000,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ec290a9-8d81-4c5c-b798-50207b71fc62")
+			(uuid "b82b44aa-b785-4fb2-a5aa-73a31fb656cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5016,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ea013c6-f4c7-4163-bc57-520f9b695850")
+			(uuid "ac5808f4-7b74-4dc4-bc48-474971f928e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5028,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be482bcc-0338-4c31-bb4c-0102392256c3")
+			(uuid "8ee40bdb-af33-4fd5-a145-b55008dec975")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,6 +5041,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c73efc2a-a50a-4806-b20f-c0f3e637e229")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9cdfd4ef-cc31-403f-8544-e6056012b846")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0bd3104d-40b9-4d7f-832e-ee2cf4e4ccd4")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "10ec6309-a879-4667-a0f5-b21b279d50a9")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -5180,7 +5088,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8ec8ffb6-71c3-4b7f-9be7-e32897484f3b")
+			(uuid "b1018e38-99fb-4e24-964b-6e9009ec0da3")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -5190,7 +5098,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1a61cb35-fd80-4dbe-9257-bfa7c9e29307")
+			(uuid "d89e8716-af6f-4bb2-9dac-313e120340eb")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -5200,7 +5108,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c25e3c2f-2691-4b6b-b925-aac735ee2df3")
+			(uuid "0294042e-54fb-4c9c-bc90-9da8681a0f9f")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -5210,62 +5118,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ff9cd562-d311-41b1-a89f-9875523700aa")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e62e5f7d-02ab-4207-b426-44cc6813c90d")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2924f99c-dcfb-4578-bcc4-4b5870b6103e")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f7a37149-6d77-4839-ab33-4ada9260041b")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "770673a6-0310-4b29-a389-0abf573e5f9a")
+			(uuid "47a340ae-d896-4ac9-9747-10c613f123a4")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "b836dc73-7aa8-42f6-b887-67aff6f9709b")
 		(at 288.13125 161.925)
 		(property "Reference" "SW36"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "29da3698-1e7a-48df-af21-da27da590080")
+			(uuid "979cc5a9-f54b-45ae-aa10-1bc11530ead6")
 			(effects
 				(font
 					(size 1 1)
@@ -5277,7 +5141,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97bd2d06-7093-4bb4-990c-c9539fc9505b")
+			(uuid "40dcce3e-ef77-4939-a399-938256f4c361")
 			(effects
 				(font
 					(size 1 1)
@@ -5285,11 +5149,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3103568-a0a3-44cb-b05e-79f77dd5b87c")
+			(uuid "1f6245db-23a9-420d-8aa3-f45057370ffc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5165,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1fb75b2f-a716-4bdc-911b-a3726d93256f")
+			(uuid "f1779d17-77f3-4eff-99ea-9b3dd5a2c8a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5177,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "041992c2-da04-4181-9c81-b51db678a2b7")
+			(uuid "f6422277-42b6-416d-b415-b42fa016766b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,6 +5190,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "58bf79f0-a457-40de-990c-7335a70c59e7")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "49adac2e-9a8c-4892-aab9-464c3305994c")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3cfae8c9-25dd-435d-890c-0381304fea99")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "71ae71ba-0e6c-4fea-a1ed-26ab100c0586")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -5333,7 +5237,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "95261315-9f7e-4246-9aa9-0a2632ded32d")
+			(uuid "c951446c-af65-41c9-b3b3-2f1119cf2fc1")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -5343,7 +5247,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fe37bbf6-0946-4722-a940-e819b33e34d0")
+			(uuid "a5ea2b17-7595-4e04-9713-a51b8174e306")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -5353,7 +5257,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b5a602bd-9b02-4055-a9c9-fc8f81fcd3bd")
+			(uuid "dfd58807-f6b0-496f-96f6-687c62fbc6e1")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -5363,62 +5267,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "40d255c8-e5dc-4236-880c-4d362204b224")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c73940b7-c6e5-431c-aa8b-f4dc5a6d442c")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d1a1ba5a-ba6b-47b8-bcb3-2ea55cef23ab")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0b2d076b-4c9e-49fb-8b0c-6f0c7de19811")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "Col9")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "1558e4e4-ab30-483c-8c9a-5dfabf8ffa0d")
+			(uuid "46f5077f-f0cf-4a5a-85e8-930ea430117b")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "ba8655af-bd1a-4d49-b017-ebbd7d5b7466")
 		(at 269.08125 161.925)
 		(property "Reference" "SW33"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8760140e-9792-47e4-8865-ae14bef3c833")
+			(uuid "d4dbf9ae-42e6-4ae4-bd85-6db767b017f4")
 			(effects
 				(font
 					(size 1 1)
@@ -5430,7 +5290,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4212385f-a3fe-47a3-8a9a-41c0a402ae26")
+			(uuid "78ced89f-da5a-4b01-bfca-4cbe17ce84ea")
 			(effects
 				(font
 					(size 1 1)
@@ -5438,11 +5298,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2cce225-9360-4c45-8000-e8c5c52804d3")
+			(uuid "2f043d03-a0fd-4df8-ae62-34421111a6e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5314,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc4101a0-2ae3-4313-8369-f0c3afe20e42")
+			(uuid "33e78009-d211-4cd8-95b6-b24baec76f32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5326,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1307fcaa-5cbc-4f35-b83a-d36e84244c0f")
+			(uuid "034e4839-ade4-404d-ab8b-e5b4368946bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,6 +5339,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "08b359c5-d564-4a86-aae6-055923a42ce6")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "86114f67-712c-40cc-b0e5-e2ab5cf0e159")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d8aac181-d39b-4bbc-ae34-0f4a211351f3")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3e742ca7-6dd1-4b6c-a98d-ba2f8cfe9339")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -5486,7 +5386,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7b8cfe89-7105-46fe-8d7d-bf08a030e138")
+			(uuid "2227cf11-5427-40d2-a36b-38167cd62795")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -5496,7 +5396,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f406ee47-dacd-40c8-9bec-482bae0513da")
+			(uuid "b203c7fc-0698-4e63-9e10-8b1c51ea1ba2")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -5506,7 +5406,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f0a70262-f565-4143-9c38-177508d2f149")
+			(uuid "0d4c2dd6-a2cb-4a84-a613-fa158597f84e")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -5516,62 +5416,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8f8a90e6-8d01-4023-907b-59f697165965")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b762578b-4f9a-48b1-bdf8-791480ca028c")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "70fbc75f-4bc9-417d-9201-a11f19177672")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "8ede4ad6-3d86-43eb-9ca9-371c753bc559")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c6deece5-1d2f-450b-a5ca-35df4d7ed049")
+			(uuid "d988032a-5561-49c4-8166-40e2d42f56ca")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "c0c48111-9bac-4afc-9159-e809c3818fd2")
 		(at 135.73125 123.825)
 		(property "Reference" "SW10"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b9243948-c03c-45ec-b900-5000b88b852d")
+			(uuid "7f89fe91-4e28-4bb2-bd72-1f3b08ed8d5f")
 			(effects
 				(font
 					(size 1 1)
@@ -5583,7 +5439,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42513922-df00-4c15-8427-45e4d516b45d")
+			(uuid "c01cdf51-06f4-4d56-be59-39b1882a87ab")
 			(effects
 				(font
 					(size 1 1)
@@ -5591,11 +5447,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b871b92-ccbc-4a21-97e0-935ef02caf99")
+			(uuid "e7af802d-2956-4f34-bc3f-84c7eecfcabf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5463,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af4b6d6a-df90-4f21-9123-a60f369ddf84")
+			(uuid "bb9acc58-8ece-4d92-9a6d-45cc568025ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5475,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "714e5463-a94e-497f-b35a-63280fecee2b")
+			(uuid "7ec95b3a-449a-4ca2-9dad-e26526717b5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,6 +5488,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8275e202-8012-4b08-9c30-607b77bafa52")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1ea9f87a-6e60-43e6-bfec-128e93a1c034")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6652117f-c898-4690-a208-00102bd2ae5b")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7e89b72e-87e6-4627-acc3-77fe03fe7e33")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -5639,7 +5535,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a463cc97-3fcc-471c-b158-ab5b8bc215d4")
+			(uuid "bd437502-6cf0-4bde-96dc-9e9618ec67c3")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -5649,7 +5545,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fec4bf5d-08e0-47b2-a604-83adcd8eb255")
+			(uuid "7879298e-97af-4095-98c1-dc4527c97e51")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -5659,7 +5555,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bc721522-987c-45d2-9880-405ec0b2f3d7")
+			(uuid "8afbd84d-dde4-429a-8579-13b21a9b37df")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -5669,62 +5565,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0443cda1-aaa0-45cf-9ad3-709bcd260e78")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "533dc0aa-7773-4f83-a64c-6717e6bd36da")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4c972186-b068-4e91-a1d1-cf78a1c009f1")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e29d9906-5ebf-40e7-bc61-0084f3540184")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "88f3ec38-ecdb-455a-aa2c-40cbcb0ec0e2")
+			(uuid "e4a8d87e-0bd0-47f9-b0ba-d96fae4457a0")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "cdbc069e-cd69-4e73-b16f-5ff7edc2ed9b")
 		(at 154.78125 161.925)
 		(property "Reference" "SW16"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "aab0f1c2-c698-497d-8f84-5d491bd6d2d9")
+			(uuid "c61c4fd9-3187-481a-b87a-8e2e91f2b6a2")
 			(effects
 				(font
 					(size 1 1)
@@ -5736,7 +5588,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4b414d1-af5c-417d-9cdd-650993f6d541")
+			(uuid "4f5d8614-d41e-4932-bd04-29937a9ece95")
 			(effects
 				(font
 					(size 1 1)
@@ -5744,11 +5596,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "356e1a0b-324a-4c65-9dc8-bc47f0cabddc")
+			(uuid "240ff5da-5dde-42b1-b83e-6a294005f5e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5612,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21e61edd-c9c7-44c0-9ac0-47c0d569c58d")
+			(uuid "20e093ff-f2af-4839-a5b9-452c44c53b58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5624,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51a2f89b-1c37-445e-bc0f-0e0b6ec209bc")
+			(uuid "7d6c60de-6b2e-414e-9a2d-039d82e17eae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,6 +5637,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cb329b23-c9b7-49ec-bfbc-fdd0001d867a")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fbb49e07-993d-40c8-a982-98f41af445f9")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "176af7a5-60a3-4087-ad14-2f8a9693190a")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4167b0dd-dde7-4224-9d60-6a584657d29b")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -5792,7 +5684,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c22691ac-8fbf-4922-b9c7-26f7a80b3137")
+			(uuid "00421d26-c411-4e9c-bf07-4f892a986474")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -5802,7 +5694,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "609f130a-e5c6-435e-b862-50a24c0c4489")
+			(uuid "dca6c5f6-294d-4726-b70e-24287b88fbfa")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -5812,7 +5704,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fa184fcc-ec55-4ca2-bf5e-e82c63c59769")
+			(uuid "9f903dc6-87f3-459b-9788-f2aa3af65ad6")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -5822,51 +5714,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e425538f-2970-4384-b126-9c31c9d71934")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "54437bbc-dee7-43d0-a4b5-403f5d1907fb")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "463abc8d-4b83-455b-a5c3-5be84bb6a8e8")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "5928056e-01f6-401c-80ed-3a754a711574")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "01040e7b-b16b-4f18-a7ef-65a5339d1577")
+			(uuid "e65661d8-d951-4470-83de-7de1fbd9d842")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -5975,15 +5823,15 @@
 			(uuid "4fc5888a-9a44-4d12-af75-a54a7390170b")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "cf2abf4e-4ead-4120-894f-9d8bb3725181")
 		(at 211.93125 188.11875)
 		(property "Reference" "SW25"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "da4f2a0f-f912-49c9-a82f-f10f2753ffbf")
+			(uuid "f2c3b431-e908-4165-bded-7e37591a9473")
 			(effects
 				(font
 					(size 1 1)
@@ -5995,7 +5843,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b4babce-f5ce-423a-991a-c46e0cd4608f")
+			(uuid "99fa4dff-4998-40c8-b32c-3d8644274671")
 			(effects
 				(font
 					(size 1 1)
@@ -6003,11 +5851,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac93cfe0-7be4-4c57-ba78-b183c49e4f9f")
+			(uuid "9cff4bd6-5d0d-4083-9e41-477c8c2d60d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +5867,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0967ad8-8508-45ac-be56-8b4f2c0d2eb5")
+			(uuid "a674ef9d-b477-4c9a-b057-b965abbe899b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +5879,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a831d0f6-2e3c-472a-bfd1-e2ed4fa2007f")
+			(uuid "abebd345-4832-46a1-a2ae-e8160060393e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,6 +5892,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5892afb-1b25-4f78-b975-dc20bab9c463")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "56425268-c6bf-4d6b-9db2-4d412f668b16")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b2c0294b-b89a-4e5b-a4cb-6d6e0c23ed0d")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4f833e76-be2b-4e1f-ae0e-d5822919879f")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -6051,7 +5939,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ef190f68-1748-4577-84a5-6bb1f506977b")
+			(uuid "909ad68b-f590-42a5-a7d9-bd955a489117")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -6061,7 +5949,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1ac80015-9e22-48d6-8485-be0b65864b3d")
+			(uuid "c80f5a35-ae32-4fbb-b310-f26f95e865be")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -6071,7 +5959,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "23ba3a4b-1999-45ed-b31b-3a1d42f4a1b0")
+			(uuid "24604c3a-49ea-47d7-9984-0126ea085681")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -6081,51 +5969,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3cbc97f1-0f35-45a3-b44a-ff2f6a331046")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b98720ea-203d-4ead-aceb-ca6ef38cee9e")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b9ba63f3-9572-4686-874b-3dc8b17ed2fa")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "6bcd1a98-1d52-457d-8294-0cece347fc8b")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "Col6")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "8368ec85-1d3a-484e-a8a8-d2688946f64c")
+			(uuid "29b5bff3-71d9-497c-9657-80256c1f78a8")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -6234,15 +6078,15 @@
 			(uuid "312a72be-4eb4-4fbb-99e2-8c3bdc8b93cc")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "e1704a42-ad5f-405d-b39d-e64d5d36ddb3")
 		(at 173.83125 166.6875)
 		(property "Reference" "SW20"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "07be46d0-bab0-41ef-945b-203d06f9cdc5")
+			(uuid "ddece8de-963c-42b5-9be4-2bc523c13120")
 			(effects
 				(font
 					(size 1 1)
@@ -6254,7 +6098,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f66c8a1-b69e-498d-8edc-c77ee333e20e")
+			(uuid "a248f592-17b6-4c7c-a671-9d28dbd73bbc")
 			(effects
 				(font
 					(size 1 1)
@@ -6262,11 +6106,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b493e421-ef0d-4270-b0d4-180338df7b31")
+			(uuid "9240b4dd-171a-49ec-b6c7-f2fce3bbf249")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6122,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "068e4d3c-e5f1-4f17-8a27-16c996f8bf4c")
+			(uuid "f749fb60-a43f-42a8-a291-c282b88cdd7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6134,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c03a897d-a33e-40ab-9a54-1b3a842fbdf1")
+			(uuid "29a14bdf-5f71-43c7-9cf1-4f7b663efc9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,6 +6147,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cdea7d72-ba84-4eaf-add0-abfbd12020f6")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "031f5612-c2bf-445c-94c3-4c47e42fae3a")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a0048292-5487-4427-8e5e-8651e651e825")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8fe3d048-0736-4b46-8a08-24f65aab8234")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -6310,7 +6194,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dfd83dc8-1393-4c53-b769-aaba0a547417")
+			(uuid "7297bf2c-9e46-45e3-b6c1-707cf8671e01")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -6320,7 +6204,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "79bbf444-f8d3-4f60-abd1-f3203fad1146")
+			(uuid "8358a5bd-323a-4a8c-9a0d-5c09e3201484")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -6330,7 +6214,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "870b53ee-924e-40ea-be3e-f972fbab1f43")
+			(uuid "8fe53dc7-9808-428c-b4eb-716b91c0784f")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -6340,62 +6224,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "274dd283-8da8-4f8d-a065-571eaf3a5e8b")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e2661b5e-ed69-4aa9-b829-f25e3759ea6f")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f846f5c9-be89-4dd4-a73c-3fbb291d4b4e")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e457623f-f0d9-4703-8ed2-b41fd7b1f482")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "Col5")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3b7eefe3-99b0-44c4-8ddf-03a7b00883fe")
+			(uuid "d878772e-016e-4071-bad4-1f93ec0e4e6a")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "e40cc182-d94a-4c2d-a29c-44e4359eacf1")
 		(at 135.73125 161.925)
 		(property "Reference" "SW12"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3cae5143-1e64-4c3c-9ff9-46bfa8dafc35")
+			(uuid "a18ca53f-d1cc-4f81-9653-a581c9b4374c")
 			(effects
 				(font
 					(size 1 1)
@@ -6407,7 +6247,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eac1a592-34c3-4df5-a1c7-5fab4722dd9e")
+			(uuid "95d6508c-5c6c-449f-85ef-c0d66fbb2f61")
 			(effects
 				(font
 					(size 1 1)
@@ -6415,11 +6255,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7573c21d-cbf3-45e1-aad0-3e33a5562863")
+			(uuid "3ac809e7-edab-49f6-b6a7-ea0c97348b9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6271,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6307cff5-39c8-4cd2-ae63-92b3d11cd643")
+			(uuid "56023dac-d712-4ff3-a700-2ed216c38010")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6283,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "421e5eda-8645-4de5-bb4d-1b2c738621cb")
+			(uuid "687fc3b2-a5b1-4133-88b5-452a2e31d127")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,6 +6296,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b502840-7abb-4625-80ee-88b0bc22d77c")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "65e78da7-78a7-4737-b2a3-b24b11d42bc0")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "54693d92-f6fa-4bd1-9c0a-05f3191c62c7")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2af06d7f-3e8f-47f9-90fd-e227a78b3774")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -6463,7 +6343,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0e20b689-2bab-45d8-9117-f4def826f20f")
+			(uuid "b9697d52-ee63-4b27-8a37-4ef4744a04af")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -6473,7 +6353,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "907e67dc-5b82-4240-a040-e44a0485298b")
+			(uuid "19cb93e5-0b1e-4108-9099-2220b30a5409")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -6483,7 +6363,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c03fd4a2-28db-443d-9d3b-97f13ed6f500")
+			(uuid "2a2cf974-2590-4ddc-a435-6e4879ee2513")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -6493,62 +6373,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2f3f46ca-b290-42bb-96b7-c4a2e744be9f")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2f1b32f1-88da-4ceb-ac7c-378ec2ce6600")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ca56c5b9-0444-4a42-99eb-ce378c29241b")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "5b070d2d-8135-4a9c-973c-4b587bde6e8a")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "Col3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9eb10b1d-21d4-4501-aa36-de60e8163f79")
+			(uuid "cc85c5cb-8c2b-4022-b78e-231be88f1dfb")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "e8cf9176-669f-4620-b7f0-df293857d055")
 		(at 154.78125 142.875)
 		(property "Reference" "SW15"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ebd6e4a6-e95d-41e1-b055-d3d7e84196f1")
+			(uuid "86b98fd5-a514-46fb-92db-7397ca8b945e")
 			(effects
 				(font
 					(size 1 1)
@@ -6560,7 +6396,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a022007-df3a-4179-87ee-0667ae919b9c")
+			(uuid "0e3569aa-abd5-4ca8-ad4b-6576529fb435")
 			(effects
 				(font
 					(size 1 1)
@@ -6568,11 +6404,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7b4d1b2-3de4-4a0e-b032-35462b7af846")
+			(uuid "520f7495-77da-4a85-91cb-bccc1b2d0288")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6420,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e76b897-3331-4bbd-8a4d-cc65dc3948b3")
+			(uuid "8ada45d0-1a67-4b73-a992-68795f6bccf4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6432,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bae2a343-ee58-4fbc-9eb3-eb8c8732cb20")
+			(uuid "b7962224-088b-4a01-8864-e7d6c603b2eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,6 +6445,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6e023403-3f7b-4d8f-a38c-f1ebd7bff992")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b45231e-87da-4c49-840d-202ddf91f99c")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6365ac2f-69c9-431f-a8be-e544bc236d01")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "da2bb53e-3d62-44f1-8a0a-d63733d99f40")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -6616,7 +6492,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "af50021a-5d62-4a79-8669-d4ebed39447f")
+			(uuid "ce330d57-8fef-44a8-bfd2-74105045b317")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -6626,7 +6502,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "02e25441-9f67-4021-a1d9-98c419dc220a")
+			(uuid "80642fa7-5c0d-4a25-b481-37b8fc2dc6ce")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -6636,7 +6512,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6ca5ae23-8c1d-4b23-a56d-209ade991b4b")
+			(uuid "adcef8d2-50a0-46fb-a044-14ca476c556e")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -6646,62 +6522,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2bfbbfab-7420-4086-99f3-6eb0fd12610c")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "dd2c92d5-2143-42a2-8839-caa9de7ad429")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c2c98f58-4b4a-414d-83f5-45be7bdadad0")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "6f5fbcf2-18cb-4ab1-977a-3d5a17fd3081")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "Col4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "dd71a3ef-1cb5-4889-9e4e-f893e8ceea63")
+			(uuid "e0559f1d-5ada-4b44-a20a-f25b2e0dff4d")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "f45c4aa6-bfe3-4a58-aed0-694478c95861")
 		(at 269.08125 123.825)
 		(property "Reference" "SW31"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dfb32081-82ad-40da-89cf-25dcced4d469")
+			(uuid "77722b7c-38a9-4e84-bf7c-8153c6544f7d")
 			(effects
 				(font
 					(size 1 1)
@@ -6713,7 +6545,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "056caa1d-5c0d-4e25-b464-11102ecc0ace")
+			(uuid "a65587b0-7a73-40b4-8739-356169e0b486")
 			(effects
 				(font
 					(size 1 1)
@@ -6721,11 +6553,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbc2c214-21fc-4949-8981-0685c7c3adf3")
+			(uuid "ca608b18-54d1-4300-997e-6711a2076a66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +6569,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7ec57bc-7d94-44e5-ada5-af7248227979")
+			(uuid "00b6454e-8b23-41d0-a7e4-2509b1891b52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6581,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98de2cb8-61dd-4b34-b4a8-69a16fb69fd2")
+			(uuid "6f91a4f6-7743-4582-b2ce-5aee2f6e34b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,6 +6594,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f76ab60e-a234-42b3-8ccf-fffb2213dbf7")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d19d9161-ce62-4330-9b48-5b06a3d1d1bd")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e6de4d9f-319d-4844-897b-39acf960c0d5")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8977980e-50f0-46e3-aa02-799aa99f5f71")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -6769,7 +6641,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f2148009-46b5-46f0-a1ee-9789979569dd")
+			(uuid "eab4188e-67af-441b-afbf-3d2333ed4ed2")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -6779,7 +6651,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ffbd1a6f-a007-4ebf-9470-d7a9df99a312")
+			(uuid "b45acb25-3365-42b7-81bc-b1e79d26f944")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -6789,7 +6661,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2e154385-1ba3-4dc8-8b3d-83bc323da77b")
+			(uuid "a374b1a3-710b-45a2-8572-4aa160c43f00")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -6799,62 +6671,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "da5b409b-03fe-4f05-9330-e069c89d2f83")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "5a723588-b96f-46ac-b33b-6a8c04d8660a")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "5165030e-4730-4040-b658-25b2f66615fd")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4d71e4f7-1bbd-461d-97b7-a8b60184a849")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b98e9476-5d39-418c-a851-347f8232a956")
+			(uuid "223c2d8d-e9a6-4919-8d9b-d67a24530658")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "f58ac829-a47d-4355-9fa7-62d71a209a33")
 		(at 97.63125 142.875)
 		(property "Reference" "SW5"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2c937ef1-f2c3-4ff6-9655-fa4bf13c9697")
+			(uuid "7958dc05-c2c1-4b60-ab26-d6fa40e3d6af")
 			(effects
 				(font
 					(size 1 1)
@@ -6866,7 +6694,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e66d2d74-327d-470e-89ac-b4a865ec6c6a")
+			(uuid "62c1b968-3134-4b55-87ef-7a14e8d715ce")
 			(effects
 				(font
 					(size 1 1)
@@ -6874,11 +6702,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0ff82d2-ef28-4b52-96c0-f5f11cd41b2a")
+			(uuid "3d9ef1c7-b281-4203-9a17-c7c92fdce604")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6718,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c9d1b30-da1a-461c-a1f1-5e9cbb15b44b")
+			(uuid "29cbd994-a258-486e-91c4-282a0353af96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +6730,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9817a1bd-cce8-4855-8168-6c553cb25c60")
+			(uuid "70be186b-6901-4d05-873e-5545b7a590d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,6 +6743,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a8eef53-929a-426b-87ca-fe8687d86bf2")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cc4d2a22-fc2a-45b3-a82b-ae47d1f46a91")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4065a0e5-0b75-4881-a11f-33eca5157f7b")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a7689e40-7fe0-4571-9994-c2f12a0bb8a8")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -6922,7 +6790,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "49f46872-7d4e-4931-9bc5-33bc8fdfbdb0")
+			(uuid "8883258f-f6e5-4a7e-a769-919e5058f3a1")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -6932,7 +6800,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "69a6202f-442a-4979-b05f-abadf13d35b1")
+			(uuid "51fe359d-75b1-494c-a127-a10c821d4799")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -6942,7 +6810,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b191058a-7196-4732-b564-0ef24fc1a4dd")
+			(uuid "5f669db6-cc24-4c6a-b86a-5d768cc0eec2")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -6952,62 +6820,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f9385661-da5e-411f-891c-9d8ac7aff59d")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "434c5629-9bd9-4967-85ff-3c3e77772c48")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c8488145-2852-4dad-962f-1a527e562cf2")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f677562f-d317-492a-b4af-25c8aca7266f")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "Col1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d9bdfba2-6f3e-4328-b3fc-dcbbae0bfaa9")
+			(uuid "a82bf7ba-2b07-4494-a058-8b50cdc0d47a")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "fdac36a3-3980-44d3-a772-9137f8130a81")
 		(at 250.03125 180.975)
 		(property "Reference" "SW30"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b76b8863-56f1-46bd-906d-ba07fb50ec5d")
+			(uuid "78e1f0bc-91da-42d3-9ac3-aed827964daf")
 			(effects
 				(font
 					(size 1 1)
@@ -7019,7 +6843,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ad0e717-d1ee-48ef-8bcc-3449324b8581")
+			(uuid "f7be1740-d2c7-40ee-b2a0-43a41b4da633")
 			(effects
 				(font
 					(size 1 1)
@@ -7027,11 +6851,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "203f7db4-3b13-4f6d-ba6f-8fac2d244cd8")
+			(uuid "9d7f263f-1dda-4280-8c5b-aa7a924b958b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +6867,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "695655bf-57a6-4734-ab9d-a5b1b65248d9")
+			(uuid "4e811709-24c5-41f2-bf1c-64bb1aeaa3bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,7 +6879,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1da52957-6419-4186-8b74-ac49152a4fc7")
+			(uuid "ef261235-5e1b-45a7-8950-f477e218189f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,6 +6892,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d4447e5-0040-4020-9fde-2cd98532510f")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2998565a-f650-4d3b-b62d-2a7e353931a2")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5479e459-63d4-4433-b8be-c0836c2e1626")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a5448fca-d7bd-40c0-a958-71bff91494f0")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -7075,7 +6939,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a6b487de-e30e-44f0-a0b0-41b4955ef82f")
+			(uuid "4523a305-c5b1-415d-9405-1a09fad19c9e")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -7085,7 +6949,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f1dfea1b-f272-4862-b169-b4e2d0f41dca")
+			(uuid "60b63325-b451-4ef7-b0ff-7597e38b4716")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -7095,7 +6959,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e9ed8279-e6a0-44f6-9de6-4ca06ad4529a")
+			(uuid "6f3e0061-46ca-4669-b416-def4007c1763")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -7105,62 +6969,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "31f5dea1-28a2-4e99-ab8c-1bceb3662495")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "636cd875-e520-49e5-b83f-3913bf6c5e45")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f529d9b8-45fa-477b-88ed-03498b248a33")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9f6d53f5-089a-4f0a-8ecb-ca8c3536b600")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "Col8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0891b73d-16af-4ed1-a256-d053241367c9")
+			(uuid "dec61c55-0e13-4040-a982-9dd05045c156")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_TH_1u"
+	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "fe9a3218-1113-419a-b3d8-660a35d91ab7")
 		(at 116.68125 142.875)
 		(property "Reference" "SW8"
 			(at 7 8.1 0)
-			(layer "Edge.Cuts")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d70ed6ec-8de2-4e4f-937d-ea80561c7fb9")
+			(uuid "70393111-2676-4fd9-8b28-513248b9bc98")
 			(effects
 				(font
 					(size 1 1)
@@ -7172,7 +6992,7 @@
 			(at -7.4 -8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c750f34-f797-461f-ad5d-16a94271b9ba")
+			(uuid "c97e0d4e-f1b0-4b69-93f4-b28f93f8f7e8")
 			(effects
 				(font
 					(size 1 1)
@@ -7180,11 +7000,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_TH_1u"
+		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c833064-a0ea-4700-ab9b-cb141a2655df")
+			(uuid "cd299bf8-9b73-45bb-9f1a-8caeaeccd7ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7016,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d9c528b-64f1-404f-81d6-9ff518405181")
+			(uuid "7a26a6ac-b648-4b3a-b6af-29dfd96ca2eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +7028,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c3dfef2-d231-4d18-81a8-dcd012a8ca3c")
+			(uuid "9cac9623-3cec-4562-89ab-f914d3671962")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,6 +7041,46 @@
 		(sheetfile "first_keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -7.05 -7.05)
+			(end 7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39c9b45a-fc61-4535-960d-a84c741c4ea8")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a7859c9-91cc-40c4-820b-be94aeeb95e9")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "59782bc2-d75b-4e71-85b2-7dc8d7e33e15")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a4a017bb-ef3c-447b-90f6-04c54bfd2ae9")
+		)
+		(fp_line
 			(start -9.525 -9.525)
 			(end -9.525 9.525)
 			(stroke
@@ -7228,7 +7088,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "740ca171-1bba-431e-9dc2-30d781d8e8ed")
+			(uuid "f168d0ee-2af2-4678-8ce9-8800a1d4d770")
 		)
 		(fp_line
 			(start -9.525 9.525)
@@ -7238,7 +7098,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f3d69e6f-b19e-4150-b335-66e206d13017")
+			(uuid "3c88a589-8f39-4859-8199-a626f1e632ed")
 		)
 		(fp_line
 			(start 9.525 -9.525)
@@ -7248,7 +7108,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0420833a-91eb-4594-950b-bbcd29d53dfc")
+			(uuid "b87a17e2-5c70-4024-91e6-ba79b3356d6a")
 		)
 		(fp_line
 			(start 9.525 9.525)
@@ -7258,51 +7118,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7b327833-0bf9-4732-81cf-19f7c28ee776")
-		)
-		(pad "1" thru_hole oval
-			(at -6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "78a2c3dc-6e71-4f98-89a6-c3e5e48d85d6")
-		)
-		(pad "1" thru_hole oval
-			(at 0 -6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "520255bb-4019-4837-8b63-34d0a818defc")
-		)
-		(pad "1" thru_hole oval
-			(at 0 6.95 90)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "951f309d-efa7-4234-b5ad-d4a7b9970ae9")
-		)
-		(pad "1" thru_hole oval
-			(at 6.95 0)
-			(size 2 15.9)
-			(drill oval 0.3 14.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "Col2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "952c01af-342d-41ff-b88f-956555dfedd3")
+			(uuid "11164fbe-9083-4a03-a64e-a44f391c8b95")
 		)
 	)
 	(gr_line
@@ -7704,204 +7520,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f5fd7a00-9939-42a3-9068-158a46cfaa59")
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "1f8d6658-3e01-42e1-8844-aebd65d4369b")
-		(pts
-			(xy 238.45625 117.025) (xy 216.45625 117.025)
-		)
-		(height 3)
-		(gr_text "22.0000 mm"
-			(at 227.45625 112.875 0)
-			(layer "Edge.Cuts")
-			(uuid "1f8d6658-3e01-42e1-8844-aebd65d4369b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "29a5e157-5c10-428b-842a-fa81607568f9")
-		(pts
-			(xy 318.45625 117.025) (xy 338.45625 117.025)
-		)
-		(height 0)
-		(gr_text "20.0000 mm"
-			(at 328.45625 115.875 0)
-			(layer "Edge.Cuts")
-			(uuid "29a5e157-5c10-428b-842a-fa81607568f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "712a2220-ccc1-42c6-a012-4b8e2785ff9d")
-		(pts
-			(xy 86.45625 117.025) (xy 66.45625 117.025)
-		)
-		(height 0)
-		(gr_text "20.0000 mm"
-			(at 76.45625 115.875 0)
-			(layer "Edge.Cuts")
-			(uuid "712a2220-ccc1-42c6-a012-4b8e2785ff9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "7b8d2eea-caff-40a7-9abf-9f71326f0597")
-		(pts
-			(xy 166.45625 117.025) (xy 188.45625 117.025)
-		)
-		(height -3)
-		(gr_text "22.0000 mm"
-			(at 177.45625 112.875 0)
-			(layer "Edge.Cuts")
-			(uuid "7b8d2eea-caff-40a7-9abf-9f71326f0597")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "992b2e65-6c3c-475f-a875-da6f46fb2ef0")
-		(pts
-			(xy 314.45625 173.025) (xy 338.45625 173.025)
-		)
-		(height 9)
-		(gr_text "24.0000 mm"
-			(at 326.45625 180.875 0)
-			(layer "Edge.Cuts")
-			(uuid "992b2e65-6c3c-475f-a875-da6f46fb2ef0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "f69b2eb2-e37d-4a83-bdfb-da890b79aa87")
-		(pts
-			(xy 90.45625 173.025) (xy 66.45625 173.025)
-		)
-		(height -17)
-		(gr_text "24.0000 mm"
-			(at 78.45625 188.875 0)
-			(layer "Edge.Cuts")
-			(uuid "f69b2eb2-e37d-4a83-bdfb-da890b79aa87")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(zone
 		(net 0)
