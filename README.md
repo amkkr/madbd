@@ -12,6 +12,10 @@
 
 ![0.0.2](images/1000000811.jpg)
 
+### 0.0.3
+
+![0.0.3](images/1000000917.jpg)
+
 ## Show Links
 
 - raspberry pi pico datasheet
