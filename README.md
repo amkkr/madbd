@@ -14,7 +14,7 @@
 
 ### 0.0.3
 
-![0.0.3](images/1000000917.jpg)
+<img src="images/1000000917.jpg" width="320px"/>
 
 ## Show Links
 
