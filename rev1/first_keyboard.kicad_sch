@@ -1745,6 +1745,94 @@
 		(color 0 0 0 0)
 		(uuid "fec9bbad-efe4-4c41-9fcd-59a1ad898025")
 	)
+	(no_connect
+		(at 95.25 204.47)
+		(uuid "02404eb3-d4f1-4630-8fad-16fde89eda8d")
+	)
+	(no_connect
+		(at 95.25 199.39)
+		(uuid "0cc0ca1b-7916-4bd9-aa35-684b6eecad88")
+	)
+	(no_connect
+		(at 59.69 173.99)
+		(uuid "129174cc-c67b-47d6-a934-6275477dc2f2")
+	)
+	(no_connect
+		(at 95.25 191.77)
+		(uuid "1691773f-1539-429f-9e53-2af25efabffe")
+	)
+	(no_connect
+		(at 77.47 227.33)
+		(uuid "21819193-293b-4f40-bd5b-6c9cf9ffe679")
+	)
+	(no_connect
+		(at 95.25 176.53)
+		(uuid "281c878c-896e-4a77-a1f2-02a1873bfd32")
+	)
+	(no_connect
+		(at 59.69 204.47)
+		(uuid "3f1b9275-0428-4d42-86b0-8c0db8d2539e")
+	)
+	(no_connect
+		(at 59.69 191.77)
+		(uuid "3f591080-69f3-4c91-a9df-539b1f66cb73")
+	)
+	(no_connect
+		(at 95.25 179.07)
+		(uuid "4086492b-4da6-4231-8244-19e3f03141dd")
+	)
+	(no_connect
+		(at 59.69 176.53)
+		(uuid "41f3ed0d-cd25-4420-8208-b2452e98d005")
+	)
+	(no_connect
+		(at 95.25 217.17)
+		(uuid "53fee44a-2867-4474-9418-c89929deb6d5")
+	)
+	(no_connect
+		(at 59.69 179.07)
+		(uuid "622e10fc-0c0e-46ff-b9e0-bb2a762be85d")
+	)
+	(no_connect
+		(at 59.69 181.61)
+		(uuid "662d0223-c8d2-4339-af84-5150873328cd")
+	)
+	(no_connect
+		(at 95.25 181.61)
+		(uuid "711988d6-7945-4df9-a435-9a33758af558")
+	)
+	(no_connect
+		(at 59.69 217.17)
+		(uuid "73dad2c7-56d0-4438-9779-4ff2b494da5b")
+	)
+	(no_connect
+		(at 95.25 184.15)
+		(uuid "8bf67098-58ca-41a8-acc1-a48f971ec560")
+	)
+	(no_connect
+		(at 80.01 227.33)
+		(uuid "90d1472c-83bd-4435-a38e-c3f68c8dfba9")
+	)
+	(no_connect
+		(at 95.25 173.99)
+		(uuid "adc4ef1f-7e5b-44c2-9414-3f6e9d141bca")
+	)
+	(no_connect
+		(at 74.93 227.33)
+		(uuid "dc557549-4451-46ef-950f-896948fbe687")
+	)
+	(no_connect
+		(at 59.69 184.15)
+		(uuid "e13ea144-cb11-4e76-a3c6-bbaf13890d2a")
+	)
+	(no_connect
+		(at 95.25 186.69)
+		(uuid "e4c6be2b-a0e3-435b-9cca-d854409eb293")
+	)
+	(no_connect
+		(at 59.69 186.69)
+		(uuid "efe884a2-39d6-4bf7-9bf2-3658910edeb6")
+	)
 	(wire
 		(pts
 			(xy 344.17 210.82) (xy 360.68 210.82)
@@ -2945,6 +3033,50 @@
 		)
 		(uuid "fed75379-4265-4941-b6ac-8202e7817666")
 	)
+	(global_label "Col15"
+		(shape input)
+		(at 59.69 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "021dccd9-7722-4337-96c7-32a3c0d51869")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.2016 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col2"
+		(shape input)
+		(at 95.25 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03b54e33-a71b-4de6-88ec-c7b95c6eb9cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.5289 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col1"
 		(shape input)
 		(at 168.91 165.1 90)
@@ -2967,9 +3099,9 @@
 			)
 		)
 	)
-	(global_label "Row1"
+	(global_label "Col14"
 		(shape input)
-		(at 139.7 203.2 180)
+		(at 59.69 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2977,53 +3109,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0cbfae2b-3f13-4ded-8f48-bfb6931a7cdd")
+		(uuid "1405993b-16d5-4aad-b71b-315c251a7d8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7558 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col6"
-		(shape input)
-		(at 59.69 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1184f243-9e45-4278-8a6a-6b7377ce7b67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row3"
-		(shape input)
-		(at 59.69 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1851fb08-b83f-4a26-bda5-f5404cb94788")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.7458 214.63 0)
+			(at 51.2016 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,31 +3143,9 @@
 			)
 		)
 	)
-	(global_label "Col0"
+	(global_label "Col6"
 		(shape input)
-		(at 59.69 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "291b48fb-7db3-41e3-8fbb-b861bd00d95c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col11"
-		(shape input)
-		(at 95.25 207.01 0)
+		(at 95.25 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3087,9 +3153,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2c33f581-1bcf-4949-ac44-bd38f00bf3a4")
+		(uuid "229272f0-9975-4f0e-b42d-8b8eee322ad5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.7384 207.01 0)
+			(at 102.5289 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,9 +3165,9 @@
 			)
 		)
 	)
-	(global_label "Row4"
+	(global_label "Col9"
 		(shape input)
-		(at 139.7 279.4 180)
+		(at 59.69 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3109,9 +3175,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2ccb4309-f945-466d-9360-05c501dcd3f0")
+		(uuid "2c20a928-8aae-44dd-b0e7-147577e735fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7558 279.4 0)
+			(at 52.4111 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,9 +3187,9 @@
 			)
 		)
 	)
-	(global_label "Row3"
+	(global_label "Row0"
 		(shape input)
-		(at 139.7 254 180)
+		(at 59.69 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3131,9 +3197,9 @@
 			)
 			(justify right)
 		)
-		(uuid "379ce88e-cfb7-4b48-9301-d9b3fae300f4")
+		(uuid "41667e42-e317-4d21-8c40-701ad9c087f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7558 254 0)
+			(at 51.7458 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,6 +3231,28 @@
 			)
 		)
 	)
+	(global_label "Col11"
+		(shape input)
+		(at 59.69 201.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45e1e4c6-c0b2-47c2-bae5-cf029052557d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.2016 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col3"
 		(shape input)
 		(at 201.93 165.1 90)
@@ -3187,24 +3275,24 @@
 			)
 		)
 	)
-	(global_label "Row2"
+	(global_label "Col4"
 		(shape input)
-		(at 59.69 212.09 180)
+		(at 95.25 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "50a93979-ed96-493a-a474-961ed533fc54")
+		(uuid "4f181532-5363-4fec-b819-fd09714f8924")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.7458 212.09 0)
+			(at 102.5289 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3241,7 +3329,7 @@
 			)
 			(justify right)
 		)
-		(uuid "610a920a-b16c-4cfb-98d9-ba2e6934c92a")
+		(uuid "590f2d05-588d-4b99-b564-5f3171f95e14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.7558 228.6 0)
 			(effects
@@ -3253,7 +3341,29 @@
 			)
 		)
 	)
-	(global_label "Col8"
+	(global_label "Row4"
+		(shape input)
+		(at 139.7 279.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "697545df-672e-4657-8289-fa1fe9047df8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.7558 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col7"
 		(shape input)
 		(at 95.25 214.63 0)
 		(fields_autoplaced yes)
@@ -3263,7 +3373,7 @@
 			)
 			(justify left)
 		)
-		(uuid "66591759-a6ed-4241-bdc2-cb54e476c3ad")
+		(uuid "69e65e21-15ea-42b1-81c1-8499b6c381fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.5289 214.63 0)
 			(effects
@@ -3275,9 +3385,9 @@
 			)
 		)
 	)
-	(global_label "Row4"
+	(global_label "Col13"
 		(shape input)
-		(at 59.69 219.71 180)
+		(at 59.69 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3285,9 +3395,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6d99014f-02b6-44f8-9ad1-dfa2c4ec3315")
+		(uuid "6c2a8bdc-2114-4f53-8ee6-505cf32c30fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.7458 219.71 0)
+			(at 51.2016 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,31 +3429,9 @@
 			)
 		)
 	)
-	(global_label "Row0"
+	(global_label "Col1"
 		(shape input)
-		(at 139.7 177.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "793af1e2-9d09-4d47-be51-6f73c796d555")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7558 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col10"
-		(shape input)
-		(at 95.25 209.55 0)
+		(at 95.25 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3351,31 +3439,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8364a414-1078-473f-b1af-b1d4555cf0b7")
+		(uuid "7550a554-5d3e-4f7e-ad8f-67b6e1e97282")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.7384 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col13"
-		(shape input)
-		(at 95.25 196.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8478e7f3-1c9f-4180-aa58-0c76503e5d30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.7384 196.85 0)
+			(at 102.5289 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3453,29 @@
 	)
 	(global_label "Col3"
 		(shape input)
-		(at 59.69 189.23 180)
+		(at 95.25 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78f790d1-0d43-4ed6-8092-45520ef3be4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.5289 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col8"
+		(shape input)
+		(at 59.69 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3395,14 +3483,36 @@
 			)
 			(justify right)
 		)
-		(uuid "86db6ab6-8c72-43a3-95c7-482c9a252a8e")
+		(uuid "8530c8fa-8917-49ca-9894-c2775e4f9358")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 189.23 0)
+			(at 52.4111 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row3"
+		(shape input)
+		(at 95.25 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c2afc8e-3a56-4101-a008-4d138fefc6c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.1942 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3451,24 +3561,24 @@
 			)
 		)
 	)
-	(global_label "Col12"
+	(global_label "Row3"
 		(shape input)
-		(at 95.25 201.93 0)
+		(at 139.7 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "92f5464b-a37d-4666-a929-0f133111c6f3")
+		(uuid "924b8df8-cc9c-4c92-ae83-b5e80ecb4a27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.7384 201.93 0)
+			(at 131.7558 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3495,24 +3605,24 @@
 			)
 		)
 	)
-	(global_label "Col15"
+	(global_label "Row1"
 		(shape input)
-		(at 95.25 189.23 0)
+		(at 139.7 203.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a1442821-d496-44fd-bd16-81a1aac329c6")
+		(uuid "9da602fb-7a5c-461f-ba64-6087b3afb4f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.7384 189.23 0)
+			(at 131.7558 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3539,7 +3649,7 @@
 			)
 		)
 	)
-	(global_label "Row0"
+	(global_label "Col10"
 		(shape input)
 		(at 59.69 207.01 180)
 		(fields_autoplaced yes)
@@ -3549,9 +3659,75 @@
 			)
 			(justify right)
 		)
-		(uuid "a4d49cf2-cdcf-4340-8c92-898e3d5bd602")
+		(uuid "aa37d30b-bee0-4fff-8b47-09bb65e8823d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.7458 207.01 0)
+			(at 51.2016 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row4"
+		(shape input)
+		(at 95.25 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adddf742-5c26-46fa-a6c3-c7d11085c441")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.1942 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col5"
+		(shape input)
+		(at 95.25 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0307220-74f9-464f-87ea-2c584aae4e54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.5289 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row1"
+		(shape input)
+		(at 59.69 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3bcac18-d4f3-4308-b971-f4f55622ef51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.7458 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,6 +3759,28 @@
 			)
 		)
 	)
+	(global_label "Row0"
+		(shape input)
+		(at 139.7 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9c8edf0-772f-4f40-be9c-d1d6459dbdb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.7558 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col11"
 		(shape input)
 		(at 334.01 165.1 90)
@@ -3601,94 +3799,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col14"
-		(shape input)
-		(at 95.25 194.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d587186c-d05b-49e5-9eb9-c4e2b33fe296")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.7384 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col1"
-		(shape input)
-		(at 59.69 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5faff56-7ccf-46cf-aec0-e75101ba313e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col4"
-		(shape input)
-		(at 59.69 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d635a16a-ece3-4169-b46c-82265fbdf9cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col5"
-		(shape input)
-		(at 59.69 194.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9bbd058-2f61-40b7-b68b-2838851d4dd6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3715,9 +3825,9 @@
 			)
 		)
 	)
-	(global_label "Col2"
+	(global_label "Row2"
 		(shape input)
-		(at 59.69 186.69 180)
+		(at 59.69 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3725,9 +3835,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e5b99e41-5411-4ca3-93e5-ec4281622495")
+		(uuid "e31d5129-ae6a-4675-819d-8e4178710745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 186.69 0)
+			(at 51.7458 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,29 +3847,7 @@
 			)
 		)
 	)
-	(global_label "Col9"
-		(shape input)
-		(at 95.25 212.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec2976bf-34bf-4fbc-b3e9-e7ec0274015e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5289 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col7"
+	(global_label "Col12"
 		(shape input)
 		(at 59.69 199.39 180)
 		(fields_autoplaced yes)
@@ -3769,9 +3857,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ec89a533-b248-4ae7-a0a2-f72dd799d92c")
+		(uuid "ea06a8b8-a9e1-41a1-86f4-da541f7fd1fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.4111 199.39 0)
+			(at 51.2016 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,24 +3913,24 @@
 			)
 		)
 	)
-	(global_label "Row1"
+	(global_label "Col0"
 		(shape input)
-		(at 59.69 209.55 180)
+		(at 95.25 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f9ceaa8b-48df-4c2e-be5e-cfa8e40aa22d")
+		(uuid "f7b0b464-6b1c-4d1c-ad45-55bdbe309b37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.7458 209.55 0)
+			(at 102.5289 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3895,7 +3983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 306.07 172.72 0)
 			(effects
 				(font
@@ -3963,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 273.05 172.72 0)
 			(effects
 				(font
@@ -4031,7 +4119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 240.03 223.52 0)
 			(effects
 				(font
@@ -4101,7 +4189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 311.15 232.41 0)
 			(effects
 				(font
@@ -4189,7 +4277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 195.58 283.21 0)
 			(effects
 				(font
@@ -4275,7 +4363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 388.62 172.72 0)
 			(effects
 				(font
@@ -4345,7 +4433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 278.13 232.41 0)
 			(effects
 				(font
@@ -4433,7 +4521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 393.7 207.01 0)
 			(effects
 				(font
@@ -4519,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 207.01 248.92 0)
 			(effects
 				(font
@@ -4589,7 +4677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 179.07 232.41 0)
 			(effects
 				(font
@@ -4675,7 +4763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -4745,7 +4833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 261.62 232.41 0)
 			(effects
 				(font
@@ -4833,7 +4921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 344.17 232.41 0)
 			(effects
 				(font
@@ -4921,7 +5009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 294.64 232.41 0)
 			(effects
 				(font
@@ -5009,7 +5097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 294.64 181.61 0)
 			(effects
 				(font
@@ -5097,7 +5185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 344.17 181.61 0)
 			(effects
 				(font
@@ -5185,7 +5273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 377.19 232.41 0)
 			(effects
 				(font
@@ -5273,7 +5361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -5359,7 +5447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 289.56 223.52 0)
 			(effects
 				(font
@@ -5427,7 +5515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 322.58 223.52 0)
 			(effects
 				(font
@@ -5497,7 +5585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 377.19 181.61 0)
 			(effects
 				(font
@@ -5583,7 +5671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 173.99 172.72 0)
 			(effects
 				(font
@@ -5651,7 +5739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 173.99 248.92 0)
 			(effects
 				(font
@@ -5719,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 207.01 172.72 0)
 			(effects
 				(font
@@ -5789,7 +5877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 360.68 181.61 0)
 			(effects
 				(font
@@ -5877,7 +5965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 294.64 207.01 0)
 			(effects
 				(font
@@ -5963,7 +6051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 339.09 223.52 0)
 			(effects
 				(font
@@ -6033,7 +6121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 212.09 181.61 0)
 			(effects
 				(font
@@ -6121,7 +6209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 162.56 283.21 0)
 			(effects
 				(font
@@ -6207,7 +6295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 173.99 274.32 0)
 			(effects
 				(font
@@ -6275,7 +6363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 273.05 248.92 0)
 			(effects
 				(font
@@ -6343,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 339.09 198.12 0)
 			(effects
 				(font
@@ -6413,7 +6501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 228.6 232.41 0)
 			(effects
 				(font
@@ -6499,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 289.56 198.12 0)
 			(effects
 				(font
@@ -6567,7 +6655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 273.05 198.12 0)
 			(effects
 				(font
@@ -6637,7 +6725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 410.21 207.01 0)
 			(effects
 				(font
@@ -6725,7 +6813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 278.13 207.01 0)
 			(effects
 				(font
@@ -6813,7 +6901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 245.11 257.81 0)
 			(effects
 				(font
@@ -6901,7 +6989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 212.09 232.41 0)
 			(effects
 				(font
@@ -6989,7 +7077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 228.6 207.01 0)
 			(effects
 				(font
@@ -7075,7 +7163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 355.6 172.72 0)
 			(effects
 				(font
@@ -7145,7 +7233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 360.68 232.41 0)
 			(effects
 				(font
@@ -7233,7 +7321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 162.56 181.61 0)
 			(effects
 				(font
@@ -7321,7 +7409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 278.13 257.81 0)
 			(effects
 				(font
@@ -7409,7 +7497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 245.11 181.61 0)
 			(effects
 				(font
@@ -7495,7 +7583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 322.58 172.72 0)
 			(effects
 				(font
@@ -7563,7 +7651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 157.48 248.92 0)
 			(effects
 				(font
@@ -7633,7 +7721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 195.58 207.01 0)
 			(effects
 				(font
@@ -7719,7 +7807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 256.54 223.52 0)
 			(effects
 				(font
@@ -7787,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 405.13 172.72 0)
 			(effects
 				(font
@@ -7855,7 +7943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 157.48 172.72 0)
 			(effects
 				(font
@@ -7925,7 +8013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 245.11 207.01 0)
 			(effects
 				(font
@@ -8013,7 +8101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 311.15 207.01 0)
 			(effects
 				(font
@@ -8099,7 +8187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 306.07 198.12 0)
 			(effects
 				(font
@@ -8167,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 190.5 248.92 0)
 			(effects
 				(font
@@ -8235,7 +8323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 157.48 198.12 0)
 			(effects
 				(font
@@ -8305,7 +8393,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 162.56 257.81 0)
 			(effects
 				(font
@@ -8391,7 +8479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 190.5 274.32 0)
 			(effects
 				(font
@@ -8459,7 +8547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 306.07 248.92 0)
 			(effects
 				(font
@@ -8529,7 +8617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 212.09 207.01 0)
 			(effects
 				(font
@@ -8615,7 +8703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 289.56 172.72 0)
 			(effects
 				(font
@@ -8683,7 +8771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 355.6 223.52 0)
 			(effects
 				(font
@@ -8751,7 +8839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 372.11 172.72 0)
 			(effects
 				(font
@@ -8819,7 +8907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 240.03 198.12 0)
 			(effects
 				(font
@@ -8887,7 +8975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 157.48 223.52 0)
 			(effects
 				(font
@@ -8957,7 +9045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 261.62 181.61 0)
 			(effects
 				(font
@@ -9043,7 +9131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 223.52 172.72 0)
 			(effects
 				(font
@@ -9111,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 190.5 172.72 0)
 			(effects
 				(font
@@ -9181,7 +9269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 212.09 257.81 0)
 			(effects
 				(font
@@ -9269,7 +9357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 179.07 181.61 0)
 			(effects
 				(font
@@ -9355,7 +9443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 173.99 223.52 0)
 			(effects
 				(font
@@ -9425,7 +9513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 162.56 207.01 0)
 			(effects
 				(font
@@ -9513,7 +9601,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 360.68 207.01 0)
 			(effects
 				(font
@@ -9601,7 +9689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 327.66 207.01 0)
 			(effects
 				(font
@@ -9687,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 322.58 198.12 0)
 			(effects
 				(font
@@ -9755,7 +9843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 240.03 172.72 0)
 			(effects
 				(font
@@ -9823,7 +9911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 223.52 223.52 0)
 			(effects
 				(font
@@ -9893,7 +9981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 228.6 181.61 0)
 			(effects
 				(font
@@ -9981,7 +10069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 311.15 257.81 0)
 			(effects
 				(font
@@ -10067,7 +10155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 388.62 223.52 0)
 			(effects
 				(font
@@ -10137,7 +10225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 195.58 257.81 0)
 			(effects
 				(font
@@ -10225,7 +10313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 344.17 207.01 0)
 			(effects
 				(font
@@ -10313,7 +10401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 228.6 257.81 0)
 			(effects
 				(font
@@ -10399,7 +10487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 256.54 198.12 0)
 			(effects
 				(font
@@ -10469,7 +10557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 410.21 181.61 0)
 			(effects
 				(font
@@ -10557,7 +10645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 393.7 232.41 0)
 			(effects
 				(font
@@ -10643,7 +10731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 256.54 248.92 0)
 			(effects
 				(font
@@ -10713,7 +10801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 179.07 283.21 0)
 			(effects
 				(font
@@ -10799,7 +10887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 372.11 223.52 0)
 			(effects
 				(font
@@ -10869,7 +10957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 162.56 232.41 0)
 			(effects
 				(font
@@ -10955,7 +11043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_2u"
 			(at 157.48 274.32 0)
 			(effects
 				(font
@@ -11025,7 +11113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 179.07 207.01 0)
 			(effects
 				(font
@@ -11113,7 +11201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 311.15 181.61 0)
 			(effects
 				(font
@@ -11201,7 +11289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 327.66 232.41 0)
 			(effects
 				(font
@@ -11287,7 +11375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 223.52 248.92 0)
 			(effects
 				(font
@@ -11357,7 +11445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 393.7 181.61 0)
 			(effects
 				(font
@@ -11443,7 +11531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 273.05 223.52 0)
 			(effects
 				(font
@@ -11511,7 +11599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 240.03 248.92 0)
 			(effects
 				(font
@@ -11579,7 +11667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 190.5 223.52 0)
 			(effects
 				(font
@@ -11647,7 +11735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 355.6 198.12 0)
 			(effects
 				(font
@@ -11715,7 +11803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 372.11 198.12 0)
 			(effects
 				(font
@@ -11783,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 256.54 172.72 0)
 			(effects
 				(font
@@ -11853,7 +11941,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 179.07 257.81 0)
 			(effects
 				(font
@@ -12130,7 +12218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 207.01 198.12 0)
 			(effects
 				(font
@@ -12200,7 +12288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 195.58 232.41 0)
 			(effects
 				(font
@@ -12288,7 +12376,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 261.62 257.81 0)
 			(effects
 				(font
@@ -12376,7 +12464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 261.62 207.01 0)
 			(effects
 				(font
@@ -12462,7 +12550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 289.56 248.92 0)
 			(effects
 				(font
@@ -12530,7 +12618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 190.5 198.12 0)
 			(effects
 				(font
@@ -12598,7 +12686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 306.07 223.52 0)
 			(effects
 				(font
@@ -12668,7 +12756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 294.64 257.81 0)
 			(effects
 				(font
@@ -12754,7 +12842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 339.09 172.72 0)
 			(effects
 				(font
@@ -12822,7 +12910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 173.99 198.12 0)
 			(effects
 				(font
@@ -12890,7 +12978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_2u"
 			(at 405.13 198.12 0)
 			(effects
 				(font
@@ -12960,7 +13048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 195.58 181.61 0)
 			(effects
 				(font
@@ -13048,7 +13136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 245.11 232.41 0)
 			(effects
 				(font
@@ -13136,7 +13224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 377.19 207.01 0)
 			(effects
 				(font
@@ -13222,7 +13310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 388.62 198.12 0)
 			(effects
 				(font
@@ -13292,7 +13380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
 			(at 278.13 181.61 0)
 			(effects
 				(font
@@ -13378,7 +13466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_SW:CherryMX_Hotswap_1u"
 			(at 223.52 198.12 0)
 			(effects
 				(font
