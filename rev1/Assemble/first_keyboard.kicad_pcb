@@ -83,7 +83,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber/20240908/PCB/")
+			(outputdirectory "../Gerber/20251201/PCB/")
 		)
 	)
 	(net 0 "")

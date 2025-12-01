@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "Gerber/20240804/PCB/",
+      "plot": "../Gerber/20251201/Bottom/",
       "pos_files": "",
       "specctra_dsn": "first_keyboard.dsn",
       "step": "",
