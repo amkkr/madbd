@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Top")(type "KiCad")(uri "/Users/amkkr/repos/madbd/rev1/Top")(options "")(descr ""))
+)
